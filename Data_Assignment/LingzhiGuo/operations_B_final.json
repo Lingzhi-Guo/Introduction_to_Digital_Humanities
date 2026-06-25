@@ -1,0 +1,1738 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Title",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s*\\[electronic resource\\]\\s*$/, \"\").trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Title_clean",
+    "columnInsertIndex": 8,
+    "description": "Create column Title_clean at index 8 based on column Title using expression grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s*\\[electronic resource\\]\\s*$/, \"\").trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Personal author",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.replace(/,\\s*\\d{4}-\\d{4}\\.?\\s*$/, \"\").trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_name_clean",
+    "columnInsertIndex": 6,
+    "description": "Create column Author_name_clean at index 6 based on column Personal author using expression grel:if(\n  isBlank(value),\n  null,\n  value.replace(/,\\s*\\d{4}-\\d{4}\\.?\\s*$/, \"\").trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Personal author",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  if(\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/) != null,\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/)[0].toNumber(),\n    null\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_birth_year",
+    "columnInsertIndex": 6,
+    "description": "Create column Author_birth_year at index 6 based on column Personal author using expression grel:if(\n  isBlank(value),\n  null,\n  if(\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/) != null,\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/)[0].toNumber(),\n    null\n  )\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Personal author",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  if(\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/) != null,\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/)[1].toNumber(),\n    null\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_death_year",
+    "columnInsertIndex": 6,
+    "description": "Create column Author_death_year at index 6 based on column Personal author using expression grel:if(\n  isBlank(value),\n  null,\n  if(\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/) != null,\n    value.match(/.*,\\s*(\\d{4})-(\\d{4})\\.?\\s*$/)[1].toNumber(),\n    null\n  )\n)"
+  },
+  {
+    "op": "core/column-move",
+    "columnName": "Author_death_year",
+    "index": 7,
+    "description": "Move column Author_death_year to position 7"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Personal author",
+    "expression": "grel:if(\n  isBlank(value),\n  \"missing\",\n  if(\n    and(\n      not(isBlank(cells[\"Author_birth_year\"].value)),\n      not(isBlank(cells[\"Author_death_year\"].value))\n    ),\n    \"standardised\",\n    if(\n      value.match(/.*\\d{4}.*/) != null,\n      \"manual review\",\n      \"unchanged\"\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_review_status",
+    "columnInsertIndex": 6,
+    "description": "Create column Author_review_status at index 6 based on column Personal author using expression grel:if(\n  isBlank(value),\n  \"missing\",\n  if(\n    and(\n      not(isBlank(cells[\"Author_birth_year\"].value)),\n      not(isBlank(cells[\"Author_death_year\"].value))\n    ),\n    \"standardised\",\n    if(\n      value.match(/.*\\d{4}.*/) != null,\n      \"manual review\",\n      \"unchanged\"\n    )\n  )\n)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cooper, James Fenimore",
+          "COOPER, James Fenimore."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cooper, James Fenimore, 1789-1851."
+      }
+    ],
+    "description": "Mass edit cells in column Author_name_clean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cooper, James Fenimore, 1789-1851."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Cooper, James Fenimore"
+      }
+    ],
+    "description": "Mass edit cells in column Author_name_clean"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Other personal authors",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s+/, \" \").trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Other_personal_authors_clean",
+    "columnInsertIndex": 18,
+    "description": "Create column Other_personal_authors_clean at index 18 based on column Other personal authors using expression grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s+/, \" \").trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Other_personal_authors_clean",
+          "expression": "grel:if(\n  isBlank(value),\n  \"blank\",\n  if(\n    value.contains(\";\"),\n    \"semicolon\",\n    if(\n      value.contains(\"|\"),\n      \"vertical bar\",\n      if(\n        value.contains(\"\\n\"),\n        \"line break\",\n        \"single or other format\"\n      )\n    )\n  )\n)",
+          "columnName": "Other_personal_authors_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "single or other format",
+                "l": "single or other format"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Other_personal_authors_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  \"blank\",\n  if(\n    value.contains(\"--\"),\n    if(\n      value.toLowercase().contains(\" and \"),\n      \"multiple: dash + and\",\n      \"multiple: dash\"\n    ),\n    if(\n      value.toLowercase().contains(\" and \"),\n      \"multiple: and\",\n      \"single or unclear\"\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Other_authors_structure",
+    "columnInsertIndex": 19,
+    "description": "Create column Other_authors_structure at index 19 based on column Other_personal_authors_clean using expression grel:if(\n  isBlank(value),\n  \"blank\",\n  if(\n    value.contains(\"--\"),\n    if(\n      value.toLowercase().contains(\" and \"),\n      \"multiple: dash + and\",\n      \"multiple: dash\"\n    ),\n    if(\n      value.toLowercase().contains(\" and \"),\n      \"multiple: and\",\n      \"single or unclear\"\n    )\n  )\n)"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q5",
+        "name": "human"
+      },
+      "autoMatch": false,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Author_name_clean to type Q5"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Henley, William Ernest",
+    "judgment": "matched",
+    "match": {
+      "id": "Q552617",
+      "name": "William Ernest Henley",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item William Ernest Henley (Q552617) for cells containing \"Henley, William Ernest\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Dibdin, Charles",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1064116",
+      "name": "Charles Dibdin",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Charles Dibdin (Q1064116) for cells containing \"Dibdin, Charles\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Pope, Alexander",
+    "judgment": "matched",
+    "match": {
+      "id": "Q164047",
+      "name": "Alexander Pope",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alexander Pope (Q164047) for cells containing \"Pope, Alexander\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Shakespeare, William",
+    "judgment": "matched",
+    "match": {
+      "id": "Q692",
+      "name": "William Shakespeare",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item William Shakespeare (Q692) for cells containing \"Shakespeare, William\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Burns, Robert",
+    "judgment": "matched",
+    "match": {
+      "id": "Q81960",
+      "name": "Robert Burns",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Robert Burns (Q81960) for cells containing \"Burns, Robert\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Collier, John Payne",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2580079",
+      "name": "John Payne Collier",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Payne Collier (Q2580079) for cells containing \"Collier, John Payne\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Kemble, John Philip",
+    "judgment": "matched",
+    "match": {
+      "id": "Q1701422",
+      "name": "John Philip Kemble",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Philip Kemble (Q1701422) for cells containing \"Kemble, John Philip\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Jones, William, Sir",
+    "judgment": "matched",
+    "match": {
+      "id": "Q273969",
+      "name": "William Jones",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item William Jones (Q273969) for cells containing \"Jones, William, Sir\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Keble, John",
+    "judgment": "matched",
+    "match": {
+      "id": "Q955187",
+      "name": "John Keble",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Keble (Q955187) for cells containing \"Keble, John\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Ritson, Joseph",
+    "judgment": "matched",
+    "match": {
+      "id": "Q6286581",
+      "name": "ジョゼフ・リットソン",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ジョゼフ・リットソン (Q6286581) for cells containing \"Ritson, Joseph\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-match-best-candidates",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 92,
+          "to": 101,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "description": "Match each cell to its best recon candidate in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Stanley, Henry M. (Henry Morton)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q171421",
+      "name": "Henry Morton Stanley",
+      "types": [
+        "Q5"
+      ],
+      "score": 83
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry Morton Stanley (Q171421) for cells containing \"Stanley, Henry M. (Henry Morton)\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Farnie, H. B. (Henry Brougham)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5718707",
+      "name": "Henry Brougham Farnie",
+      "types": [
+        "Q5"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry Brougham Farnie (Q5718707) for cells containing \"Farnie, H. B. (Henry Brougham)\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Harris, Augustus, Sir",
+    "judgment": "matched",
+    "match": {
+      "id": "Q2917056",
+      "name": "Augustus Harris",
+      "types": [
+        "Q5"
+      ],
+      "score": 88
+    },
+    "shareNewTopics": false,
+    "description": "Match item Augustus Harris (Q2917056) for cells containing \"Harris, Augustus, Sir\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Cromek, R. H. (Robert Hartley)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q7343203",
+      "name": "Robert Cromek",
+      "types": [
+        "Q5"
+      ],
+      "score": 91
+    },
+    "shareNewTopics": false,
+    "description": "Match item Robert Cromek (Q7343203) for cells containing \"Cromek, R. H. (Robert Hartley)\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Napoleon I, Emperor of the French",
+    "judgment": "matched",
+    "match": {
+      "id": "Q517",
+      "name": "Napoleon",
+      "types": [
+        "Q5"
+      ],
+      "score": 73
+    },
+    "shareNewTopics": false,
+    "description": "Match item Napoleon (Q517) for cells containing \"Napoleon I, Emperor of the French\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Abbot, Willis J. (Willis John)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8022073",
+      "name": "Willis J. Abbot",
+      "types": [
+        "Q5"
+      ],
+      "score": 79
+    },
+    "shareNewTopics": false,
+    "description": "Match item Willis J. Abbot (Q8022073) for cells containing \"Abbot, Willis J. (Willis John)\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean",
+          "expression": "isBlank(value)",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "range",
+          "name": "Author_name_clean: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Author_name_clean",
+          "from": 79,
+          "to": 93,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": false,
+          "selectError": true
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Nicoll, W. Robertson (William Robertson), Sir",
+    "judgment": "matched",
+    "match": {
+      "id": "Q8017677",
+      "name": "William Robertson Nicoll",
+      "types": [
+        "Q5"
+      ],
+      "score": 82
+    },
+    "shareNewTopics": false,
+    "description": "Match item William Robertson Nicoll (Q8017677) for cells containing \"Nicoll, W. Robertson (William Robertson), Sir\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "Leigh, Henry S. (Henry Sambrooke)",
+    "judgment": "matched",
+    "match": {
+      "id": "Q5727939",
+      "name": "Henry Sambrooke Leigh",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Henry Sambrooke Leigh (Q5727939) for cells containing \"Leigh, Henry S. (Henry Sambrooke)\" in column Author_name_clean"
+  },
+  {
+    "op": "core/recon",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "manual review",
+                "l": "manual review"
+              }
+            },
+            {
+              "v": {
+                "v": "unchanged",
+                "l": "unchanged"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "config": {
+      "mode": "standard-service",
+      "service": "https://wikidata.reconci.link/en/api",
+      "identifierSpace": "http://www.wikidata.org/entity/",
+      "schemaSpace": "http://www.wikidata.org/prop/direct/",
+      "type": {
+        "id": "Q5",
+        "name": "human"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "description": "Reconcile cells in column Author_name_clean to type Q5"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_review_status",
+          "expression": "value",
+          "columnName": "Author_review_status",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "manual review",
+                "l": "manual review"
+              }
+            },
+            {
+              "v": {
+                "v": "unchanged",
+                "l": "unchanged"
+              }
+            },
+            {
+              "v": {
+                "v": "standardised",
+                "l": "standardised"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Author_name_clean: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Author_name_clean",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Author_name_clean",
+    "similarValue": "ROSS, John Wilson.",
+    "judgment": "matched",
+    "match": {
+      "id": "Q18810883",
+      "name": "John Wilson Ross",
+      "types": [
+        "Q5"
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item John Wilson Ross (Q18810883) for cells containing \"ROSS, John Wilson.\" in column Author_name_clean"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Author_Wikidata_QID",
+          "expression": "isBlank(value)",
+          "columnName": "Author_Wikidata_QID",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Author_name_clean",
+    "expression": "grel:if(\n  cell.recon.matched,\n  cell.recon.match.id,\n  null\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_Wikidata_QID",
+    "columnInsertIndex": 10,
+    "description": "Create column Author_Wikidata_QID at index 10 based on column Author_name_clean using expression grel:if(\n  cell.recon.matched,\n  cell.recon.match.id,\n  null\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Author_name_clean",
+    "expression": "grel:if(\n  cell.recon.matched,\n  cell.recon.match.name,\n  null\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_Wikidata_label",
+    "columnInsertIndex": 10,
+    "description": "Create column Author_Wikidata_label at index 10 based on column Author_name_clean using expression grel:if(\n  cell.recon.matched,\n  cell.recon.match.name,\n  null\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Author_name_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  \"blank\",\n  if(\n    cell.recon.matched,\n    \"matched\",\n    if(\n      cell.recon.judgment == \"none\",\n      \"none\",\n      \"unreconciled\"\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Author_reconciliation_status",
+    "columnInsertIndex": 10,
+    "description": "Create column Author_reconciliation_status at index 10 based on column Author_name_clean using expression grel:if(\n  isBlank(value),\n  \"blank\",\n  if(\n    cell.recon.matched,\n    \"matched\",\n    if(\n      cell.recon.judgment == \"none\",\n      \"none\",\n      \"unreconciled\"\n    )\n  )\n)"
+  }
+]
