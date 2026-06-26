@@ -1,0 +1,981 @@
+Aleph system no.,Country code,Language code (008),Language code (041),Imprint,Imprint_clean,Publisher_clean,Publisher_role,Publication_place_final,Place_QA_status,Wikidata_QID_manual_sample,Year_end,Year_start,Year_status,Publication_year,DOM ID
+14602842,|||,und,,"London : Castell Bros., [1886.].","London : Castell Bros., [1886.].",Castell Bros.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Supplied,1886,lsidyv2eb1ad90
+14602846,|||,und,,"Leeds : Nutt & Co., [1896.].","Leeds : Nutt & Co., [1896.].",Nutt & Co.,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1896,Supplied,1896,lsidyv2eb1a6ef
+14602856,|||,und,,"London : [W. Heinemann, 1899.].","London : [W. Heinemann, 1899.].",W. Heinemann,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv2eb1ac4d
+14602859,|||,und,,"London, [1805?]","London, [1805?]",,Missing,London,Likely clean single place,Q84,,1805,Uncertain,1805,lsidyv2eb1d7fe
+14602860,|||,und,,"London, [1805?]","London, [1805?]",,Missing,London,Likely clean single place,Q84,,1805,Uncertain,1805,lsidyv2eb1d8a3
+14602881,|||,und,,"Birmingham : White & Pike, [1885?].","Birmingham : White & Pike, [1885?].",White & Pike,Named publisher or ambiguous,Birmingham,Likely clean single place,Q2256,,1885,Uncertain,1885,lsidyv2eb1c37c
+14602912,|||,und,,"London : Church Missionary Society, [1898.].","London : Church Missionary Society, [1898.].",Church Missionary Society,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Supplied,1898,lsidyv2eb22a4b
+14602914,|||,und,,"London, 1866.","London, 1866.",,Missing,London,Likely clean single place,Q84,,1866,Exact,1866,lsidyv2eb1dd3e
+14602922,|||,und,,"London : Diprose & Bateman, 1886.","London : Diprose & Bateman, 1886.",Diprose & Bateman,Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Exact,1886,lsidyv2eb1e424
+14602959,|||,und,,"London, 1800.","London, 1800.",,Missing,London,Likely clean single place,Q84,,1800,Exact,1800,lsidyv2eb27209
+14603008,|||,und,,"[London : The Author, 1803.].","[London : The Author, 1803.].",The Author,Author/self-publication statement,London,Likely clean single place,Q84,,1803,Exact,1803,lsidyv2eb388b3
+14603017,|||,und,,"Hull : E. Wing & Son, 1885.","Hull : E. Wing & Son, 1885.",E. Wing & Son,Named publisher or ambiguous,Hull,Likely clean single place,,,1885,Exact,1885,lsidyv2eb35911
+14603025,|||,und,,[1887.],[1887.],,Missing,,Missing,,,1887,Supplied,1887,lsidyv2eb31987
+14603026,|||,und,,"London, 1897.","London, 1897.",,Missing,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv2eb345c3
+14603035,|||,und,,"London : G. and T. Wilkie, 1785.","London : G. and T. Wilkie, 1785.",G. and T. Wilkie,Named publisher or ambiguous,London,Likely clean single place,Q84,,1785,Exact,1785,lsidyv2eb34991
+14603252,|||,und,,"London, 1809.","London, 1809.",,Missing,London,Likely clean single place,Q84,,1809,Exact,1809,lsidyv2eb3f6c6
+14603271,|||,und,,"London, 1799.","London, 1799.",,Missing,London,Likely clean single place,Q84,,1799,Exact,1799,lsidyv2eb452e7
+14603274,|||,und,,"London : J. & R. Tonson & S. Draper, 1755.","London : J. & R. Tonson & S. Draper, 1755.",J. & R. Tonson & S. Draper,Named publisher or ambiguous,London,Likely clean single place,Q84,,1755,Exact,1755,lsidyv2eb3be9b
+14603275,|||,und,,"London : J. & R. Tonson, 1756.","London : J. & R. Tonson, 1756.",J. & R. Tonson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1756,Exact,1756,lsidyv2eb3c3cc
+14603328,|||,und,,"London, [1752?]","London, [1752?]",,Missing,London,Likely clean single place,Q84,,1752,Uncertain,1752,lsidyv2eb67d27
+14603333,|||,und,,"London : Printed for J. Debrett, 1789.","London : Printed for J. Debrett, 1789.",Printed for J. Debrett,Printer statement,London,Likely clean single place,Q84,,1789,Exact,1789,lsidyv2eb84bcf
+14603334,|||,und,,"Privately printed; London, 1836.","Privately printed; London, 1836.",,Missing,Privately; London,Multiple places,,,1836,Exact,1836,lsidyv2eb7b7f3
+14603403,|||,und,,"Bristol : Privately printed, [1840?].","Bristol : Privately printed, [1840?].",Privately printed,Printer statement,Bristol,Likely clean single place,,,1840,Uncertain,1840,lsidyv2eb93d65
+14603445,|||,und,,"Glasgow, 1817.","Glasgow, 1817.",,Missing,Glasgow,Likely clean single place,Q4093,,1817,Exact,1817,lsidyv2eba0f7c
+14605602,|||,und,,"London, [1858.]","London, [1858.]",,Missing,London,Likely clean single place,Q84,,1858,Supplied,1858,lsidyv306c0e21
+14605603,|||,und,,"London, Germany, [printed : Hildesheimer & Faulkner, 1892.].","London, Germany, [printed : Hildesheimer & Faulkner, 1892.].",Hildesheimer & Faulkner,Named publisher or ambiguous,"London, Germany,",Review: comma-separated,,,1892,Exact,1892,lsidyv3141102b
+14605605,|||,und,,"London : John Murray, 1815.","London : John Murray, 1815.",John Murray,Named publisher or ambiguous,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv30134148
+14605606,|||,und,,"London, 1865.","London, 1865.",,Missing,London,Likely clean single place,Q84,,1865,Exact,1865,lsidyv30678840
+14605607,|||,und,,"London, 1676.","London, 1676.",,Missing,London,Likely clean single place,Q84,,1676,Exact,1676,lsidyv313e3142
+14605610,|||,und,,"Leeds : T. Pinder, [1884.].","Leeds : T. Pinder, [1884.].",T. Pinder,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1884,Supplied,1884,lsidyv306f756f
+14605616,|||,und,,"[London, 1862.]","[London, 1862.]",,Missing,London,Likely clean single place,Q84,,1862,Exact,1862,lsidyv30633105
+14605621,|||,und,,"[Windsor,], 1872.","[Windsor, ], 1872.",,Missing,"Windsor, ]",Review: comma-separated,,,1872,Exact,1872,lsidyv3067c8f8
+14605629,|||,und,,"London : B. McMillan, 1819.","London : B. McMillan, 1819.",B. McMillan,Named publisher or ambiguous,London,Likely clean single place,Q84,,1819,Exact,1819,lsidyv314e2e8a
+14605639,|||,und,,"London : Printed for private circulation, 1869.","London : Printed for private circulation, 1869.",Printed for private circulation,Printer statement,London,Likely clean single place,Q84,,1869,Exact,1869,lsidyv3083e9e1
+14605658,|||,und,,"London, [1814.]","London, [1814.]",,Missing,London,Likely clean single place,Q84,,1814,Supplied,1814,lsidyv32b5a831
+14605665,|||,und,,"London, 1793.","London, 1793.",,Missing,London,Likely clean single place,Q84,,1793,Exact,1793,lsidyv314e5b7b
+14605684,|||,und,,"[Hobart : M. Hornsby, 1868?].","[Hobart : M. Hornsby, 1868?].",M. Hornsby,Named publisher or ambiguous,Hobart,Likely clean single place,,,1868,Uncertain,1868,lsidyv32b5a798
+14605687,|||,und,,"London, [1858.]","London, [1858.]",,Missing,London,Likely clean single place,Q84,,1858,Supplied,1858,lsidyv3074808c
+14608190,|||,und,,"London : G. Kearsley, 1779.","London : G. Kearsley, 1779.",G. Kearsley,Named publisher or ambiguous,London,Likely clean single place,Q84,,1779,Exact,1779,lsidyv3162011b
+14608203,|||,und,,"London : G. Kearsly, 1780.","London : G. Kearsly, 1780.",G. Kearsly,Named publisher or ambiguous,London,Likely clean single place,Q84,,1780,Exact,1780,lsidyv32b62ee9
+14608205,|||,und,,"London : G. Kearsly, 1778.","London : G. Kearsly, 1778.",G. Kearsly,Named publisher or ambiguous,London,Likely clean single place,Q84,,1778,Exact,1778,lsidyv30949a17
+14608206,|||,und,,"London : G. Kearsly, 1778.","London : G. Kearsly, 1778.",G. Kearsly,Named publisher or ambiguous,London,Likely clean single place,Q84,,1778,Exact,1778,lsidyv32b630cf
+14608218,|||,und,,"London, 1814.","London, 1814.",,Missing,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv32b63d88
+14608229,|||,und,,"London, 1703.","London, 1703.",,Missing,London,Likely clean single place,Q84,,1703,Exact,1703,lsidyv30a26759
+14608230,|||,und,,"London, 1814.","London, 1814.",,Missing,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv309ac1e9
+14608231,|||,und,,"London, 1794.","London, 1794.",,Missing,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv32b632f1
+14608236,|||,und,,"London, 1794.","London, 1794.",,Missing,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv3099629e
+14608243,|||,und,,"London : W. S. Fortey, [1892.].","London : W. S. Fortey, [1892.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Supplied,1892,lsidyv32b8c98b
+14608254,|||,und,,"London, 1816.","London, 1816.",,Missing,London,Likely clean single place,Q84,,1816,Exact,1816,lsidyv315ece33
+14608262,|||,und,,"London, 1794.","London, 1794.",,Missing,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv32b631c8
+14608264,|||,und,,"Reykjavik, 1890.","Reykjavik, 1890.",,Missing,Reykjavik,Likely clean single place,,,1890,Exact,1890,lsidyv32b8c952
+14608266,|||,und,,"London : Printed for the Author, 1661.","London : Printed for the Author, 1661.",Printed for the Author,Printer statement,London,Likely clean single place,Q84,,1661,Exact,1661,lsidyv3160f78e
+14608284,|||,und,,"London : J. Barker, 1794.","London : J. Barker, 1794.",J. Barker,Named publisher or ambiguous,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv3098f4bb
+14608286,|||,und,,"London, 1794.","London, 1794.",,Missing,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv315ab988
+14608299,|||,und,,"London : J. Smith, 1821.","London : J. Smith, 1821.",J. Smith,Named publisher or ambiguous,London,Likely clean single place,Q84,,1821,Exact,1821,lsidyv33525f56
+14608326,|||,und,,[1893.],[1893.],,Missing,,Missing,,,1893,Supplied,1893,lsidyv335042cc
+14608337,|||,und,,"London, 1804.","London, 1804.",,Missing,London,Likely clean single place,Q84,,1804,Exact,1804,lsidyv3352a346
+14608345,|||,und,,"London, 1779.","London, 1779.",,Missing,London,Likely clean single place,Q84,,1779,Exact,1779,lsidyv33503601
+14608357,|||,und,,"London, 1788.","London, 1788.",,Missing,London,Likely clean single place,Q84,,1788,Exact,1788,lsidyv32c2a34b
+14608369,|||,und,,"Edinburgh : E. & G. Goldsmid, 1887, 88.","Edinburgh : E. & G. Goldsmid, 1887, 88.",E. & G. Goldsmid,Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1887,Exact,1887,lsidyv346031fa -- lsidyv33500098
+14608377,|||,und,,"London, 1805.","London, 1805.",,Missing,London,Likely clean single place,Q84,,1805,Exact,1805,lsidyv32cdcf36
+14608378,|||,und,,"London : J. E. Hawkins, 1887.","London : J. E. Hawkins, 1887.",J. E. Hawkins,Named publisher or ambiguous,London,Likely clean single place,Q84,,1887,Exact,1887,lsidyv334fff9f
+14608417,|||,und,,"London : John Murray, 1815.","London : John Murray, 1815.",John Murray,Named publisher or ambiguous,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv33825398
+14608427,|||,und,,"London : Simpkin, Marshall & Co., [1889.].","London : Simpkin, Marshall & Co., [1889.].","Simpkin, Marshall & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Supplied,1889,lsidyv338333cb
+14608442,|||,und,,"London : Humphrey Moseley, 1655.","London : Humphrey Moseley, 1655.",Humphrey Moseley,Named publisher or ambiguous,London,Likely clean single place,Q84,,1655,Exact,1655,lsidyv33536ed2
+14608462,|||,und,,"John Hatchard & Son : London, [1820].","John Hatchard & Son : London, [1820].",London,Named publisher or ambiguous,John Hatchard & Son,Multiple places,,,1820,Supplied,1820,lsidyv3382ab22
+14608505,|||,und,,"London, 1701.","London, 1701.",,Missing,London,Likely clean single place,Q84,,1701,Exact,1701,lsidyv335318b9
+14608565,|||,und,,"London, [1853.]","London, [1853.]",,Missing,London,Likely clean single place,Q84,,1853,Supplied,1853,lsidyv33869e68
+14608604,|||,und,,"London, 1846.","London, 1846.",,Missing,London,Likely clean single place,Q84,,1846,Exact,1846,lsidyv338531c5
+14608646,|||,und,,"Nottingham : Burbage & Stretton, [1800?].","Nottingham : Burbage & Stretton, [1800?].",Burbage & Stretton,Named publisher or ambiguous,Nottingham,Likely clean single place,,,1800,Uncertain,1800,lsidyv338a9a9f
+14608647,|||,und,,"London : G. Simson & W. White, 1596.","London : G. Simson & W. White, 1596.",G. Simson & W. White,Named publisher or ambiguous,London,Likely clean single place,Q84,,1596,Exact,1596,lsidyv338c91d5
+14608674,|||,und,,"London, 1858.","London, 1858.",,Missing,London,Likely clean single place,Q84,,1858,Exact,1858,lsidyv33884e01
+14608695,|||,und,,"London, [1862.]","London, [1862.]",,Missing,London,Likely clean single place,Q84,,1862,Supplied,1862,lsidyv338c964f
+14608717,|||,und,,"Dublin, [1830?]","Dublin, [1830?]",,Missing,Dublin,Likely clean single place,Q1761,,1830,Uncertain,1830,lsidyv338850b3
+14608720,|||,und,,"[Dublin?, 1796.]","[Dublin?, 1796.]",,Missing,Dublin?,Likely clean single place,,,1796,Exact,1796,lsidyv338cb052
+14608732,|||,und,,"Malton : Printed for private distribution, 1828.","Malton : Printed for private distribution, 1828.",Printed for private distribution,Printer statement,Malton,Likely clean single place,,,1828,Exact,1828,lsidyv33875db6
+14608769,|||,und,,"London : Printed for the Author, 1821.","London : Printed for the Author, 1821.",Printed for the Author,Printer statement,London,Likely clean single place,Q84,,1821,Exact,1821,lsidyv33905b37
+14608771,|||,und,,"London, 1844.","London, 1844.",,Missing,London,Likely clean single place,Q84,,1844,Exact,1844,lsidyv338ded3d
+14610148,|||,und,,"London : J. H. Burn, 1820.","London : J. H. Burn, 1820.",J. H. Burn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1820,Exact,1820,lsidyv33956863
+14610176,|||,und,,"London, 1827.","London, 1827.",,Missing,London,Likely clean single place,Q84,,1827,Exact,1827,lsidyv341ebdc2
+14610185,|||,und,,"London, [1884-89.]","London, [1884-89.]",,Missing,"London, [1884-89.]",Review: comma-separated,,1889,1884,Supplied,1884,lsidyv3426f13f
+14610197,|||,und,,"London, 1824.","London, 1824.",,Missing,London,Likely clean single place,Q84,,1824,Exact,1824,lsidyv34224c29
+14610200,|||,und,,"London : Griffith, Farran and Co., [1886.]","London : Griffith, Farran and Co., [1886.]","Griffith, Farran and Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Supplied,1886,lsidyv345f532e -- lsidyv34277f20 -- lsidyv345f4f20 -- lsidyv345f540f
+14610217,|||,und,,"London, 1837.","London, 1837.",,Missing,London,Likely clean single place,Q84,,1837,Exact,1837,lsidyv3393538d
+14616526,|||,und,,"London : William Fearman, 1818.","London : William Fearman, 1818.",William Fearman,Named publisher or ambiguous,London,Likely clean single place,Q84,,1818,Exact,1818,lsidyv34ebd6a7
+14616527,|||,und,,"London : John Lowndes, 1821.","London : John Lowndes, 1821.",John Lowndes,Named publisher or ambiguous,London,Likely clean single place,Q84,,1821,Exact,1821,lsidyv3493685d
+14616529,|||,und,,"Edinburgh : Privately printed, 1860.","Edinburgh : Privately printed, 1860.",Privately printed,Printer statement,Edinburgh,Likely clean single place,Q23436,,1860,Exact,1860,lsidyv3492e885
+14616543,|||,und,,"London : W. Bates, [1805?].","London : W. Bates, [1805?].",W. Bates,Named publisher or ambiguous,London,Likely clean single place,Q84,,1805,Uncertain,1805,lsidyv34938e99
+14616545,|||,und,,"London : E. Macleish, [1813?].","London : E. Macleish, [1813?].",E. Macleish,Named publisher or ambiguous,London,Likely clean single place,Q84,,1813,Uncertain,1813,lsidyv34938faa
+14616546,|||,und,,"London : John Miller, 1817.","London : John Miller, 1817.",John Miller,Named publisher or ambiguous,London,Likely clean single place,Q84,,1817,Exact,1817,lsidyv34ebd7d0
+14616553,|||,und,,"[London, 1894.]","[London, 1894.]",,Missing,London,Likely clean single place,Q84,,1894,Exact,1894,lsidyv34ebd20c
+14616563,|||,und,,"London : Music-Publishing Co., [1860.].","London : Music-Publishing Co., [1860.].",Music-Publishing Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1860,Supplied,1860,lsidyv34990081
+14616564,|||,und,,"London : Music-Publishing Co., [1861.].","London : Music-Publishing Co., [1861.].",Music-Publishing Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1861,Supplied,1861,lsidyv34990d22
+14616568,|||,und,,"Dublin : T. Charles, [1820?].","Dublin : T. Charles, [1820?].",T. Charles,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1820,Uncertain,1820,lsidyv34939073
+14616574,|||,und,,"Harrogate : R. Ackrill, 1887.","Harrogate : R. Ackrill, 1887.",R. Ackrill,Named publisher or ambiguous,Harrogate,Likely clean single place,,,1887,Exact,1887,lsidyv3492e5af
+14616601,|||,und,,"pp. 49. Printed for private circulation: London, 1890.","pp. 49. Printed for private circulation : London, 1890.",,Missing,London,Review: imprint statement,,,1890,Exact,1890,lsidyv34793055
+14616603,enk,eng,,"[London ; New York] : Boosey & Co., 295, Regent Street, London, W., and 9, East Seventeenth Street, New York , [1897] (London : Henderson & Spalding, Printers)","[London; New York] : Boosey & Co., 295, Regent Street, London, W., and 9, East Seventeenth Street, New York, [1897] (London : Henderson & Spalding, Printers)","Boosey & Co., 295, Regent Street, London, W., and 9, East Seventeenth Street, New York",Named publisher or ambiguous,London & New York,Multiple places,,,1897,Supplied,1897,lsidyv3509072e
+14616618,|||,und,,"printed by Charles Player London, [ca. 1730].","printed by Charles Player London, [ca. 1730].",Charles Player,Printer statement,London,Review: imprint statement,,,1730,Exact,1730,lsidyv3493fdf4
+14616623,|||,und,,"pp. 54. W. P. Swan: Dublin, 1888.","pp. 54. W. P. Swan : Dublin, 1888.",Dublin,Named publisher or ambiguous,pp. 54. W. P. Swan,Likely clean single place,,,1888,Exact,1888,lsidyv3495a4d2
+14616626,|||,und,,"[Bradford-on-Avon?, 1864.]","[Bradford-on-Avon?, 1864.]",,Missing,Bradford-on-Avon?,Likely clean single place,,,1864,Exact,1864,lsidyv3498add1
+14616631,|||,und,,"London : Metzler & Co., [1885?].","London : Metzler & Co., [1885?].",Metzler & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Uncertain,1885,lsidyv34ebba56
+14616638,|||,und,,"[London : J. Miles & Co., 1882].","[London : J. Miles & Co., 1882].",J. Miles & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1882,Exact,1882,lsidyv349bb6f8
+14616642,|||,und,,"pp. xi. 60. Elliot Stock: London, 1894.","pp. xi. 60. Elliot Stock : London, 1894.",London,Named publisher or ambiguous,pp. xi. 60. Elliot Stock,Likely clean single place,,,1894,Exact,1894,lsidyv3495e2d1
+14616643,|||,und,,"[London] : Sanders Phillips & Co., 1898.","[London] : Sanders Phillips & Co., 1898.",Sanders Phillips & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Exact,1898,lsidyv349b90ae
+14616645,|||,und,,"London : G. J. Parris, [1886.].","London : G. J. Parris, [1886.].",G. J. Parris,Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Supplied,1886,lsidyv34ebb56d
+14616649,|||,und,,"London : J. Barker & Son, [1803.].","London : J. Barker & Son, [1803.].",J. Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1803,Supplied,1803,lsidyv34ebe3f1
+14616665,|||,und,,"Cork Election Squib Office, [c.1820].","Cork Election Squib Office, [c.1820].",,Missing,Cork Election Squib Office,Likely clean single place,,,1820,Circa,1820,lsidyv34939ece
+14616667,|||,und,,"London : W. Glendinning, 1815.","London : W. Glendinning, 1815.",W. Glendinning,Named publisher or ambiguous,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv3493a986
+14616668,|||,und,,"London : W. Glendinning, 1815.","London : W. Glendinning, 1815.",W. Glendinning,Named publisher or ambiguous,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv3493a6b7
+14616669,|||,und,,"London : Appleyards, [1808.].","London : Appleyards, [1808.].",Appleyards,Named publisher or ambiguous,London,Likely clean single place,Q84,,1808,Supplied,1808,lsidyv34ebe74b
+14616670,|||,und,,"London : Barker & Son, 1804.","London : Barker & Son, 1804.",Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1804,Exact,1804,lsidyv3493a5d6
+14616671,|||,und,,"London : Barker & Son, 1802.","London : Barker & Son, 1802.",Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1802,Exact,1802,lsidyv3493a330
+14616672,|||,und,,"London : J. Hartnell, 1810.","London : J. Hartnell, 1810.",J. Hartnell,Named publisher or ambiguous,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv34ebe868
+14616677,|||,und,,"London : Barker & Son, 1805.","London : Barker & Son, 1805.",Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1805,Exact,1805,lsidyv34ebf48d
+14616689,|||,und,,"London, [1820?]","London, [1820?]",,Missing,London,Likely clean single place,Q84,,1820,Uncertain,1820,lsidyv3493ae15
+14616697,|||,und,,,,,Missing,,Missing,,,,Missing,,lsidyv3493fe69
+14616698,|||,und,,"London, [1859.]","London, [1859.]",,Missing,London,Likely clean single place,Q84,,1859,Supplied,1859,lsidyv3493af26
+14616701,|||,und,,"London, [1864.]","London, [1864.]",,Missing,London,Likely clean single place,Q84,,1864,Supplied,1864,lsidyv34990e24
+14616702,|||,und,,"London : Marshall & Co., [1886.].","London : Marshall & Co., [1886.].",Marshall & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Supplied,1886,lsidyv3492e4f2
+14616703,|||,und,,"E. Nister: London; Nuremberg printed, [1891.]","E. Nister : London; Nuremberg printed, [1891.]",London; Nuremberg printed,Printer statement,E. Nister,Likely clean single place,,,1891,Supplied,1891,lsidyv34732652
+14616709,|||,und,,[1896?],[1896?],,Missing,,Missing,,,1896,Uncertain,1896,lsidyv3471f3d4
+14616715,|||,und,,"London, 1815.","London, 1815.",,Missing,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv3493b154
+14616726,|||,und,,"pp. 93. Kegan Paul & Co.: London, 1900.","pp. 93. Kegan Paul & Co. : London, 1900.",London,Named publisher or ambiguous,pp. 93. Kegan Paul & Co.,Multiple places,,,1900,Exact,1900,lsidyv3494eb2b
+14616728,|||,und,,"[London : Metzler & Co., 1878.].","[London : Metzler & Co., 1878.].",Metzler & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1878,Exact,1878,lsidyv3492eabf
+14616729,|||,und,,"London : Chappell & Co., [1878.].","London : Chappell & Co., [1878.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1878,Supplied,1878,lsidyv34ebbd08
+14616730,|||,und,,"London : Chappell & Co., [1882?].","London : Chappell & Co., [1882?].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1882,Uncertain,1882,lsidyv34ecb863
+14616731,|||,und,,"London : Chappell & Co., [1891.].","London : Chappell & Co., [1891.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Supplied,1891,lsidyv34ebc257
+14616736,|||,und,,"London, 1813.","London, 1813.",,Missing,London,Likely clean single place,Q84,,1813,Exact,1813,lsidyv34ebff9c
+14616744,|||,und,,"London; Nuremberg printed : E. Nister, [1888.].","London; Nuremberg printed : E. Nister, [1888.].",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1888,Supplied,1888,lsidyv34757ce7
+14616749,|||,und,,"Sydenham, 1877.","Sydenham, 1877.",,Missing,Sydenham,Likely clean single place,,,1877,Exact,1877,lsidyv34af832c
+14616751,|||,und,,"London : Chappell & Co., 1892.","London : Chappell & Co., 1892.",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Exact,1892,lsidyv34ebc63e
+14616752,|||,und,,"London : J. Williams, [1893.].","London : J. Williams, [1893.].",J. Williams,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv34ebc914
+14616753,|||,und,,"London, 1815.","London, 1815.",,Missing,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv3493b07f
+14616765,|||,und,,"London, 1746.","London, 1746.",,Missing,London,Likely clean single place,Q84,,1746,Exact,1746,lsidyv34934f1f
+14616783,|||,und,,"pp. viii. 24. D. Nutt: London, 1900.","pp. viii. 24. D. Nutt : London, 1900.",London,Named publisher or ambiguous,pp. viii. 24. D. Nutt,Likely clean single place,,,1900,Exact,1900,lsidyv3477cefc
+14616785,|||,und,,"Glasgow : J. MacLehose & Sons, 1897.","Glasgow : J. MacLehose & Sons, 1897.",J. MacLehose & Sons,Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1897,Exact,1897,lsidyv3509d18a
+14616798,|||,und,,"London, 1806.","London, 1806.",,Missing,London,Likely clean single place,Q84,,1806,Exact,1806,lsidyv3493b721
+14616833,|||,und,,"London, 1865.","London, 1865.",,Missing,London,Likely clean single place,Q84,,1865,Exact,1865,lsidyv3498d22a
+14616836,|||,und,,"G. J. Parris, steam printer : London, [1886?].","G. J. Parris, steam printer : London, [1886?].",G. J. Parris,Printer statement,London,Review: imprint statement,,,1886,Uncertain,1886,lsidyv34ebb64e
+14616838,|||,und,,"London, 1782.","London, 1782.",,Missing,London,Likely clean single place,Q84,,1782,Exact,1782,lsidyv34ec8d20
+14616840,|||,und,,[1897.],[1897.],,Missing,,Missing,,,1897,Supplied,1897,lsidyv3470cb04
+14616846,|||,und,,"London : John Miller, 1815.","London : John Miller, 1815.",John Miller,Named publisher or ambiguous,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv34ec0c02
+14616856,|||,und,,"pp. 144. J. McKelvie & Sons: Greenock, 1895.","pp. 144. J. McKelvie & Sons : Greenock, 1895.",Greenock,Named publisher or ambiguous,pp. 144. J. McKelvie & Sons,Multiple places,,,1895,Exact,1895,lsidyv347743c5
+14616857,|||,und,,"pp. 48. Swan Sonneschein & Co.: London, 1893.","pp. 48. Swan Sonneschein & Co. : London, 1893.",London,Named publisher or ambiguous,pp. 48. Swan Sonneschein & Co.,Multiple places,,,1893,Exact,1893,lsidyv3494e44b
+14616864,|||,und,,"Harrow : J. C. Wilbee, [1882.].","Harrow : J. C. Wilbee, [1882.].",J. C. Wilbee,Named publisher or ambiguous,Harrow,Likely clean single place,,,1882,Supplied,1882,lsidyv34ec54e4
+14616873,|||,und,,"Firenze, 1894.","Firenze, 1894.",,Missing,Firenze,Likely clean single place,,,1894,Exact,1894,lsidyv34fad8dc
+14616881,|||,und,,"Sheffield, [1802?]","Sheffield, [1802?]",,Missing,Sheffield,Likely clean single place,,,1802,Uncertain,1802,lsidyv3493be5c
+14616883,|||,und,,"London, 1878.","London, 1878.",,Missing,London,Likely clean single place,Q84,,1878,Exact,1878,lsidyv347a0235
+14616890,|||,und,,"London : Music-Publishing Co., [1895.].","London : Music-Publishing Co., [1895.].",Music-Publishing Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Supplied,1895,lsidyv350c0c66
+14616900,|||,und,,"Calcutta : S. C. Beed, [1890?].","Calcutta : S. C. Beed, [1890?].",S. C. Beed,Named publisher or ambiguous,Calcutta,Likely clean single place,,,1890,Uncertain,1890,lsidyv34ebb73b
+14616905,|||,und,,"London, 1812.","London, 1812.",,Missing,London,Likely clean single place,Q84,,1812,Exact,1812,lsidyv3493c3b7 -- lsidyv34ecbd85
+14616910,|||,und,,"London : Aubert’s Steam Printing Works, [1870?].","London : Aubert’s Steam Printing Works, [1870?].",Aubert’s Steam Printing Works,Named publisher or ambiguous,London,Likely clean single place,Q84,,1870,Uncertain,1870,lsidyv34ebaeba
+14616912,|||,und,,"Melbourne : R. M. Abbott & Co., [1865.].","Melbourne : R. M. Abbott & Co., [1865.].",R. M. Abbott & Co.,Named publisher or ambiguous,Melbourne,Likely clean single place,,,1865,Supplied,1865,lsidyv349909b7
+14616917,|||,und,,"London, [1835?]","London, [1835?]",,Missing,London,Likely clean single place,Q84,,1835,Uncertain,1835,lsidyv3493c28e
+14616935,|||,und,,"London : Lang Nei, & Co., 1892.","London : Lang Nei, & Co., 1892.","Lang Nei, & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Exact,1892,lsidyv3472c754
+14616937,enk,eng,,"London : R. Tuck & Sons, [1890]","London : R. Tuck & Sons, [1890]",R. Tuck & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1890,Supplied,1890,lsidyv34727107
+14616950,|||,und,,"London : J. Barker, 1813.","London : J. Barker, 1813.",J. Barker,Named publisher or ambiguous,London,Likely clean single place,Q84,,1813,Exact,1813,lsidyv3493cb46
+14616952,|||,und,,"London, [1865.]","London, [1865.]",,Missing,London,Likely clean single place,Q84,,1865,Supplied,1865,lsidyv349910ee
+14616955,|||,und,,"London : W. Reynolds, [1826.].","London : W. Reynolds, [1826.].",W. Reynolds,Named publisher or ambiguous,London,Likely clean single place,Q84,,1826,Supplied,1826,lsidyv3493cc27
+14616959,|||,und,,"[London,], 1793.","[London, ], 1793.",,Missing,London,Likely clean single place,Q84,,1793,Exact,1793,lsidyv3493eef7
+14616971,|||,und,,"London : R. Cocks & Co., [1856?].","London : R. Cocks & Co., [1856?].",R. Cocks & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1856,Uncertain,1856,lsidyv3492e07c
+14616979,|||,und,,"London, 1824.","London, 1824.",,Missing,London,Likely clean single place,Q84,,1824,Exact,1824,lsidyv34ec23f2
+14616984,|||,und,,"Leeds : Pinder & Howes, [1883.]","Leeds : Pinder & Howes, [1883.]",Pinder & Howes,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1883,Supplied,1883,lsidyv3459ca17
+14616986,|||,und,,"London, 1820.","London, 1820.",,Missing,London,Likely clean single place,Q84,,1820,Exact,1820,lsidyv3493ce49
+14616988,|||,und,,"London, 1806.","London, 1806.",,Missing,London,Likely clean single place,Q84,,1806,Exact,1806,lsidyv3493d077
+14616990,|||,und,,"London, 1814.","London, 1814.",,Missing,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv3493d164
+14617003,|||,und,,"Brentford : P. Norbury, 1829.","Brentford : P. Norbury, 1829.",P. Norbury,Named publisher or ambiguous,Brentford,Likely clean single place,,,1829,Exact,1829,lsidyv3493d63b
+14617011,|||,und,,"Chicago : M. Witmark & Sons, 1899.","Chicago : M. Witmark & Sons, 1899.",M. Witmark & Sons,Named publisher or ambiguous,Chicago,Likely clean single place,,,1899,Exact,1899,lsidyv34ec7b9c
+14617017,|||,und,,"London : Williams & Son, [1880?].","London : Williams & Son, [1880?].",Williams & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1880,Uncertain,1880,lsidyv34ebb2eb
+14617021,|||,und,,"pp. 48. McCorquodale & Co.: Leeds, 1890.","pp. 48. McCorquodale & Co. : Leeds, 1890.",Leeds,Named publisher or ambiguous,pp. 48. McCorquodale & Co.,Multiple places,,,1890,Exact,1890,lsidyv34729a5e
+14617022,|||,und,,"London : T. Rodd, 1822.","London : T. Rodd, 1822.",T. Rodd,Named publisher or ambiguous,London,Likely clean single place,Q84,,1822,Exact,1822,lsidyv3493d764
+14617031,|||,und,,"Worksop : Printed for the Author, 1867.","Worksop : Printed for the Author, 1867.",Printed for the Author,Printer statement,Worksop,Likely clean single place,,,1867,Exact,1867,lsidyv349c77c2
+14617043,|||,und,,"Bournemouth : T. J. Powell, 1889.","Bournemouth : T. J. Powell, 1889.",T. J. Powell,Named publisher or ambiguous,Bournemouth,Likely clean single place,,,1889,Exact,1889,lsidyv3472e934
+14617044,|||,und,,"pp. 56. J. W. Arrowsmith: Bristol, 1894.","pp. 56. J. W. Arrowsmith : Bristol, 1894.",Bristol,Named publisher or ambiguous,pp. 56. J. W. Arrowsmith,Likely clean single place,,,1894,Exact,1894,lsidyv34771d35
+14617048,|||,und,,"pp. 30. Partridge & Co.: London, [1894.]","pp. 30. Partridge & Co. : London, [1894.]",London,Named publisher or ambiguous,pp. 30. Partridge & Co.,Multiple places,,,1894,Supplied,1894,lsidyv3495b243
+14617054,|||,und,,"pp. viii. 61. W. Blackwood & Sons: Edinburgh, 1895.","pp. viii. 61. W. Blackwood & Sons : Edinburgh, 1895.",Edinburgh,Named publisher or ambiguous,pp. viii. 61. W. Blackwood & Sons,Multiple places,,,1895,Exact,1895,lsidyv34954c9d
+14617058,|||,und,,"London, 1817.","London, 1817.",,Missing,London,Likely clean single place,Q84,,1817,Exact,1817,lsidyv34ec350b
+14617063,|||,und,,"London; Nuremberg : E. Nister, [1888]","London; Nuremberg : E. Nister, [1888]",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1888,Supplied,1888,lsidyv3475812b
+14617074,|||,und,,"Hildesheimer & Faulkner: London; Germany [printed, 1892].","Hildesheimer & Faulkner : London; Germany [printed, 1892].",London; Germany [printed,Printer statement,Hildesheimer & Faulkner,Multiple places,,,1892,Exact,1892,lsidyv3472709e
+14617082,|||,und,,"London: William Andrews & Co., 1898 [1897].","London : William Andrews & Co., 1898 [1897].",William Andrews & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Supplied,1897,lsidyv347102af
+14617088,|||,und,,"pp. 88. Digby, Long & Co.: London, [1895.]","pp. 88. Digby, Long & Co. : London, [1895.]",London,Named publisher or ambiguous,"pp. 88. Digby, Long & Co.",Multiple places,,,1895,Supplied,1895,lsidyv347765fb
+14617092,|||,und,,"London : Boosey & Co., [1893.].","London : Boosey & Co., [1893.].",Boosey & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv34ebca49
+14617095,|||,und,,"London : Boosey & Co., [1893.].","London : Boosey & Co., [1893.].",Boosey & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv34ebcba2
+14617097,|||,und,,"pp. 62. A. Constable & Co.: London, 1900.","pp. 62. A. Constable & Co. : London, 1900.",London,Named publisher or ambiguous,pp. 62. A. Constable & Co.,Multiple places,,,1900,Exact,1900,lsidyv3477e3e9
+14617101,|||,und,,"London : Chappell & Co., [1891.].","London : Chappell & Co., [1891.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Supplied,1891,lsidyv34ebc3a4
+14617109,|||,und,,"London, 1816.","London, 1816.",,Missing,London,Likely clean single place,Q84,,1816,Exact,1816,lsidyv34ec3931
+14617123,|||,und,,"Glasgow : William Hodge & Co., 1893.","Glasgow : William Hodge & Co., 1893.",William Hodge & Co.,Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1893,Exact,1893,lsidyv3494eda4
+14617124,|||,und,,"pp. viii. 56. [The Author:] Edinburgh, 1897.","pp. viii. 56. [The Author : ] Edinburgh, 1897.",The Author,Author/self-publication statement,Edinburgh,Likely clean single place,Q23436,,1897,Exact,1897,lsidyv3494b9aa
+14617126,|||,und,,"London, 1814.","London, 1814.",,Missing,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv34700f9b
+14617134,|||,und,,"Cape Town : G. Beresford Henry, 1893.","Cape Town : G. Beresford Henry, 1893.",G. Beresford Henry,Named publisher or ambiguous,Cape Town,Likely clean single place,,,1893,Exact,1893,lsidyv34ebb840
+14617136,|||,und,,"pp. x. 102. E. Stock: London, 1896.","pp. x. 102. E. Stock : London, 1896.",London,Named publisher or ambiguous,pp. x. 102. E. Stock,Likely clean single place,,,1896,Exact,1896,lsidyv34985e37
+14617138,|||,und,,"London, 1810.","London, 1810.",,Missing,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv34ec47f4
+14617149,|||,und,,"London : R. Cocks & Co., [1898.].","London : R. Cocks & Co., [1898.].",R. Cocks & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Supplied,1898,lsidyv34ec769b
+14617151,|||,und,,"[London, 1775?]","[London, 1775?]",,Missing,London,Likely clean single place,Q84,,1775,Uncertain,1775,lsidyv3493e318
+14617152,|||,und,,"London, 1817.","London, 1817.",,Missing,London,Likely clean single place,Q84,,1817,Exact,1817,lsidyv34ec49e6
+14617181,|||,und,,"London, [1871.]","London, [1871.]",,Missing,London,Likely clean single place,Q84,,1871,Supplied,1871,lsidyv3473447e
+14617182,|||,und,,"New York, Cambridge [Mass. printed, 1871.]","New York, Cambridge [Mass. printed, 1871.]",,Missing,"New York, Cambridge [Mass.",Review: comma-separated,,,1871,Exact,1871,lsidyv347630be
+14617186,|||,und,,"Liverpool : Lee & Nightingale, [1896.].","Liverpool : Lee & Nightingale, [1896.].",Lee & Nightingale,Named publisher or ambiguous,Liverpool,Likely clean single place,,,1896,Supplied,1896,lsidyv3503015a
+14617189,|||,und,,"London : D. Nutt, 1899.","London : D. Nutt, 1899.",D. Nutt,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv34ebd311
+14617190,|||,und,,"London, 1877.","London, 1877.",,Missing,London,Likely clean single place,Q84,,1877,Exact,1877,lsidyv34eb9f33
+14617198,|||,und,,"Sherborne, [1890.]","Sherborne, [1890.]",,Missing,Sherborne,Likely clean single place,,,1890,Supplied,1890,lsidyv349b8d28
+14617199,|||,und,,"London, 1810.","London, 1810.",,Missing,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv34ec4be4
+14617202,|||,und,,"Lancaster : Eaton & Bulfield, [1887.].","Lancaster : Eaton & Bulfield, [1887.].",Eaton & Bulfield,Named publisher or ambiguous,Lancaster,Likely clean single place,,,1887,Supplied,1887,lsidyv3492ec81
+14617205,|||,und,,"pp. 52. R. B. Johnson: London, 1900.","pp. 52. R. B. Johnson : London, 1900.",London,Named publisher or ambiguous,pp. 52. R. B. Johnson,Likely clean single place,,,1900,Exact,1900,lsidyv34792943
+14617209,|||,und,,"London : T. & R. Hughes, 1808.","London : T. & R. Hughes, 1808.",T. & R. Hughes,Named publisher or ambiguous,London,Likely clean single place,Q84,,1808,Exact,1808,lsidyv3493835c
+14617213,|||,und,,"pp. 21. Elliot Stock: London, 1900.","pp. 21. Elliot Stock : London, 1900.",London,Named publisher or ambiguous,pp. 21. Elliot Stock,Likely clean single place,,,1900,Exact,1900,lsidyv347915f1
+14622758,|||,und,,"Diss, [1887.]","Diss, [1887.]",,Missing,Diss,Likely clean single place,,,1887,Supplied,1887,lsidyv3943276d
+14622782,|||,eng,,"Scarborough : John Cole, 1829.","Scarborough : John Cole, 1829.",John Cole,Named publisher or ambiguous,Scarborough,Likely clean single place,,,1829,Exact,1829,lsidyv393cfa4a
+14622985,|||,und,,"London : Smith, etc., [1681.].","London : Smith, etc., [1681.].","Smith, etc.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1681,Supplied,1681,lsidyv39434d9f
+14622986,|||,und,,"pp. lvii. Simpkin, Marshall & Co.: London, [1888.]","pp. lvii. Simpkin, Marshall & Co. : London, [1888.]",London,Named publisher or ambiguous,"pp. lvii. Simpkin, Marshall & Co.",Multiple places,,,1888,Supplied,1888,lsidyv39444fdc
+14622995,|||,und,,"London, [1820?]","London, [1820?]",,Missing,London,Likely clean single place,Q84,,1820,Uncertain,1820,lsidyv39431f5a
+14628746,|||,und,,"London : Dunlop & Co., [1893.].","London : Dunlop & Co., [1893.].",Dunlop & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv318c40c9
+14628749,|||,und,,"London : W. S. Johnson, 1856.","London : W. S. Johnson, 1856.",W. S. Johnson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1856,Exact,1856,lsidyv3992bf9f
+14628752,|||,und,,"London : W. Bates, [1788.].","London : W. Bates, [1788.].",W. Bates,Named publisher or ambiguous,London,Likely clean single place,Q84,,1788,Supplied,1788,lsidyv317b6f2e
+14628753,|||,und,,"London : J. Griffith, [1788.].","London : J. Griffith, [1788.].",J. Griffith,Named publisher or ambiguous,London,Likely clean single place,Q84,,1788,Supplied,1788,lsidyv3953126a
+14628767,|||,und,,"London : R. Cocks & Co., [1892.].","London : R. Cocks & Co., [1892.].",R. Cocks & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Supplied,1892,lsidyv31894304
+14628774,|||,und,,"pp. 31. S. Harper & Sons: Barnstaple, 1899.","pp. 31. S. Harper & Sons : Barnstaple, 1899.",Barnstaple,Named publisher or ambiguous,pp. 31. S. Harper & Sons,Multiple places,,,1899,Exact,1899,lsidyv319db329
+14628775,|||,und,,"London : Boosey & Co., [1890.].","London : Boosey & Co., [1890.].",Boosey & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1890,Supplied,1890,lsidyv318490a1
+14628780,|||,und,,"London : J. Griffith, [1787?].","London : J. Griffith, [1787?].",J. Griffith,Named publisher or ambiguous,London,Likely clean single place,Q84,,1787,Uncertain,1787,lsidyv31a92fc6
+14628793,|||,und,,[1896.],[1896.],,Missing,,Missing,,,1896,Supplied,1896,lsidyv3985e829
+14628797,|||,und,,"Stroud : John White, [1893.].","Stroud : John White, [1893.].",John White,Named publisher or ambiguous,Stroud,Likely clean single place,,,1893,Supplied,1893,lsidyv318e28ab
+14628805,|||,und,,"London : Doremi & Co., [1894.].","London : Doremi & Co., [1894.].",Doremi & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1894,Supplied,1894,lsidyv32cb76c6
+14628806,|||,und,,"London : Griffith, Farran & Co., 1889.","London : Griffith, Farran & Co., 1889.","Griffith, Farran & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Exact,1889,lsidyv30666d48
+14628807,|||,und,,"London, 1817.","London, 1817.",,Missing,London,Likely clean single place,Q84,,1817,Exact,1817,lsidyv398469fc
+14628831,|||,und,,"London, [1848?]","London, [1848?]",,Missing,London,Likely clean single place,Q84,,1848,Uncertain,1848,lsidyv39910bf1
+14628834,|||,und,,"London : Hopwood & Crew, [1895.].","London : Hopwood & Crew, [1895.].",Hopwood & Crew,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Supplied,1895,lsidyv398569ea
+14628845,|||,und,,"London : Gay & Bird, 1899.","London : Gay & Bird, 1899.",Gay & Bird,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv31863666
+14628847,|||,und,,"London : Labour Association, [1898.].","London : Labour Association, [1898.].",Labour Association,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Supplied,1898,lsidyv3186c363
+14628860,|||,und,,"London, 1778.","London, 1778.",,Missing,London,Likely clean single place,Q84,,1778,Exact,1778,lsidyv3962b0ea
+14628861,|||,und,,"London : Griffith & Farran, [1883.].","London : Griffith & Farran, [1883.].",Griffith & Farran,Named publisher or ambiguous,London,Likely clean single place,Q84,,1883,Supplied,1883,lsidyv3071dfd7
+14628867,|||,und,,"London : Boosey & Co., 1896.","London : Boosey & Co., 1896.",Boosey & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv39865705
+14628874,|||,und,,"London : J. Cawthorn; James Cawthorn, 1808.","London : J. Cawthorn; James Cawthorn, 1808.",J. Cawthorn; James Cawthorn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1808,Exact,1808,lsidyv39528128
+14628879,|||,und,,"Rugby : G. E. Over, 1896.","Rugby : G. E. Over, 1896.",G. E. Over,Named publisher or ambiguous,Rugby,Likely clean single place,,,1896,Exact,1896,lsidyv39869f08
+14628881,|||,und,,"pp. 40. Hodder & Stoughton: London, [1900.]","pp. 40. Hodder & Stoughton : London, [1900.]",London,Named publisher or ambiguous,pp. 40. Hodder & Stoughton,Multiple places,,,1900,Supplied,1900,lsidyv31a89ce9
+14628887,br,eng,,"Rangoon, [1874]","Rangoon, [1874]",,Missing,Rangoon,Likely clean single place,,,1874,Supplied,1874,lsidyv398f1885
+14628893,|||,und,,"pp. x. 61. W. Blackwood & Sons: Edinburgh & London, 1900.","pp. x. 61. W. Blackwood & Sons : Edinburgh & London, 1900.",Edinburgh & London,Named publisher or ambiguous,pp. x. 61. W. Blackwood & Sons,Multiple places,,,1900,Exact,1900,lsidyv3146deda
+14628913,|||,und,,"London : O. Hodgson, [1838.].","London : O. Hodgson, [1838.].",O. Hodgson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1838,Supplied,1838,lsidyv3964014f
+14628923,|||,und,,"London : J. & R. Tonson, 1763.","London : J. & R. Tonson, 1763.",J. & R. Tonson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1763,Exact,1763,lsidyv30814914
+14628925,|||,und,,[1896.],[1896.],,Missing,,Missing,,,1896,Supplied,1896,lsidyv3986d277
+14628926,enk,eng,,"[Middlesbrough] : Printed by Jordison & Co., Ld. ... , 1893.","[Middlesbrough] : Printed by Jordison & Co., Ld...., 1893.","Printed by Jordison & Co., Ld....",Printer statement,Middlesbrough],Likely clean single place,,,1893,Exact,1893,lsidyv318eee87
+14628927,enk,eng,,"[Middlesbrough] : Printed by Jordison & Co., Ld., Middlesbrough ... , 1894.","[Middlesbrough] : Printed by Jordison & Co., Ld., Middlesbrough..., 1894.","Printed by Jordison & Co., Ld., Middlesbrough...",Printer statement,Middlesbrough],Likely clean single place,,,1894,Exact,1894,lsidyv31921bdd
+14628937,|||,und,,"[London, 1885.]","[London, 1885.]",,Missing,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv3183ffca
+14628938,|||,und,,"London, 1856.","London, 1856.",,Missing,London,Likely clean single place,Q84,,1856,Exact,1856,lsidyv39a0fa4a
+14628941,|||,und,,"London, 1791.","London, 1791.",,Missing,London,Likely clean single place,Q84,,1791,Exact,1791,lsidyv317c9d98
+14628947,|||,und,,"Richmond : R. W. Simpson, [1893.].","Richmond : R. W. Simpson, [1893.].",R. W. Simpson,Named publisher or ambiguous,Richmond,Likely clean single place,,,1893,Supplied,1893,lsidyv39534d3f
+14628950,|||,und,,[1890.],[1890.],,Missing,,Missing,,,1890,Supplied,1890,lsidyv31856a87
+14628951,|||,und,,"London : Harrison & Sons, [1875.].","London : Harrison & Sons, [1875.].",Harrison & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1875,Supplied,1875,lsidyv398f4d41
+14628953,|||,und,,"Karachi : Jamshed & Co., 1892.","Karachi : Jamshed & Co., 1892.",Jamshed & Co.,Named publisher or ambiguous,Karachi,Likely clean single place,,,1892,Exact,1892,lsidyv318afd8d
+14628955,|||,und,,"York : A. Bartholoman, [1805.].","York : A. Bartholoman, [1805.].",A. Bartholoman,Named publisher or ambiguous,York,Likely clean single place,,,1805,Supplied,1805,lsidyv3964dd68
+14628964,|||,und,,"London, 1792.","London, 1792.",,Missing,London,Likely clean single place,Q84,,1792,Exact,1792,lsidyv398c9cda
+14628965,|||,und,,"Canterbury, 1844.","Canterbury, 1844.",,Missing,Canterbury,Likely clean single place,,,1844,Exact,1844,lsidyv308322b0
+14628967,|||,und,,"Belfast : “Belfast News-Letter�?Book Printing House, [1891.].","Belfast : “Belfast News-Letter�?Book Printing House, [1891.].",“Belfast News-Letter�?Book Printing House,Named publisher or ambiguous,Belfast,Likely clean single place,,,1891,Supplied,1891,lsidyv31875c05
+14628970,|||,und,,"London : J. Forbes, [1792.].","London : J. Forbes, [1792.].",J. Forbes,Named publisher or ambiguous,London,Likely clean single place,Q84,,1792,Supplied,1792,lsidyv398d0bd4
+14635254,|||,und,,"Napoli, 1821.","Napoli, 1821.",,Missing,Napoli,Likely clean single place,,,1821,Exact,1821,lsidyv2af003b0
+14635258,|||,und,,"London : The Author, 1786.","London : The Author, 1786.",The Author,Author/self-publication statement,London,Likely clean single place,Q84,,1786,Exact,1786,lsidyv3035631a
+14635265,|||,und,,[1890.],[1890.],,Missing,,Missing,,,1890,Supplied,1890,lsidyv2af0b50f
+14635279,|||,und,,"Boston : B. F. Wood Music Co., [1893.].","Boston : B. F. Wood Music Co., [1893.].",B. F. Wood Music Co.,Named publisher or ambiguous,Boston,Likely clean single place,,,1893,Supplied,1893,lsidyv2af0bc53
+14635281,|||,und,,"London : Longman & Co., 1808.","London : Longman & Co., 1808.",Longman & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1808,Exact,1808,lsidyv314dd1a8
+14635286,|||,und,,"London : T. Cadell, 1786.","London : T. Cadell, 1786.",T. Cadell,Named publisher or ambiguous,London,Likely clean single place,Q84,,1786,Exact,1786,lsidyv3a57f908
+14635311,|||,und,,"London : The Author, 1817.","London : The Author, 1817.",The Author,Author/self-publication statement,London,Likely clean single place,Q84,,1817,Exact,1817,lsidyv3a25152e
+14635323,|||,und,,"Lincoln : Keyworth & Sons, [1896.].","Lincoln : Keyworth & Sons, [1896.].",Keyworth & Sons,Named publisher or ambiguous,Lincoln,Likely clean single place,,,1896,Supplied,1896,lsidyv3a588cf1
+14635331,|||,und,,"London : The Author, [1802.].","London : The Author, [1802.].",The Author,Author/self-publication statement,London,Likely clean single place,Q84,,1802,Supplied,1802,lsidyv39e7297a
+14635332,|||,und,,"[41]. London, 1773.","[41]. London, 1773.",,Missing,41]. London,Likely clean single place,,,1773,Exact,1773,lsidyv3a5378de
+14635333,|||,und,,"London : Appleyards, [1808.].","London : Appleyards, [1808.].",Appleyards,Named publisher or ambiguous,London,Likely clean single place,Q84,,1808,Supplied,1808,lsidyv306fb8b2
+14635334,|||,und,,"London : Barker & Son, 1807.","London : Barker & Son, 1807.",Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1807,Exact,1807,lsidyv3143f959
+14635357,|||,und,,"W. Strahan, etc. : London, 1774.","W. Strahan, etc. : London, 1774.",London,Named publisher or ambiguous,"W. Strahan, etc.",Review: comma-separated,,,1774,Exact,1774,lsidyv314c3262
+14635361,|||,und,,"London, 1872.","London, 1872.",,Missing,London,Likely clean single place,Q84,,1872,Exact,1872,lsidyv39f53140
+14635365,|||,und,,"London : Chiswick Press, 1818.","London : Chiswick Press, 1818.",Chiswick Press,Named publisher or ambiguous,London,Likely clean single place,Q84,,1818,Exact,1818,lsidyv31612a2f
+14635376,|||,und,,"London, [1750?]","London, [1750?]",,Missing,London,Likely clean single place,Q84,,1750,Uncertain,1750,lsidyv314c9fbc
+14635377,|||,und,,"London, [1857.]","London, [1857.]",,Missing,London,Likely clean single place,Q84,,1857,Supplied,1857,lsidyv39f25e10
+14635392,|||,und,,"London, 1811.","London, 1811.",,Missing,London,Likely clean single place,Q84,,1811,Exact,1811,lsidyv307d9706
+14635404,|||,und,,"London, [1808?]","London, [1808?]",,Missing,London,Likely clean single place,Q84,,1808,Uncertain,1808,lsidyv30709ab3
+14635429,|||,und,,"London, 1785.","London, 1785.",,Missing,London,Likely clean single place,Q84,,1785,Exact,1785,lsidyv308faca3
+14635444,|||,und,,"London, 1788.","London, 1788.",,Missing,London,Likely clean single place,Q84,,1788,Exact,1788,lsidyv31ab110a
+14635458,|||,und,,"[London?], 1834.","[London?], 1834.",,Missing,London?],Likely clean single place,,,1834,Exact,1834,lsidyv2aeefde2
+14635476,|||,und,,"London, 1807.","London, 1807.",,Missing,London,Likely clean single place,Q84,,1807,Exact,1807,lsidyv306c2b39
+14635479,|||,und,,"London, 1748.","London, 1748.",,Missing,London,Likely clean single place,Q84,,1748,Exact,1748,lsidyv307c250a
+14635502,|||,und,,"London, 1780.","London, 1780.",,Missing,London,Likely clean single place,Q84,,1780,Exact,1780,lsidyv315c5068
+14635510,|||,und,,"London : J. Newbery, 1751.","London : J. Newbery, 1751.",J. Newbery,Named publisher or ambiguous,London,Likely clean single place,Q84,,1751,Exact,1751,lsidyv2aef3100
+14635522,|||,und,,"London, [1860.]","London, [1860.]",,Missing,London,Likely clean single place,Q84,,1860,Supplied,1860,lsidyv39f385ea
+14635541,|||,und,,"[Edinburgh, 1866.]","[Edinburgh, 1866.]",,Missing,Edinburgh,Likely clean single place,Q23436,,1866,Exact,1866,lsidyv2af05080
+14635547,|||,und,,"London, 1776.","London, 1776.",,Missing,London,Likely clean single place,Q84,,1776,Exact,1776,lsidyv307b6e2e
+14635549,|||,und,,"London, 1781.","London, 1781.",,Missing,London,Likely clean single place,Q84,,1781,Exact,1781,lsidyv31b15b09
+14635561,|||,und,,"Leeds : Nutt & Co., [1896.].","Leeds : Nutt & Co., [1896.].",Nutt & Co.,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1896,Supplied,1896,lsidyv2af0bd3e
+14643313,|||,und,,"London : Longmans & Co., 1887.","London : Longmans & Co., 1887.",Longmans & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1887,Exact,1887,lsidyv3a9e3dd4
+14643323,|||,und,,"London : Jonas Brown, 1716.","London : Jonas Brown, 1716.",Jonas Brown,Named publisher or ambiguous,London,Likely clean single place,Q84,,1716,Exact,1716,lsidyv3a925fef
+14643355,|||,und,,"[London : W. B. Ford, 1857.].","[London : W. B. Ford, 1857.].",W. B. Ford,Named publisher or ambiguous,London,Likely clean single place,Q84,,1857,Exact,1857,lsidyv3a8ad7e6
+14643381,|||,und,,"[London, 1878.]","[London, 1878.]",,Missing,London,Likely clean single place,Q84,,1878,Exact,1878,lsidyv3abf106e
+14643402,|||,und,,"[H. B. Gates: Stanstead, Quebec, 1898.]","[H. B. Gates : Stanstead, Quebec, 1898.]","Stanstead, Quebec",Named publisher or ambiguous,H. B. Gates,Likely clean single place,,,1898,Exact,1898,lsidyv3a99d31a
+14643420,|||,und,,"London; Nuremberg printed : E. Nister, [1894.].","London; Nuremberg printed : E. Nister, [1894.].",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1894,Supplied,1894,lsidyv3a98b79a
+14643437,|||,und,,"[London : J. Brettell, 1810?].","[London : J. Brettell, 1810?].",J. Brettell,Named publisher or ambiguous,London,Likely clean single place,Q84,,1810,Uncertain,1810,lsidyv3a99033a
+14643438,|||,und,,"London : Masters & Co., 1883.","London : Masters & Co., 1883.",Masters & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1883,Exact,1883,lsidyv3a99b4c1
+14643445,|||,und,,"London; Nuremberg printed : E. Nister, [1894.].","London; Nuremberg printed : E. Nister, [1894.].",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1894,Supplied,1894,lsidyv3a98b701
+14643447,|||,und,,"[London?] : Privately printed, 1819.","[London?] : Privately printed, 1819.",Privately printed,Printer statement,London?],Likely clean single place,,,1819,Exact,1819,lsidyv3a8acc82
+14643449,|||,und,,"London, 1847.","London, 1847.",,Missing,London,Likely clean single place,Q84,,1847,Exact,1847,lsidyv3abefb91
+14643461,|||,und,,"London : Novello & Co., [1885.].","London : Novello & Co., [1885.].",Novello & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Supplied,1885,lsidyv3a9748ac
+14643526,|||,und,,"London, 1810.","London, 1810.",,Missing,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv3a8c5741
+14643530,|||,und,,"London, 1750.","London, 1750.",,Missing,London,Likely clean single place,Q84,,1750,Exact,1750,lsidyv3a9fdf89
+14643545,|||,und,,"[London] : J. Roberts, 1732.","[London] : J. Roberts, 1732.",J. Roberts,Named publisher or ambiguous,London,Likely clean single place,Q84,,1732,Exact,1732,lsidyv3abe4eaf
+14643613,enk,eng,,"The Author : London, [1804].","The Author : London, [1804].",London,Named publisher or ambiguous,The Author,Likely clean single place,,,1804,Supplied,1804,lsidyv3a97694c
+14643614,|||,und,,"London; Nuremberg printed : E. Nister, [1894.].","London; Nuremberg printed : E. Nister, [1894.].",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1894,Supplied,1894,lsidyv3a98bb93
+14643624,|||,und,,"London, 1770.","London, 1770.",,Missing,London,Likely clean single place,Q84,,1770,Exact,1770,lsidyv3a9a2395
+14750936,|||,eng,,"London, 1818.","London, 1818.",,Missing,London,Likely clean single place,Q84,,1818,Exact,1818,lsidyv306bd8b5
+14750948,|||,eng,,"London : Woodford, Fawcett & Co., [1889]","London : Woodford, Fawcett & Co., [1889]","Woodford, Fawcett & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Supplied,1889,lsidyv30794b2a
+14756181,|||,eng,,"Bayonne, 1836.","Bayonne, 1836.",,Missing,Bayonne,Likely clean single place,,,1836,Exact,1836,lsidyv3bfa0620
+14756366,|||,eng,,"London : W. Fawcett & Co., [1891.].","London : W. Fawcett & Co., [1891.].",W. Fawcett & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Supplied,1891,lsidyv3c0f3b42
+14767507,|||,eng,,"Leeds : [The Author], 1868.","Leeds : [The Author], 1868.",The Author,Author/self-publication statement,Leeds,Likely clean single place,Q39121,,1868,Exact,1868,lsidyv3c3a9e34
+14767549,|||,eng,,"Richmond : R. A. Darnill, 1890.","Richmond : R. A. Darnill, 1890.",R. A. Darnill,Named publisher or ambiguous,Richmond,Likely clean single place,,,1890,Exact,1890,lsidyv3c36d333
+14767670,|||,eng,,"Norwich : R. Lane, [1818]","Norwich : R. Lane, [1818]",R. Lane,Named publisher or ambiguous,Norwich,Likely clean single place,,,1818,Supplied,1818,lsidyv3c25c519
+14767697,|||,eng,,"Doncaster : Printed for the Author, 1856.","Doncaster : Printed for the Author, 1856.",Printed for the Author,Printer statement,Doncaster,Likely clean single place,,,1856,Exact,1856,lsidyv3c3d4804
+14767892,|||,eng,,"Leeds : Hobson and Smiles, 1841.","Leeds : Hobson and Smiles, 1841.",Hobson and Smiles,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1841,Exact,1841,lsidyv3c347a87
+14768095,|||,eng,,"London : Manning & Mason, 1838.","London : Manning & Mason, 1838.",Manning & Mason,Named publisher or ambiguous,London,Likely clean single place,Q84,,1838,Exact,1838,lsidyv3c38c2dc
+14768173,|||,eng,,"London, 1863.","London, 1863.",,Missing,London,Likely clean single place,Q84,,1863,Exact,1863,lsidyv3c2ef36e
+14768208,|||,eng,,"London : Printed by J. E. Adlard, 1855.","London : Printed by J. E. Adlard, 1855.",Printed by J. E. Adlard,Printer statement,London,Likely clean single place,Q84,,1855,Exact,1855,lsidyv3c3d47b3
+14774021,|||,und,,"London : T. Cadell, 1788.","London : T. Cadell, 1788.",T. Cadell,Named publisher or ambiguous,London,Likely clean single place,Q84,,1788,Exact,1788,lsidyv3a57fa3d
+14774056,|||,und,,"London, 1829.","London, 1829.",,Missing,London,Likely clean single place,Q84,,1829,Exact,1829,lsidyv338ff16e
+14774076,|||,und,,"London : Chappell & Co., [1893.].","London : Chappell & Co., [1893.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv34ebc7a3
+14774077,|||,und,,"London : Chappell & Co., [1888.].","London : Chappell & Co., [1888.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Supplied,1888,lsidyv34ebbbaf
+14774126,|||,und,,"London, 1733.","London, 1733.",,Missing,London,Likely clean single place,Q84,,1733,Exact,1733,lsidyv3a8ada05
+14774175,|||,und,,"London, 1814.","London, 1814.",,Missing,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv34ec2911
+14774179,|||,und,,"Boston [Mass.] : O. Ditson, 1844.","Boston [Mass.] : O. Ditson, 1844.",O. Ditson,Named publisher or ambiguous,Boston [Mass.],Likely clean single place,,,1844,Exact,1844,lsidyv346a2fb0
+14774185,|||,und,,"pp. 121. William Briggs: Toronto, 1900.","pp. 121. William Briggs : Toronto, 1900.",Toronto,Named publisher or ambiguous,pp. 121. William Briggs,Likely clean single place,,,1900,Exact,1900,lsidyv3479430b
+14774212,|||,und,,"Dublin : Powderly & Co., 1893.","Dublin : Powderly & Co., 1893.",Powderly & Co.,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1893,Exact,1893,lsidyv318fce68
+14774230,|||,und,,"Dublin : Swan & Co., 1892.","Dublin : Swan & Co., 1892.",Swan & Co.,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1892,Exact,1892,lsidyv32c9313e
+14774236,|||,eng,,"London : T. F. Unwin, 1894.","London : T. F. Unwin, 1894.",T. F. Unwin,Named publisher or ambiguous,London,Likely clean single place,Q84,,1894,Exact,1894,lsidyv3bf95ee4
+14803665,|||,und,,"Leeds : R. Jackson, 1896.","Leeds : R. Jackson, 1896.",R. Jackson,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1896,Exact,1896,lsidyv306bd689
+14803824,|||,und,,"Bombay, 1884.","Bombay, 1884.",,Missing,Bombay,Likely clean single place,,,1884,Exact,1884,lsidyv3abf4382 -- lsidyv34eca94e
+14803841,|||,und,,"Newcastle-upon-Tyne : T. & G. Allan, 1891.","Newcastle-upon-Tyne : T. & G. Allan, 1891.",T. & G. Allan,Named publisher or ambiguous,Newcastle-upon-Tyne,Likely clean single place,,,1891,Exact,1891,lsidyv2aef84f2
+14803842,|||,und,,"Sunderland : Hills & Co., 1890.","Sunderland : Hills & Co., 1890.",Hills & Co.,Named publisher or ambiguous,Sunderland,Likely clean single place,,,1890,Exact,1890,lsidyv3475a673
+14803916,|||,eng,,"[Glasgow : Leisler, Bock & Co., 1893]","[Glasgow : Leisler, Bock & Co., 1893]","Leisler, Bock & Co.",Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1893,Exact,1893,lsidyv3cc3b642
+14803920,|||,ita,,"Milano, [1868-1880?]","Milano, [1868-1880?]",,Missing,"Milano, [1868-",Review: comma-separated,,1880,1868,Uncertain,1880,lsidyv3dbf116e -- lsidyv3dc6d49b -- lsidyv36077a53 -- lsidyv3e71f253 -- lsidyv3dbc44ff -- lsidyv3dbc2dc8 -- lsidyv3639c085 -- lsidyv3dbc6468 -- lsidyv363fdc97 -- lsidyv363fed95
+14803936,|||,eng,,"Philadelphia : Carey, Lea & Blanchard, 1838.","Philadelphia : Carey, Lea & Blanchard, 1838.","Carey, Lea & Blanchard",Named publisher or ambiguous,Philadelphia,Likely clean single place,,,1838,Exact,1838,lsidyv3bf37f4c -- lsidyv3bf385dc
+14803946,|||,eng,,"London : Henry Colburn, 1828.","London : Henry Colburn, 1828.",Henry Colburn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1828,Exact,1828,lsidyv38f9ad5c
+14804039,|||,eng,,"Selkirk : J. Lewis, 1894.","Selkirk : J. Lewis, 1894.",J. Lewis,Named publisher or ambiguous,Selkirk,Likely clean single place,,,1894,Exact,1894,lsidyv3c40a3cf
+14804045,|||,und,,"London : D. Nutt, 1899.","London : D. Nutt, 1899.",D. Nutt,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv34fa147f
+14804149,|||,und,,"London : J. M. Dent & Co., 1896.","London : J. M. Dent & Co., 1896.",J. M. Dent & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv3479ca23
+14804221,|||,und,,"New York, London : Funk & Wagnalls, 1885.","New York, London : Funk & Wagnalls, 1885.",Funk & Wagnalls,Named publisher or ambiguous,London & New York,Multiple places,,,1885,Exact,1885,lsidyv32cc15c6
+14804222,|||,und,,"London : H. E. Jerrard, 1885.","London : H. E. Jerrard, 1885.",H. E. Jerrard,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv3499364c
+14804298,|||,und,,"pp. xii. 199. Elliot Stock: London, 1899.","pp. xii. 199. Elliot Stock : London, 1899.",London,Named publisher or ambiguous,pp. xii. 199. Elliot Stock,Likely clean single place,,,1899,Exact,1899,lsidyv395c8744
+14804396,|||,und,,"London : C. F. Hodgson, [1858.].","London : C. F. Hodgson, [1858.].",C. F. Hodgson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1858,Supplied,1858,lsidyv3472089d
+14804435,|||,und,,"London : David Bogue, 1881.","London : David Bogue, 1881.",David Bogue,Named publisher or ambiguous,London,Likely clean single place,Q84,,1881,Exact,1881,lsidyv3a98f09a
+14804644,|||,und,,"London; Andrews & Co. Durham : S. Tinsley & Co., 1879.","London; Andrews & Co. Durham : S. Tinsley & Co., 1879.",S. Tinsley & Co.,Named publisher or ambiguous,London; Andrews & Co. Durham,Multiple places,,,1879,Exact,1879,lsidyv349bb1a4
+14804808,|||,und,,"pp. vi. 108. A. Constable & Co.: London, 1898.","pp. vi. 108. A. Constable & Co. : London, 1898.",London,Named publisher or ambiguous,pp. vi. 108. A. Constable & Co.,Multiple places,,,1898,Exact,1898,lsidyv3477a04b
+14804980,|||,eng,,"London : Henry Colburn, 1843.","London : Henry Colburn, 1843.",Henry Colburn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1843,Exact,1843,lsidyv3e610def
+14805021,|||,und,,"pp. xi. 139. Oliphant, Anderson & Ferrier: Edinburgh & London, 1899.","pp. xi. 139. Oliphant, Anderson & Ferrier : Edinburgh & London, 1899.",Edinburgh & London,Named publisher or ambiguous,"pp. xi. 139. Oliphant, Anderson & Ferrier",Multiple places,,,1899,Exact,1899,lsidyv39452522
+14805022,|||,und,,"London : Bell & Daldy, 1867.","London : Bell & Daldy, 1867.",Bell & Daldy,Named publisher or ambiguous,London,Likely clean single place,Q84,,1867,Exact,1867,lsidyv3a99067c
+14805062,|||,eng,,"London : John Murray, 1822.","London : John Murray, 1822.",John Murray,Named publisher or ambiguous,London,Likely clean single place,Q84,,1822,Exact,1822,lsidyv3c5fb303 -- lsidyv3c5fdda5
+14805090,|||,und,,"London : E. W. Allen, [1873.].","London : E. W. Allen, [1873.].",E. W. Allen,Named publisher or ambiguous,London,Likely clean single place,Q84,,1873,Supplied,1873,lsidyv3b456193
+14805094,|||,und,,"Glasgow : W. R. M'Phun, 1831.","Glasgow : W. R. M'Phun, 1831.",W. R. M'Phun,Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1831,Exact,1831,lsidyv346c5fe6
+14805111,|||,und,,"pp. vii. 99. Digby & Long: London, [1897.]","pp. vii. 99. Digby & Long : London, [1897.]",London,Named publisher or ambiguous,pp. vii. 99. Digby & Long,Multiple places,,,1897,Supplied,1897,lsidyv352bfa8e
+14805125,|||,eng,,"London : Henry Colburn, 1845.","London : Henry Colburn, 1845.",Henry Colburn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1845,Exact,1845,lsidyv3cdeef6a
+14805130,|||,eng,,"Delhi : R. Williams, 1863.","Delhi : R. Williams, 1863.",R. Williams,Named publisher or ambiguous,Delhi,Likely clean single place,,,1863,Exact,1863,lsidyv3ca5b6d1
+14805222,|||,und,,"London : Trübner & Co., 1877.","London : Trübner & Co., 1877.",Trübner & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1877,Exact,1877,lsidyv3479e530
+14805225,|||,und,,"London : Edward Lathbury, 1724.","London : Edward Lathbury, 1724.",Edward Lathbury,Named publisher or ambiguous,London,Likely clean single place,Q84,,1724,Exact,1724,lsidyv3abe36e8
+14805406,|||,und,,"London : A. Bettesworth; James MackEuen, 1722.","London : A. Bettesworth; James MackEuen, 1722.",A. Bettesworth; James MackEuen,Named publisher or ambiguous,London,Likely clean single place,Q84,,1722,Exact,1722,lsidyv33941032
+14805428,|||,und,,"pp. x. 429. John Murray: London, 1894.","pp. x. 429. John Murray : London, 1894.",London,Named publisher or ambiguous,pp. x. 429. John Murray,Likely clean single place,,,1894,Exact,1894,lsidyv34950cfd
+14805479,|||,und,,"London : J. Tuck & Co., 1867.","London : J. Tuck & Co., 1867.",J. Tuck & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1867,Exact,1867,lsidyv349b978e
+14805503,|||,und,,"pp. vii. 147. Chatto & Windus: London, 1895.","pp. vii. 147. Chatto & Windus : London, 1895.",London,Named publisher or ambiguous,pp. vii. 147. Chatto & Windus,Multiple places,,,1895,Exact,1895,lsidyv34774ebd
+14805504,|||,und,,"pp. x. 147. Chatto & Windus: London, 1896 [1895].","pp. x. 147. Chatto & Windus : London, 1896 [1895].",London,Named publisher or ambiguous,pp. x. 147. Chatto & Windus,Multiple places,,,1896,Supplied,1895,lsidyv34776844
+14805559,|||,eng,,"London : Baillière & Co., 1881.","London : Baillière & Co., 1881.",Baillière & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1881,Exact,1881,lsidyv3ca649bf
+14805610,|||,und,,"London; printed in Germany : H. J. Drane, [1888.].","London; printed in Germany : H. J. Drane, [1888.].",H. J. Drane,Named publisher or ambiguous,London; in Germany,Multiple places,,,1888,Supplied,1888,lsidyv3472ea5d
+14805711,|||,und,,"London : Chatto & Windus, 1896.","London : Chatto & Windus, 1896.",Chatto & Windus,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv3a4a638a
+14805862,|||,und,,"London : J. Murray, 1808.","London : J. Murray, 1808.",J. Murray,Named publisher or ambiguous,London,Likely clean single place,Q84,,1808,Exact,1808,lsidyv3a57f437
+14805994,|||,und,,"London : T. Fisher Unwin, 1897.","London : T. Fisher Unwin, 1897.",T. Fisher Unwin,Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv30316d1e
+14806095,|||,und,,"London : John Cawthorn, 1814.","London : John Cawthorn, 1814.",John Cawthorn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv34ebdcfe
+14806149,|||,und,,"Philadelphia : E. H. Butler & Co., 1853.","Philadelphia : E. H. Butler & Co., 1853.",E. H. Butler & Co.,Named publisher or ambiguous,Philadelphia,Likely clean single place,,,1853,Exact,1853,lsidyv3a58ec2a
+14806158,|||,und,,"London : Simpkin, Marshall & Co.; Pewtress & Co., 1876.","London : Simpkin, Marshall & Co.; Pewtress & Co., 1876.","Simpkin, Marshall & Co.; Pewtress & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1876,Exact,1876,lsidyv34747656
+14806293,|||,und,,"London : Privately printed, 1889.","London : Privately printed, 1889.",Privately printed,Printer statement,London,Likely clean single place,Q84,,1889,Exact,1889,lsidyv345e6cf2
+14806399,|||,und,,"London : Boosey & Co., [1895.].","London : Boosey & Co., [1895.].",Boosey & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Supplied,1895,lsidyv3984fe47
+14806421,|||,und,,"Glasgow : 29. William Mackenzie, [1866.].","Glasgow : 29. William Mackenzie, [1866.].",William Mackenzie,Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1866,Supplied,1866,lsidyv2af1a665
+14806534,|||,und,,"London : Printed by the Composer, 1887.","London : Printed by the Composer, 1887.",Printed by the Composer,Printer statement,London,Likely clean single place,Q84,,1887,Exact,1887,lsidyv345fe3e2
+14806546,|||,und,,"pp. 112. Roxburghe Press: London, 1895.","pp. 112. Roxburghe Press : London, 1895.",London,Named publisher or ambiguous,pp. 112. Roxburghe Press,Likely clean single place,,,1895,Exact,1895,lsidyv34941b33 -- lsidyv352befb7
+14806755,|||,eng,,"New York ; London : Scientific Publishing Co., 1896.","New York; London : Scientific Publishing Co., 1896.",Scientific Publishing Co.,Named publisher or ambiguous,London & New York,Multiple places,,,1896,Exact,1896,lsidyv3cc4da96
+14806958,|||,und,,"Calcutta : iii. D’Rozario & Co., 1855.","Calcutta : iii. D’Rozario & Co., 1855.",iii. D’Rozario & Co.,Named publisher or ambiguous,Calcutta,Likely clean single place,,,1855,Exact,1855,lsidyv3471c629
+14807010,|||,eng,,"London : John Murray, 1856.","London : John Murray, 1856.",John Murray,Named publisher or ambiguous,London,Likely clean single place,Q84,,1856,Exact,1856,lsidyv3c6dd420
+14807105,|||,und,,"London : T. Bosworth, 1875.","London : T. Bosworth, 1875.",T. Bosworth,Named publisher or ambiguous,London,Likely clean single place,Q84,,1875,Exact,1875,lsidyv3479da57
+14807192,|||,und,,"London : Richard Phillips, 1807.","London : Richard Phillips, 1807.",Richard Phillips,Named publisher or ambiguous,London,Likely clean single place,Q84,,1807,Exact,1807,lsidyv34939ca9
+14807197,|||,und,,"London : Richard Phillips, 1806.","London : Richard Phillips, 1806.",Richard Phillips,Named publisher or ambiguous,London,Likely clean single place,Q84,,1806,Exact,1806,lsidyv3493950e
+14807213,|||,und,,"pp. viii. 134. Elliot Stock: London, 1899.","pp. viii. 134. Elliot Stock : London, 1899.",London,Named publisher or ambiguous,pp. viii. 134. Elliot Stock,Likely clean single place,,,1899,Exact,1899,lsidyv394528eb
+14807242,|||,und,,"London; Nuremberg [printed] : Ernest Nister, [1889.].","London; Nuremberg [printed] : Ernest Nister, [1889.].",Ernest Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1889,Supplied,1889,lsidyv347585ba
+14807317,|||,und,,"London : Gilbert & Rivington, [1876.].","London : Gilbert & Rivington, [1876.].",Gilbert & Rivington,Named publisher or ambiguous,London,Likely clean single place,Q84,,1876,Supplied,1876,lsidyv39db3291
+14807323,|||,eng,,"London : The Author, 1853.","London : The Author, 1853.",The Author,Author/self-publication statement,London,Likely clean single place,Q84,,1853,Exact,1853,lsidyv3c5905fd
+14807330,|||,und,,"Crawford & M'Cabe, printers : Edinburgh, [1878].","Crawford & M'Cabe, printers : Edinburgh, [1878].",Crawford & M'Cabe,Printer statement,Edinburgh,Review: imprint statement,,,1878,Supplied,1878,lsidyv349b6af8
+14807397,|||,und,,"pp. xv. 323. Skeffington & Son: London, 1896.","pp. xv. 323. Skeffington & Son : London, 1896.",London,Named publisher or ambiguous,pp. xv. 323. Skeffington & Son,Multiple places,,,1896,Exact,1896,lsidyv3496ad06
+14807486,|||,und,,"London : Hatchards, 1876.","London : Hatchards, 1876.",Hatchards,Named publisher or ambiguous,London,Likely clean single place,Q84,,1876,Exact,1876,lsidyv34798632
+14807574,|||,und,,"[London : C. E. Morland, 1895.].","[London : C. E. Morland, 1895.].",C. E. Morland,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Exact,1895,lsidyv34ee45fd
+14807637,|||,und,,"J. Fowler Salisbury, [ca. 1780-ca.1790].","J. Fowler Salisbury, [ca. 1780-ca.1790].",,Missing,"J. Fowler Salisbury, [ca. 1780-ca.",Review: comma-separated,,,1780,Exact,1790,lsidyv3abeb554
+14807737,|||,und,,"Norwich : J. Payne, [1804?].","Norwich : J. Payne, [1804?].",J. Payne,Named publisher or ambiguous,Norwich,Likely clean single place,,,1804,Uncertain,1804,lsidyv346ae143
+14807896,|||,und,,"London : Keating & Co., 1878.","London : Keating & Co., 1878.",Keating & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1878,Exact,1878,lsidyv34279014
+14807910,|||,eng,,"Cambridge : Warwick & Co., 1842-1908.","Cambridge : Warwick & Co., 1842-1908.",Warwick & Co.,Named publisher or ambiguous,Cambridge,Likely clean single place,,1908,1842,Exact,1908,lsidyv3c1670b0 -- lsidyv3bdb941a -- lsidyv3c167c7d -- lsidyv3bdba8af
+14807922,|||,eng,,"London : Richard Bentley, 1837.","London : Richard Bentley, 1837.",Richard Bentley,Named publisher or ambiguous,London,Likely clean single place,Q84,,1837,Exact,1837,lsidyv3e6cbca6
+14807923,|||,eng,,"Paris : A. & W. Galignani & Co., 1837.","Paris : A. & W. Galignani & Co., 1837.",A. & W. Galignani & Co.,Named publisher or ambiguous,Paris,Likely clean single place,,,1837,Exact,1837,lsidyv3bd76f48
+14807941,|||,und,,"Philadelphia : E. H. Butler & Co., 1866.","Philadelphia : E. H. Butler & Co., 1866.",E. H. Butler & Co.,Named publisher or ambiguous,Philadelphia,Likely clean single place,,,1866,Exact,1866,lsidyv3a98ddf2
+14808006,|||,und,,"Belfast : D. & J. Allen, 1879.","Belfast : D. & J. Allen, 1879.",D. & J. Allen,Named publisher or ambiguous,Belfast,Likely clean single place,,,1879,Exact,1879,lsidyv347a2975
+14808018,|||,und,,"London : Published for the Author by Taylor & Hessey, 1825.","London : Published for the Author by Taylor & Hessey, 1825.",Published for the Author by Taylor & Hessey,Publisher statement,London,Likely clean single place,Q84,,1825,Exact,1825,lsidyv3458a1b2
+14808179,|||,eng,,"Edinburgh : John Johnstone, 1830.","Edinburgh : John Johnstone, 1830.",John Johnstone,Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1830,Exact,1830,lsidyv2afc3e7d
+14808296,|||,und,,"London : Ward & Downey, 1885.","London : Ward & Downey, 1885.",Ward & Downey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv3960b32b
+14808314,|||,und,,"London : 2. T. Cadell & W. Davies, 1810.","London : 2. T. Cadell & W. Davies, 1810.",T. Cadell & W. Davies,Named publisher or ambiguous,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv346bd8f7
+14808315,|||,und,,"London : T. Cadell & W. Davies, 1810.","London : T. Cadell & W. Davies, 1810.",T. Cadell & W. Davies,Named publisher or ambiguous,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv341f978a -- lsidyv33518bf5
+14808457,|||,und,,"London : Printed for the Author, 1813.","London : Printed for the Author, 1813.",Printed for the Author,Printer statement,London,Likely clean single place,Q84,,1813,Exact,1813,lsidyv34727c1e
+14808591,|||,eng,,"New York : John Wiley & Sons, 1877.","New York : John Wiley & Sons, 1877.",John Wiley & Sons,Named publisher or ambiguous,New York,Likely clean single place,,,1877,Exact,1877,lsidyv3cdc032d
+14808592,|||,eng,,"New York : John Wiley & Sons ; London : Chapman & Hall, 1898.","New York : John Wiley & Sons; London : Chapman & Hall, 1898.",John Wiley & Sons; London : Chapman & Hall,Named publisher or ambiguous,New York,Likely clean single place,,,1898,Exact,1898,lsidyv3cc4e4fb
+14808602,|||,und,,"London : Chappell & Co., [1891.].","London : Chappell & Co., [1891.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Supplied,1891,lsidyv34ebbdf5
+14808847,|||,und,,"London; Nuremberg printed : Ernest Nister, [1888.].","London; Nuremberg printed : Ernest Nister, [1888.].",Ernest Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1888,Supplied,1888,lsidyv34757ecd
+14808904,|||,und,,"London : J. Nutt, 1704.","London : J. Nutt, 1704.",J. Nutt,Named publisher or ambiguous,London,Likely clean single place,Q84,,1704,Exact,1704,lsidyv314c51ab
+14809044,|||,und,,"London : The Author, 1803.","London : The Author, 1803.",The Author,Author/self-publication statement,London,Likely clean single place,Q84,,1803,Exact,1803,lsidyv346cae54 -- lsidyv335336a0
+14809045,|||,und,,"The Proprietors of the “Illustrations of London Buildings�?London, 1826.","The Proprietors of the “Illustrations of London Buildings�?London, 1826.",,Missing,The Proprietors of the “Illustrations of London Buildings�?London,Likely clean single place,,,1826,Exact,1826,lsidyv342577d2
+14809050,|||,und,,"London : Longman, Hurst, Rees, & Orme, 1805.","London : Longman, Hurst, Rees, & Orme, 1805.","Longman, Hurst, Rees & Orme",Named publisher or ambiguous,London,Likely clean single place,Q84,,1805,Exact,1805,lsidyv3493a405
+14809056,|||,und,,"London : Harding & King, 1833.","London : Harding & King, 1833.",Harding & King,Named publisher or ambiguous,London,Likely clean single place,Q84,,1833,Exact,1833,lsidyv346c3d09
+14809057,|||,und,,"London : John Miller, 1819.","London : John Miller, 1819.",John Miller,Named publisher or ambiguous,London,Likely clean single place,Q84,,1819,Exact,1819,lsidyv34ebf1cf
+14809058,|||,und,,"London : Barker & Son, 1805.","London : Barker & Son, 1805.",Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1805,Exact,1805,lsidyv3493a75c
+14809059,|||,und,,"London : Appleyards, [1807.].","London : Appleyards, [1807.].",Appleyards,Named publisher or ambiguous,London,Likely clean single place,Q84,,1807,Supplied,1807,lsidyv309062ed
+14809139,|||,eng,,"Greenfield : Denio & Phelps, 1813.","Greenfield : Denio & Phelps, 1813.",Denio & Phelps,Named publisher or ambiguous,Greenfield,Likely clean single place,,,1813,Exact,1813,lsidyv3bb242f9
+14809167,|||,und,,"London and Sydney : Remington & Co., 1893.","London and Sydney : Remington & Co., 1893.",Remington & Co.,Named publisher or ambiguous,London and Sydney,Likely clean single place,,,1893,Exact,1893,lsidyv3470d005
+14809178,|||,und,,"London : R. S. Kirby, 1829.","London : R. S. Kirby, 1829.",R. S. Kirby,Named publisher or ambiguous,London,Likely clean single place,Q84,,1829,Exact,1829,lsidyv34ebf870
+14809179,|||,und,,"London : J. Barker, 1811.","London : J. Barker, 1811.",J. Barker,Named publisher or ambiguous,London,Likely clean single place,Q84,,1811,Exact,1811,lsidyv3091244a
+14809180,|||,und,,"London : J. Barker, 1812.","London : J. Barker, 1812.",J. Barker,Named publisher or ambiguous,London,Likely clean single place,Q84,,1812,Exact,1812,lsidyv3493ac14
+14809235,|||,ita,,"Venezia, 1826-33.","Venezia, 1826-33.",,Missing,"Venezia, 1826-33.",Review: comma-separated,,1833,1826,Exact,1826,lsidyv3dc10e1e -- lsidyv3d802e57 -- lsidyv3e718305 -- lsidyv35d285aa -- lsidyv3db1c168 -- lsidyv36294b58 -- lsidyv3dc127c5 -- lsidyv3dc13f08 -- lsidyv3dc87646 -- lsidyv3db7b61a
+14809248,|||,und,,"London : Macmillan & Co., 1894.","London : Macmillan & Co., 1894.",Macmillan & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1894,Exact,1894,lsidyv34f1d881
+14809283,|||,und,,"Arbroath : T. Buncle, [1879.].","Arbroath : T. Buncle, [1879.].",T. Buncle,Named publisher or ambiguous,Arbroath,Likely clean single place,,,1879,Supplied,1879,lsidyv3470da8a
+14809428,|||,und,,"pp. 334. G. Routledge & Sons: London, 1889 [1888].","pp. 334. G. Routledge & Sons : London, 1889 [1888].",London,Named publisher or ambiguous,pp. 334. G. Routledge & Sons,Multiple places,,,1889,Supplied,1888,lsidyv3b1f9e40
+14809481,|||,und,,1691,1691,,Missing,,Missing,,,1691,Exact,1691,lsidyv3422ce74
+14809494,|||,und,,"Henry Herringman; printed by T. N. [Thomas Newcomb] : London, 1677.","Henry Herringman; printed by T. N. [Thomas Newcomb] : London, 1677.",London,Named publisher or ambiguous,Henry Herringman; by T. N. [Thomas Newcomb],Multiple places,,,1677,Exact,1677,lsidyv34240fda
+14809495,|||,und,,"Henry Herringman; printed by J. M. : London, 1690.","Henry Herringman; printed by J. M. : London, 1690.",London,Named publisher or ambiguous,Henry Herringman; by J. M.,Multiple places,,,1690,Exact,1690,lsidyv3a584380
+14809618,|||,und,,"London, 1721.","London, 1721.",,Missing,London,Likely clean single place,Q84,,1721,Exact,1721,lsidyv338fc45f
+14809629,|||,und,,"London, Sunderland [printed], 1834.","London, Sunderland [printed], 1834.",,Missing,"London, Sunderland",Review: comma-separated,,,1834,Exact,1834,lsidyv3abea990
+14809667,|||,und,,"London, Chester [printed] : Whittaker & Co., 1840.","London, Chester [printed] : Whittaker & Co., 1840.",Whittaker & Co.,Named publisher or ambiguous,"London, Chester",Review: comma-separated,,,1840,Exact,1840,lsidyv3a263464
+14809700,|||,und,,"London, 1679.","London, 1679.",,Missing,London,Likely clean single place,Q84,,1679,Exact,1679,lsidyv3426e27f
+14809739,|||,und,,"Edinburgh : Maclachlan & Stewart, 1886.","Edinburgh : Maclachlan & Stewart, 1886.",Maclachlan & Stewart,Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1886,Exact,1886,lsidyv3a98bc2c
+14809833,|||,und,,"London, [1789.]","London, [1789.]",,Missing,London,Likely clean single place,Q84,,1789,Supplied,1789,lsidyv396717f1
+14809835,|||,und,,"London, 1819.","London, 1819.",,Missing,London,Likely clean single place,Q84,,1819,Exact,1819,lsidyv338d882c
+14809943,|||,und,,"London : Sonnenschein & Co., 1893.","London : Sonnenschein & Co., 1893.",Sonnenschein & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Exact,1893,lsidyv3a6286a7
+14810115,|||,eng,,"London, 1873-79.","London, 1873-79.",,Missing,"London, 1873-79.",Review: comma-separated,,1879,1873,Exact,1873,lsidyv3cc5e024 -- lsidyv3cbfe351
+14810215,|||,und,,"Hawick : R. Armstrong, 1811.","Hawick : R. Armstrong, 1811.",R. Armstrong,Named publisher or ambiguous,Hawick,Likely clean single place,,,1811,Exact,1811,lsidyv34610ead
+14810252,|||,und,,"London : E. Stock, 1897.","London : E. Stock, 1897.",E. Stock,Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv3495668b
+14810264,|||,eng,,"Exeter : W. Pollard, 1884.","Exeter : W. Pollard, 1884.",W. Pollard,Named publisher or ambiguous,Exeter,Likely clean single place,,,1884,Exact,1884,lsidyv3c22b64c
+14810389,|||,und,,"[London] : Privately printed, 1896.","[London] : Privately printed, 1896.",Privately printed,Printer statement,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv338d19c5
+14810393,|||,und,,"London, 1878.","London, 1878.",,Missing,London,Likely clean single place,Q84,,1878,Exact,1878,lsidyv31a1ff6a
+14810583,|||,und,,"pp. 229. G. N. Morang & Company: Toronto, 1900.","pp. 229. G. N. Morang & Company : Toronto, 1900.",Toronto,Named publisher or ambiguous,pp. 229. G. N. Morang & Company,Multiple places,,,1900,Exact,1900,lsidyv34791dd7
+14810744,enk,eng,,"London, 1832.","London, 1832.",,Missing,London,Likely clean single place,Q84,,1832,Exact,1832,lsidyv349b376a
+14810781,|||,eng,,"London, 1848.","London, 1848.",,Missing,London,Likely clean single place,Q84,,1848,Exact,1848,lsidyv306fcd7e
+14810897,|||,und,,"pp. xi. 124. Skeffington & Son: London, 1900.","pp. xi. 124. Skeffington & Son : London, 1900.",London,Named publisher or ambiguous,pp. xi. 124. Skeffington & Son,Multiple places,,,1900,Exact,1900,lsidyv31469ca6
+14810980,|||,und,,"London, 1874.","London, 1874.",,Missing,London,Likely clean single place,Q84,,1874,Exact,1874,lsidyv3491b67b
+14810996,|||,und,,"pp. 304. A. Gardner: Paisley, 1895.","pp. 304. A. Gardner : Paisley, 1895.",Paisley,Named publisher or ambiguous,pp. 304. A. Gardner,Likely clean single place,,,1895,Exact,1895,lsidyv3496d7f3
+14811038,|||,und,,"Bruges, 1845.","Bruges, 1845.",,Missing,Bruges,Likely clean single place,,,1845,Exact,1845,lsidyv34203e47 -- lsidyv3384227e
+14811063,|||,und,,"George Routledge & Sons : London & New York, 1874.","George Routledge & Sons : London & New York, 1874.",London & New York,Named publisher or ambiguous,George Routledge & Sons,Multiple places,,,1874,Exact,1874,lsidyv39448d0a
+14811297,|||,und,,"Edinburgh and London : W. Blackwood & Sons, 1894.","Edinburgh and London : W. Blackwood & Sons, 1894.",W. Blackwood & Sons,Named publisher or ambiguous,Edinburgh and London,Likely clean single place,,,1894,Exact,1894,lsidyv3495c60d
+14811359,|||,und,,"pp. viii. 110. Constable & Co.: London, 1896.","pp. viii. 110. Constable & Co. : London, 1896.",London,Named publisher or ambiguous,pp. viii. 110. Constable & Co.,Multiple places,,,1896,Exact,1896,lsidyv34955270
+14811655,|||,und,,"London : Chappell & Co.; Chatto & Windus, [1890.].","London : Chappell & Co.; Chatto & Windus, [1890.].",Chappell & Co.; Chatto & Windus,Named publisher or ambiguous,London,Likely clean single place,Q84,,1890,Supplied,1890,lsidyv34eba7b5
+14811658,|||,und,,"London & New York : George Routledge & Sons, 1898.","London & New York : George Routledge & Sons, 1898.",George Routledge & Sons,Named publisher or ambiguous,London & New York,Multiple places,,,1898,Exact,1898,lsidyv34744c8b
+14811660,|||,und,,"London : Chappell & Co., 1896.","London : Chappell & Co., 1896.",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv398616f3
+14811661,|||,und,,"London : Chappell & Co., [1894.].","London : Chappell & Co., [1894.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1894,Supplied,1894,lsidyv34ebcc6b
+14811662,|||,und,,"London : Chappell & Co., 1892.","London : Chappell & Co., 1892.",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Exact,1892,lsidyv34ebc4c1
+14811663,|||,und,,"London : George Routledge & Sons, [1890.].","London : George Routledge & Sons, [1890.].",George Routledge & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1890,Supplied,1890,lsidyv3472c3af
+14811669,|||,und,,"pp. xv. 240. Century Co.: New York, 1894.","pp. xv. 240. Century Co. : New York, 1894.",New York,Named publisher or ambiguous,pp. xv. 240. Century Co.,Likely clean single place,,,1894,Exact,1894,lsidyv3495dc7b
+14811706,|||,und,,"New York & London : F. T. Neely, 1897.","New York & London : F. T. Neely, 1897.",F. T. Neely,Named publisher or ambiguous,London & New York,Multiple places,,,1897,Exact,1897,lsidyv34712b94
+14811760,|||,und,,"pp. xi. 166. E. Arnold: London, [1899.]","pp. xi. 166. E. Arnold : London, [1899.]",London,Named publisher or ambiguous,pp. xi. 166. E. Arnold,Likely clean single place,,,1899,Supplied,1899,lsidyv3479105e
+14811771,|||,eng,,"Ipswich [printed], London, 1866.","Ipswich [printed], London, 1866.",,Missing,"Ipswich , London",Review: comma-separated,,,1866,Exact,1866,lsidyv3c44f41d
+14811870,|||,und,,"Sampson Low, Marston, Searle & Rivington : London, 1880.","Sampson Low, Marston, Searle & Rivington : London, 1880.",London,Named publisher or ambiguous,"Sampson Low, Marston, Searle & Rivington",Multiple places,,,1880,Exact,1880,lsidyv34af4034
+14811908,|||,und,,"London, [1872.]","London, [1872.]",,Missing,London,Likely clean single place,Q84,,1872,Supplied,1872,lsidyv3a9968ec
+14812060,|||,und,,"Manchester : A. Ireland & Co., 1880.","Manchester : A. Ireland & Co., 1880.",A. Ireland & Co.,Named publisher or ambiguous,Manchester,Likely clean single place,,,1880,Exact,1880,lsidyv34265128
+14812535,|||,und,,"London : Hodder & Stoughton, 1885.","London : Hodder & Stoughton, 1885.",Hodder & Stoughton,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv3aa0969a
+14812548,|||,und,,"London : Marcus Ward & Co., [1893.].","London : Marcus Ward & Co., [1893.].",Marcus Ward & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv347397d2
+14812670,|||,und,,"Brechin : -152. D. H. Edwards, 1898.","Brechin : -152. D. H. Edwards, 1898.",D. H. Edwards,Named publisher or ambiguous,Brechin,Likely clean single place,,,1898,Exact,1898,lsidyv32c3db32
+14812750,|||,eng,,"Dublin, 1812.","Dublin, 1812.",,Missing,Dublin,Likely clean single place,Q1761,,1812,Exact,1812,lsidyv3bc3a0a4
+14812758,|||,und,,"London, Edinburgh [printed], 1865.","London, Edinburgh [printed], 1865.",,Missing,"London, Edinburgh",Review: comma-separated,,,1865,Exact,1865,lsidyv34727f84
+14812761,|||,eng,,"London : Cassell & Co., 1893.","London : Cassell & Co., 1893.",Cassell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Exact,1893,lsidyv38e80292
+14812765,|||,und,,"Cork : xiii. J. Bolster, 1818.","Cork : xiii. J. Bolster, 1818.",xiii. J. Bolster,Named publisher or ambiguous,Cork,Likely clean single place,,,1818,Exact,1818,lsidyv34204f8e -- lsidyv32b85f5d
+14812776,|||,und,,"Dalbeattie; Castle-Douglas [printed] : T. Fraser, 1889.","Dalbeattie; Castle-Douglas [printed] : T. Fraser, 1889.",T. Fraser,Named publisher or ambiguous,Dalbeattie; Castle-Douglas,Multiple places,,,1889,Exact,1889,lsidyv3458179b
+14812787,|||,und,,"London, 1874.","London, 1874.",,Missing,London,Likely clean single place,Q84,,1874,Exact,1874,lsidyv3473a6bc
+14812833,|||,und,,"Office of the “Daily News�? Port-of-Spain, 1898, etc.","Office of the “Daily News�?: Port-of-Spain, 1898, etc.",Port-of-Spain,Named publisher or ambiguous,"Office of the “Daily News�?,Likely clean single place""",,,1898,Exact,1898,lsidyv3477e81b,
+14813017,|||,und,,"London : Griffith & Farran, [1891.].","London : Griffith & Farran, [1891.].",Griffith & Farran,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Supplied,1891,lsidyv3470ceac
+14813127,|||,und,,[1894.],[1894.],,Missing,,Missing,,,1894,Supplied,1894,lsidyv3087aee8
+14813134,|||,eng,,"Philadelphia, 1873.","Philadelphia, 1873.",,Missing,Philadelphia,Likely clean single place,,,1873,Exact,1873,lsidyv3ca45848
+14813263,|||,und,,"pp. xi. 136. Constable & Co.: London, 1896.","pp. xi. 136. Constable & Co. : London, 1896.",London,Named publisher or ambiguous,pp. xi. 136. Constable & Co.,Multiple places,,,1896,Exact,1896,lsidyv3496bbe1
+14813271,|||,und,,"London : J. Raworth for N. Butter, 1638.","London : J. Raworth for N. Butter, 1638.",J. Raworth for N. Butter,Named publisher or ambiguous,London,Likely clean single place,Q84,,1638,Exact,1638,lsidyv345d6488
+14813400,|||,und,,"London, 1804.","London, 1804.",,Missing,London,Likely clean single place,Q84,,1804,Exact,1804,lsidyv3493b229
+14813416,|||,und,,"Simla : “The Season�?Press, [1888.].","Simla : “The Season�?Press, [1888.].",“The Season�?Press,Named publisher or ambiguous,Simla,Likely clean single place,,,1888,Supplied,1888,lsidyv34ecb662
+14813505,|||,und,,"London, 1785.","London, 1785.",,Missing,London,Likely clean single place,Q84,,1785,Exact,1785,lsidyv306874dd
+14813619,|||,und,,"London : Longman, Brown, Green & Longmans, 1847.","London : Longman, Brown, Green & Longmans, 1847.","Longman, Brown, Green & Longmans",Named publisher or ambiguous,London,Likely clean single place,Q84,,1847,Exact,1847,lsidyv32d57465 -- lsidyv3395c0af
+14813620,enk,eng,,"London : T. Egerton and J. Johnson, 1795.","London : T. Egerton and J. Johnson, 1795.",T. Egerton and J. Johnson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1795,Exact,1795,lsidyv34586a9a
+14813621,|||,und,,"London, 1832.","London, 1832.",,Missing,London,Likely clean single place,Q84,,1832,Exact,1832,lsidyv346e697e
+14813635,|||,und,,"London, 1807.","London, 1807.",,Missing,London,Likely clean single place,Q84,,1807,Exact,1807,lsidyv314ea035
+14813640,|||,und,,"London, 1809.","London, 1809.",,Missing,London,Likely clean single place,Q84,,1809,Exact,1809,lsidyv314ec922
+14813821,|||,und,,"London, 1678.","London, 1678.",,Missing,London,Likely clean single place,Q84,,1678,Exact,1678,lsidyv345cd0c5
+14813826,|||,und,,"reprinted by E. Imprinted by R. Tottell, 1567.","reprinted by E. Imprinted by R. Tottell, 1567.",R. Tottell,Printer statement,,Review: imprint statement,,,1567,Exact,1567,lsidyv3abe65de
+14813971,|||,und,,"London : W. Smith, 1845.","London : W. Smith, 1845.",W. Smith,Named publisher or ambiguous,London,Likely clean single place,Q84,,1845,Exact,1845,lsidyv3a97be98
+14814004,|||,und,,"London : Masters & Co., 1880 [1879].","London : Masters & Co., 1880 [1879].",Masters & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1880,Supplied,1879,lsidyv34748a44
+14814050,|||,eng,,"Calcutta : Office of the Superintendent of Govt. Printing, 1871.","Calcutta : Office of the Superintendent of Govt. Printing, 1871.",Office of the Superintendent of Govt. Printing,Named publisher or ambiguous,Calcutta,Likely clean single place,,,1871,Exact,1871,lsidyv38fffbed
+14814204,|||,und,,"London, 1834.","London, 1834.",,Missing,London,Likely clean single place,Q84,,1834,Exact,1834,lsidyv34275189
+14814311,|||,eng,,"London, 1863.","London, 1863.",,Missing,London,Likely clean single place,Q84,,1863,Exact,1863,lsidyv2b3b7fc0 -- lsidyv2b3b0e54
+14814352,|||,und,,"London : Passmore & Alabaster, [1884.].","London : Passmore & Alabaster, [1884.].",Passmore & Alabaster,Named publisher or ambiguous,London,Likely clean single place,Q84,,1884,Supplied,1884,lsidyv31459fef
+14814353,|||,und,,"London : Passmore & Alabaster, [1886.].","London : Passmore & Alabaster, [1886.].",Passmore & Alabaster,Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Supplied,1886,lsidyv34756d23
+14814577,|||,und,,"London : Printed, and are to be sold by J. Morphew, 1713.","London : Printed, and are to be sold by J. Morphew, 1713.","Printed, and are to be sold by J. Morphew",Printer statement,London,Likely clean single place,Q84,,1713,Exact,1713,lsidyv34587795
+14814617,|||,und,,"Londra : A spese dell’autore, 1821.","Londra : A spese dell’autore, 1821.",A spese dell’autore,Named publisher or ambiguous,Londra,Likely clean single place,,,1821,Exact,1821,lsidyv342a6003
+14814624,|||,und,,"London, [1859.]","London, [1859.]",,Missing,London,Likely clean single place,Q84,,1859,Supplied,1859,lsidyv3471f932
+14814632,|||,und,,"London, 1729.","London, 1729.",,Missing,London,Likely clean single place,Q84,,1729,Exact,1729,lsidyv3ab88961
+14814671,|||,eng,,"London, 1810.","London, 1810.",,Missing,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv30ae160c
+14814679,|||,und,,"London : Savoy Press, 1897.","London : Savoy Press, 1897.",Savoy Press,Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv347228e5
+14814754,|||,und,,"Calcutta : J. Ghose, 1881.","Calcutta : J. Ghose, 1881.",J. Ghose,Named publisher or ambiguous,Calcutta,Likely clean single place,,,1881,Exact,1881,lsidyv34750435
+14814845,|||,und,,"London : Hodder Bros., 1895.","London : Hodder Bros., 1895.",Hodder Bros.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Exact,1895,lsidyv3a52e16d
+14814859,|||,eng,,"Leeds : T. E. Bradley, 1851.","Leeds : T. E. Bradley, 1851.",T. E. Bradley,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1851,Exact,1851,lsidyv3014f623
+14814874,|||,und,,"London, [1865.]","London, [1865.]",,Missing,London,Likely clean single place,Q84,,1865,Supplied,1865,lsidyv3a991532
+14814976,|||,und,,"London, 1807.","London, 1807.",,Missing,London,Likely clean single place,Q84,,1807,Exact,1807,lsidyv3a58122d
+14815056,|||,eng,,"Oxford, 1815.","Oxford, 1815.",,Missing,Oxford,Likely clean single place,,,1815,Exact,1815,lsidyv3c80356b
+14815069,|||,und,,"London; Nuremberg [printed : E. Nister, 1890].","London; Nuremberg [printed : E. Nister, 1890].",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1890,Exact,1890,lsidyv3944950e
+14815079,|||,und,,"London; Philadelphia printed : J. B. Lippincott Co., 1896.","London; Philadelphia printed : J. B. Lippincott Co., 1896.",J. B. Lippincott Co.,Named publisher or ambiguous,London; Philadelphia,Multiple places,,,1896,Exact,1896,lsidyv3a0650ee
+14815184,|||,und,,"Bristol : J. W. Arrowsmith, [1899.].","Bristol : J. W. Arrowsmith, [1899.].",J. W. Arrowsmith,Named publisher or ambiguous,Bristol,Likely clean single place,,,1899,Supplied,1899,lsidyv39faf6e4
+14815356,|||,und,,"London : Digby, Long & Co., [1897.].","London : Digby, Long & Co., [1897.].","Digby, Long & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Supplied,1897,lsidyv39df5778
+14815385,|||,und,,"London, 1786.","London, 1786.",,Missing,London,Likely clean single place,Q84,,1786,Exact,1786,lsidyv3a52575c
+14815638,|||,und,,"pp. xv. 376. W. E. Clegg: Oldham, 1893.","pp. xv. 376. W. E. Clegg : Oldham, 1893.",Oldham,Named publisher or ambiguous,pp. xv. 376. W. E. Clegg,Likely clean single place,,,1893,Exact,1893,lsidyv352bfe15
+14815641,|||,und,,New York : Office of “The American Hebrew�? 1882.,New York : Office of “The American Hebrew�? 1882.,"Office of “The American Hebrew�?,Named publisher or ambiguous""",New York,Likely clean single place,,,1882,Exact,1882,lsidyv39f15f55,
+14815666,|||,eng,,"London ; Paris [printed], 1880.","London; Paris [printed], 1880.",,Missing,London; Paris,Multiple places,,,1880,Exact,1880,lsidyv3cb63fb0
+14815843,|||,und,,"London : Elliot Stock, 1899.","London : Elliot Stock, 1899.",Elliot Stock,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv3392aa4b
+14815884,|||,und,,"London : Chappell & Co., [1899.].","London : Chappell & Co., [1899.].",Chappell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Supplied,1899,lsidyv34ec785a
+14815889,|||,eng,,"Bradford : T. Inkersley & Co., 1829.","Bradford : T. Inkersley & Co., 1829.",T. Inkersley & Co.,Named publisher or ambiguous,Bradford,Likely clean single place,,,1829,Exact,1829,lsidyv3bd59f66
+14816175,enk,eng,,"London, Printed for Henry Brome at the Gun in Ivy-lane, and Henry Marsh at the Princes Armes in Chancery-lane. 1662. [Reprinted 1874]","London, Printed for Henry Brome at the Gun in Ivy-lane, and Henry Marsh at the Princes Armes in Chancery-lane. 1662. [Reprinted 1874]",Henry Brome; Henry Marsh,Bookseller/distributor statement,London,Review: imprint statement,,,1662,Exact,1874,lsidyv3070c6d7
+14816190,|||,und,,"London : G. Redway, 1887.","London : G. Redway, 1887.",G. Redway,Named publisher or ambiguous,London,Likely clean single place,Q84,,1887,Exact,1887,lsidyv33514a94
+14816202,|||,und,,"London : G. Kearsley, 1780.","London : G. Kearsley, 1780.",G. Kearsley,Named publisher or ambiguous,London,Likely clean single place,Q84,,1780,Exact,1780,lsidyv32c4138c
+14816207,|||,und,,"London : W. Holland, [1810?].","London : W. Holland, [1810?].",W. Holland,Named publisher or ambiguous,London,Likely clean single place,Q84,,1810,Uncertain,1810,lsidyv30661257
+14816215,|||,und,,"Dublin : Printed for the Author, 1793.","Dublin : Printed for the Author, 1793.",Printed for the Author,Printer statement,Dublin,Likely clean single place,Q1761,,1793,Exact,1793,lsidyv338c5d73
+14816229,|||,und,,"Ayr; T. G. Stevenson Edinburgh : 2 ser. Published for the Editor, 1846, 47.","Ayr; T. G. Stevenson Edinburgh : 2 ser. Published for the Editor, 1846, 47.",Published for the Editor,Publisher statement,Ayr; T. G. Stevenson Edinburgh,Multiple places,,,1846,Exact,1846,lsidyv32b5bdb7
+14816234,|||,und,,"London : Seeley, Jackson, & Halliday, 1858.","London : Seeley, Jackson, & Halliday, 1858.","Seeley, Jackson, & Halliday",Named publisher or ambiguous,London,Likely clean single place,Q84,,1858,Exact,1858,lsidyv3386c11f
+14816244,|||,und,,"London : G. Routledge & Sons, 1885 [1884].","London : G. Routledge & Sons, 1885 [1884].",G. Routledge & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Supplied,1884,lsidyv32c1f854
+14816276,|||,und,,"London : J. S. Virtue & Co., [1892.].","London : J. S. Virtue & Co., [1892.].",J. S. Virtue & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Supplied,1892,lsidyv32b6ae32
+14816283,|||,und,,"London : Hart & Co., [1885.].","London : Hart & Co., [1885.].",Hart & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Supplied,1885,lsidyv31a39bc8
+14816307,enk,eng,,"printed for Vernor & Hood; and Longman & Rees; by T. Bensley : London, 1802.","printed for Vernor & Hood; and Longman & Rees; by T. Bensley : London, 1802.",Vernor & Hood; Longman & Rees,Bookseller/distributor statement,London,Review: imprint statement,,,1802,Exact,1802,lsidyv2eb8096b
+14816318,|||,und,,"Turnham Green : The Author, 1836.","Turnham Green : The Author, 1836.",The Author,Author/self-publication statement,Turnham Green,Likely clean single place,,,1836,Exact,1836,lsidyv2eba7e03
+14816343,|||,und,,"Bristol : G. Routh, 1786.","Bristol : G. Routh, 1786.",G. Routh,Named publisher or ambiguous,Bristol,Likely clean single place,,,1786,Exact,1786,lsidyv33877ce0
+14816353,|||,und,,"Edinburgh : -215. Oliver & Boyd, 1813.","Edinburgh : -215. Oliver & Boyd, 1813.",Oliver & Boyd,Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1813,Exact,1813,lsidyv3028c843
+14816370,|||,und,,"Glasgow : William Mackenzie, [1879, 80.].","Glasgow : William Mackenzie, [1879, 80.].",William Mackenzie,Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1879,Supplied,1879,lsidyv3832f08e -- lsidyv3026795e
+14816376,|||,und,,"Edinburgh : W. P. Nimmo, Hay & Mitchell, [1893.].","Edinburgh : W. P. Nimmo, Hay & Mitchell, [1893.].","W. P. Nimmo, Hay & Mitchell",Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1893,Supplied,1893,lsidyv32b70ded
+14816378,|||,und,,"London : Methuen & Co., 1896.","London : Methuen & Co., 1896.",Methuen & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv3387287d
+14816436,|||,und,,"London : W. Flexney, 1766.","London : W. Flexney, 1766.",W. Flexney,Named publisher or ambiguous,London,Likely clean single place,Q84,,1766,Exact,1766,lsidyv2ebcc4c4
+14816472,|||,und,,"London : Edwin Benson, 1895.","London : Edwin Benson, 1895.",Edwin Benson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Exact,1895,lsidyv31720eab
+14816482,|||,und,,"London : Hopwood & Crew, [1870?].","London : Hopwood & Crew, [1870?].",Hopwood & Crew,Named publisher or ambiguous,London,Likely clean single place,Q84,,1870,Uncertain,1870,lsidyv2eb153bc
+14816503,|||,und,,"J. Bell : London, 1790.","J. Bell : London, 1790.",London,Named publisher or ambiguous,J. Bell,Likely clean single place,,,1790,Exact,1790,lsidyv32b5a92f
+14816507,|||,und,,"London, 1689.","London, 1689.",,Missing,London,Likely clean single place,Q84,,1689,Exact,1689,lsidyv2eb48038
+14816512,|||,und,,"London : G. G. J. & J. Robinson, 1792.","London : G. G. J. & J. Robinson, 1792.",G. G. J. & J. Robinson,Named publisher or ambiguous,London,Likely clean single place,Q84,,1792,Exact,1792,lsidyv3351d9ce
+14816522,|||,und,,"London : Printed for R. Dodsley; sold by M. Cooper, 1743.","London : Printed for R. Dodsley; sold by M. Cooper, 1743.",Printed for R. Dodsley; sold by M. Cooper,Printer statement,London,Likely clean single place,Q84,,1743,Exact,1743,lsidyv30a3b8bb
+14816603,|||,und,,"Derby : Privately printed, 1891.","Derby : Privately printed, 1891.",Privately printed,Printer statement,Derby,Likely clean single place,,,1891,Exact,1891,lsidyv32b5b8e6
+14816607,|||,und,,"[London, 1870.]","[London, 1870.]",,Missing,London,Likely clean single place,Q84,,1870,Exact,1870,lsidyv32b88443
+14816623,|||,und,,"London : Diprose & Bateman, [1877.].","London : Diprose & Bateman, [1877.].",Diprose & Bateman,Named publisher or ambiguous,London,Likely clean single place,Q84,,1877,Supplied,1877,lsidyv338b1cad
+14816634,|||,und,,"London : Longman, Hurst, Rees & Orme, 1805.","London : Longman, Hurst, Rees & Orme, 1805.","Longman, Hurst, Rees & Orme",Named publisher or ambiguous,London,Likely clean single place,Q84,,1805,Exact,1805,lsidyv335289ae
+14816642,|||,und,,"London, [1877.]","London, [1877.]",,Missing,London,Likely clean single place,Q84,,1877,Supplied,1877,lsidyv35c595dc -- lsidyv306fd341
+14816658,|||,und,,[1799].,[1799].,,Missing,,Missing,,,1799,Supplied,1799,lsidyv2eb15130
+14816669,|||,und,,"London, 1688.","London, 1688.",,Missing,London,Likely clean single place,Q84,,1688,Exact,1688,lsidyv33531463
+14816674,|||,und,,"Edinburgh : Privately printed, 1858.","Edinburgh : Privately printed, 1858.",Privately printed,Printer statement,Edinburgh,Likely clean single place,Q23436,,1858,Exact,1858,lsidyv30337870
+14816702,|||,und,,"New York : H. De Marsan, [1865?].","New York : H. De Marsan, [1865?].",H. De Marsan,Named publisher or ambiguous,New York,Likely clean single place,,,1865,Uncertain,1865,lsidyv33505ee8
+14816725,|||,und,,"Paisley : A. Gardner, 1893.","Paisley : A. Gardner, 1893.",A. Gardner,Named publisher or ambiguous,Paisley,Likely clean single place,,,1893,Exact,1893,lsidyv30309e01
+14816726,|||,und,,"Paisley : A. Gardner, 1899.","Paisley : A. Gardner, 1899.",A. Gardner,Named publisher or ambiguous,Paisley,Likely clean single place,,,1899,Exact,1899,lsidyv313ea658
+14816727,|||,und,,"Bruges, 1847.","Bruges, 1847.",,Missing,Bruges,Likely clean single place,,,1847,Exact,1847,lsidyv2eb31dfc -- lsidyv335a5624
+14816735,|||,und,,"London, 1731.","London, 1731.",,Missing,London,Likely clean single place,Q84,,1731,Exact,1731,lsidyv3359b4b9
+14816752,|||,und,,"London : Bell & Daldy, 1871.","London : Bell & Daldy, 1871.",Bell & Daldy,Named publisher or ambiguous,London,Likely clean single place,Q84,,1871,Exact,1871,lsidyv313f05dc
+14816754,|||,und,,"J. Watts : London, 1733.","J. Watts : London, 1733.",London,Named publisher or ambiguous,J. Watts,Likely clean single place,,,1733,Exact,1733,lsidyv335a4853
+14816813,|||,und,,"London, Leicester printed, [1858.]","London, Leicester printed, [1858.]",,Missing,"London, Leicester",Review: comma-separated,,,1858,Supplied,1858,lsidyv33869edd
+14816824,|||,und,,,,,Missing,,Missing,,,,Missing,,lsidyv30b22a45
+14816831,|||,und,,"London, Edinburgh [printed], 1875.","London, Edinburgh [printed], 1875.",,Missing,"London, Edinburgh",Review: comma-separated,,,1875,Exact,1875,lsidyv3068d142
+14816832,|||,und,,"London, Edinburgh [printed], 1866.","London, Edinburgh [printed], 1866.",,Missing,"London, Edinburgh",Review: comma-separated,,,1866,Exact,1866,lsidyv30643f20
+14816833,|||,und,,"London, Edinburgh [printed], 1866.","London, Edinburgh [printed], 1866.",,Missing,"London, Edinburgh",Review: comma-separated,,,1866,Exact,1866,lsidyv3068cf29
+14816851,|||,und,,"London : 96. Longman, Rees & Co., 1833.","London : 96. Longman, Rees & Co., 1833.","Longman, Rees & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1833,Exact,1833,lsidyv32c53d4b
+14816871,|||,und,,"New York : G. P. Putnam's Sons, 1896.","New York : G. P. Putnam's Sons, 1896.",G. P. Putnam's Sons,Named publisher or ambiguous,New York,Likely clean single place,,,1896,Exact,1896,lsidyv32b7b2af
+14816876,|||,und,,"London, 1802.","London, 1802.",,Missing,London,Likely clean single place,Q84,,1802,Exact,1802,lsidyv3350f121
+14816884,|||,und,,"London, 1784.","London, 1784.",,Missing,London,Likely clean single place,Q84,,1784,Exact,1784,lsidyv32b9ee52
+14816889,|||,und,,"New York, [1873.]","New York, [1873.]",,Missing,New York,Likely clean single place,,,1873,Supplied,1873,lsidyv317facfd
+14816892,|||,und,,"London, 1800.","London, 1800.",,Missing,London,Likely clean single place,Q84,,1800,Exact,1800,lsidyv32d6a7c4
+14816918,|||,und,,"London : Wertheim & Co., 1861.","London : Wertheim & Co., 1861.",Wertheim & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1861,Exact,1861,lsidyv32dd0f65
+14816936,|||,und,,"[Dublin William McKenzie, [c.1800].","[Dublin William McKenzie, [c.1800].",,Missing,Dublin William McKenzie,Likely clean single place,,,1800,Circa,1800,lsidyv306fa402
+14816939,|||,und,,"New York : P. J. Kennedy, 1884.","New York : P. J. Kennedy, 1884.",P. J. Kennedy,Named publisher or ambiguous,New York,Likely clean single place,,,1884,Exact,1884,lsidyv32c14b76
+14816945,|||,und,,"Glasgow : J. MacLehose & Sons, 1896.","Glasgow : J. MacLehose & Sons, 1896.",J. MacLehose & Sons,Named publisher or ambiguous,Glasgow,Likely clean single place,Q4093,,1896,Exact,1896,lsidyv306e3915
+14816958,|||,und,,"London, Burton [printed, 1847].","London, Burton [printed, 1847].",,Missing,"London, Burton",Review: comma-separated,,,1847,Exact,1847,lsidyv33594cc0
+14817157,|||,und,,"London, 1797.","London, 1797.",,Missing,London,Likely clean single place,Q84,,1797,Exact,1797,lsidyv2eb81df6
+14817169,|||,eng,,"Wigan : Privately printed, 1841.","Wigan : Privately printed, 1841.",Privately printed,Printer statement,Wigan,Likely clean single place,,,1841,Exact,1841,lsidyv3ca75bba
+14817211,|||,und,,"London : Chapman & Hall, 1875.","London : Chapman & Hall, 1875.",Chapman & Hall,Named publisher or ambiguous,London,Likely clean single place,Q84,,1875,Exact,1875,lsidyv3b0c58e7 -- lsidyv3b025920 -- lsidyv3b0251dc
+14817212,|||,und,,"London : Chatto & Windus, 1876.","London : Chatto & Windus, 1876.",Chatto & Windus,Named publisher or ambiguous,London,Likely clean single place,Q84,,1876,Exact,1876,lsidyv3b555dd7
+14817254,|||,und,,"pp. 137. J. Pellow: Dundee, 1863.","pp. 137. J. Pellow : Dundee, 1863.",Dundee,Named publisher or ambiguous,pp. 137. J. Pellow,Likely clean single place,,,1863,Exact,1863,lsidyv34722066
+14817266,|||,und,,"London, 1825.","London, 1825.",,Missing,London,Likely clean single place,Q84,,1825,Exact,1825,lsidyv34ec0fd1
+14817333,|||,und,,"Paris, 1825.","Paris, 1825.",,Missing,Paris,Likely clean single place,,,1825,Exact,1825,lsidyv302aa9d6
+14817405,|||,eng,,"London, 1853.","London, 1853.",,Missing,London,Likely clean single place,Q84,,1853,Exact,1853,lsidyv3c1c2ba7
+14817473,enk,eng,,"London : printed for T. Evans in the Strand, MDCCLXXXI [1781]","London : printed for T. Evans in the Strand, MDCCLXXXI [1781]","printed for T. Evans in the Strand, MDCCLXXXI",Printer statement,London,Likely clean single place,Q84,,1781,Supplied,1781,lsidyv3a5808ac
+14817531,|||,eng,,"London, Edinburgh [printed], 1845.","London, Edinburgh [printed], 1845.",,Missing,"London, Edinburgh",Review: comma-separated,,,1845,Exact,1845,lsidyv3be0401b
+14817600,|||,und,,"pp. xvi. 328. Sinclair & Co.: Haddington, 1899.","pp. xvi. 328. Sinclair & Co. : Haddington, 1899.",Haddington,Named publisher or ambiguous,pp. xvi. 328. Sinclair & Co.,Multiple places,,,1899,Exact,1899,lsidyv34730b4c
+14817654,|||,eng,,"London, 1840.","London, 1840.",,Missing,London,Likely clean single place,Q84,,1840,Exact,1840,lsidyv38eb4d95 -- lsidyv38fb6dfc -- lsidyv30b4c0a8
+14817758,|||,und,,"pp. x. 180. J. Menzies & Co.: Edinburgh, [1895.]","pp. x. 180. J. Menzies & Co. : Edinburgh, [1895.]",Edinburgh,Named publisher or ambiguous,pp. x. 180. J. Menzies & Co.,Multiple places,,,1895,Supplied,1895,lsidyv34963ada
+14817890,|||,und,,"Montrose, 1815.","Montrose, 1815.",,Missing,Montrose,Likely clean single place,,,1815,Exact,1815,lsidyv3a31bfdd
+14817901,|||,und,,"London, 1856.","London, 1856.",,Missing,London,Likely clean single place,Q84,,1856,Exact,1856,lsidyv34725551
+14817913,|||,eng,,"Boston, 1851.","Boston, 1851.",,Missing,Boston,Likely clean single place,,,1851,Exact,1851,lsidyv3cacbfff
+14817924,|||,und,,"London : A. Gardner, 1895.","London : A. Gardner, 1895.",A. Gardner,Named publisher or ambiguous,London,Likely clean single place,Q84,,1895,Exact,1895,lsidyv3458bab6
+14817960,|||,und,,"London; Nuremberg [printed : E. Nister, 1890].","London; Nuremberg [printed : E. Nister, 1890].",E. Nister,Named publisher or ambiguous,London; Nuremberg,Multiple places,,,1890,Exact,1890,lsidyv39449637
+14817962,|||,und,,"New York, Nuremberg [printed : E. P. Dutton & Co., 1892.].","New York, Nuremberg [printed : E. P. Dutton & Co., 1892.].",E. P. Dutton & Co.,Named publisher or ambiguous,"New York, Nuremberg",Review: comma-separated,,,1892,Exact,1892,lsidyv31460ca5
+14818073,|||,und,,"London : Year Book Press, 1916.","London : Year Book Press, 1916.",Year Book Press,Named publisher or ambiguous,London,Likely clean single place,Q84,,1916,Exact,1916,lsidyv34732724
+14818091,|||,und,,"pp. xvi. 149. Geddes & Co.: Edinburgh, [1897.]","pp. xvi. 149. Geddes & Co. : Edinburgh, [1897.]",Edinburgh,Named publisher or ambiguous,pp. xvi. 149. Geddes & Co.,Multiple places,,,1897,Supplied,1897,lsidyv3493ef9c
+14818230,|||,und,,"London : Chapman & Hall, 1897.","London : Chapman & Hall, 1897.",Chapman & Hall,Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv34956994
+14818231,|||,und,,"London : Tinsley Brothers, 1867.","London : Tinsley Brothers, 1867.",Tinsley Brothers,Named publisher or ambiguous,London,Likely clean single place,Q84,,1867,Exact,1867,lsidyv3b7f23c4 -- lsidyv3b84f751
+14818243,|||,und,,"pp. viii. 134. D. Nutt: London, 1894.","pp. viii. 134. D. Nutt : London, 1894.",London,Named publisher or ambiguous,pp. viii. 134. D. Nutt,Likely clean single place,,,1894,Exact,1894,lsidyv3495eb6b
+14818294,|||,eng,,"Manchester : Blacklock & Co., 1894.","Manchester : Blacklock & Co., 1894.",Blacklock & Co.,Named publisher or ambiguous,Manchester,Likely clean single place,,,1894,Exact,1894,lsidyv3c31787a
+14818339,|||,und,,"London : Sampson Low & Co., [1886.].","London : Sampson Low & Co., [1886.].",Sampson Low & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1886,Supplied,1886,lsidyv3472ef70
+14818340,|||,und,,"London, 1700.","London, 1700.",,Missing,London,Likely clean single place,Q84,,1700,Exact,1700,lsidyv345d9d70
+14818354,|||,und,,"London, 1784.","London, 1784.",,Missing,London,Likely clean single place,Q84,,1784,Exact,1784,lsidyv32b9fa35
+14818608,|||,und,,"London : Swan Sonnenschein & Co., 1898.","London : Swan Sonnenschein & Co., 1898.",Swan Sonnenschein & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Exact,1898,lsidyv349c90b2
+14818609,|||,und,,"London : Swan Sonnenschein & Co., 1899.","London : Swan Sonnenschein & Co., 1899.",Swan Sonnenschein & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv3494545d
+14818636,|||,und,,"London : Watts & Co., 1890.","London : Watts & Co., 1890.",Watts & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1890,Exact,1890,lsidyv3472b6bc
+14818709,|||,eng,,"London, 1840.","London, 1840.",,Missing,London,Likely clean single place,Q84,,1840,Exact,1840,lsidyv2c21bfa9 -- lsidyv3c980c32
+14818848,|||,und,,"Edinburgh : W. Blackwood & Sons, 1895.","Edinburgh : W. Blackwood & Sons, 1895.",W. Blackwood & Sons,Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1895,Exact,1895,lsidyv3a22a603
+14818876,|||,eng,,"London, 1864.,[1863]","London, 1864., [1863]",,Missing,"London, 1864.",Review: comma-separated,,,1864,Supplied,1863,lsidyv3c095ef7 -- lsidyv309aecbe
+14818877,|||,eng,,"London, 1865.","London, 1865.",,Missing,London,Likely clean single place,Q84,,1865,Exact,1865,lsidyv3bbef05f
+14818965,|||,und,,"London, 1815.","London, 1815.",,Missing,London,Likely clean single place,Q84,,1815,Exact,1815,lsidyv32b513b3
+14818966,|||,und,,"London, 1820.","London, 1820.",,Missing,London,Likely clean single place,Q84,,1820,Exact,1820,lsidyv2ebadd7a
+14819179,|||,und,,"London, 1878.","London, 1878.",,Missing,London,Likely clean single place,Q84,,1878,Exact,1878,lsidyv3aa07ada
+14819287,|||,und,,"Paisley : Caldwell and Son, 1852.","Paisley : Caldwell and Son, 1852.",Caldwell and Son,Named publisher or ambiguous,Paisley,Likely clean single place,,,1852,Exact,1852,lsidyv3085a490
+14819376,|||,und,,"London, 1819.","London, 1819.",,Missing,London,Likely clean single place,Q84,,1819,Exact,1819,lsidyv34ec11a2
+14823090,|||,und,,"pp. 174. Roxburghe Press: London, [1896.]","pp. 174. Roxburghe Press : London, [1896.]",London,Named publisher or ambiguous,pp. 174. Roxburghe Press,Likely clean single place,,,1896,Supplied,1896,lsidyv352bf368 -- lsidyv34946a37
+14823441,|||,und,,"London : R. Bentley & Son, 1894.","London : R. Bentley & Son, 1894.",R. Bentley & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1894,Exact,1894,lsidyv3a5ca71e -- lsidyv3a5c9f29
+14823772,|||,und,,"Glasgow, 1869.","Glasgow, 1869.",,Missing,Glasgow,Likely clean single place,Q4093,,1869,Exact,1869,lsidyv3030d8e6 -- lsidyv30844c2b
+14823773,|||,und,,"J. Johnson : London, 1783.","J. Johnson : London, 1783.",London,Named publisher or ambiguous,J. Johnson,Likely clean single place,,,1783,Exact,1783,lsidyv32b648fe -- lsidyv341df78d -- lsidyv346dd1ad -- lsidyv3943118b
+14823835,|||,und,,"London : Sampson Low & Co., 1884.","London : Sampson Low & Co., 1884.",Sampson Low & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1884,Exact,1884,lsidyv3b2761c2 -- lsidyv3b275ae1
+14824119,|||,und,,"London : Chapman & Hall, 1885.","London : Chapman & Hall, 1885.",Chapman & Hall,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv32d80a21 -- lsidyv32d7c21b -- lsidyv32d79f4d
+14824136,|||,eng,,"Rugby, 1893.","Rugby, 1893.",,Missing,Rugby,Likely clean single place,,,1893,Exact,1893,lsidyv3019b6f6
+14824593,|||,und,,"London : Longmans & Co., 1885.","London : Longmans & Co., 1885.",Longmans & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv2af3ca91 -- lsidyv2af3e2ce
+14824728,|||,und,,"London : Hurst and Blackett, 1890.","London : Hurst and Blackett, 1890.",Hurst and Blackett,Named publisher or ambiguous,London,Likely clean single place,Q84,,1890,Exact,1890,lsidyv3b6d2db2 -- lsidyv3b6d3964 -- lsidyv3b6d2630
+14825781,|||,und,,"Leith, 1814.","Leith, 1814.",,Missing,Leith,Likely clean single place,,,1814,Exact,1814,lsidyv2aeff02b
+14825841,|||,und,,"London : Moore & Burgess, [1876?].","London : Moore & Burgess, [1876?].",Moore & Burgess,Named publisher or ambiguous,London,Likely clean single place,Q84,,1876,Uncertain,1876,lsidyv33904638
+14825886,|||,und,,"London : W. Mackenzie, [1880.].","London : W. Mackenzie, [1880.].",W. Mackenzie,Named publisher or ambiguous,London,Likely clean single place,Q84,,1880,Supplied,1880,lsidyv30b39fec
+14825887,|||,und,,"London, [1867.]","London, [1867.]",,Missing,London,Likely clean single place,Q84,,1867,Supplied,1867,lsidyv3026421f
+14825889,|||,und,,"E. Paul & Co., Brussels, 1822.","E. Paul & Co., Brussels, 1822.",,Missing,"E. Paul & Co., Brussels",Multiple places,,,1822,Exact,1822,lsidyv3062e1cd
+14825891,|||,eng,,"London : J. Power, 1835.","London : J. Power, 1835.",J. Power,Named publisher or ambiguous,London,Likely clean single place,Q84,,1835,Exact,1835,lsidyv38e92db5
+14825900,|||,und,,"London, 1811.","London, 1811.",,Missing,London,Likely clean single place,Q84,,1811,Exact,1811,lsidyv2ebbdcf7
+14825901,|||,und,,"London, 1849.","London, 1849.",,Missing,London,Likely clean single place,Q84,,1849,Exact,1849,lsidyv32b82667
+14826188,|||,und,,"London : Longmans & Co., 1889.","London : Longmans & Co., 1889.",Longmans & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Exact,1889,lsidyv3ac0d675
+14826191,|||,und,,"London : Chatto & Windus, 1892.","London : Chatto & Windus, 1892.",Chatto & Windus,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Exact,1892,lsidyv3b0a5b88
+14826214,enk,eng,,"London : J. Diprose ... , [1859-1862]. -- London : Diprose and Co. ...","London : J. Diprose..., [1859-1862]. -- London : Diprose and Co....",J. Diprose...,Named publisher or ambiguous,London,Likely clean single place,Q84,1862,1859,Supplied,1862,lsidyv3a9788d4
+14826245,|||,und,,"London, 1814.","London, 1814.",,Missing,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv33954b30
+14826298,|||,und,,"London : Tuck & Sons, [1893]","London : Tuck & Sons, [1893]",Tuck & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv3a98fe3c
+14826301,|||,und,,"pp. xii. 168. A. Constable & Co.: London, 1898.","pp. xii. 168. A. Constable & Co. : London, 1898.",London,Named publisher or ambiguous,pp. xii. 168. A. Constable & Co.,Multiple places,,,1898,Exact,1898,lsidyv319b370d
+14826387,|||,und,,"pp. 228. A. Gardner: Paisley, 1894.","pp. 228. A. Gardner : Paisley, 1894.",Paisley,Named publisher or ambiguous,pp. 228. A. Gardner,Likely clean single place,,,1894,Exact,1894,lsidyv347725d8
+14826398,|||,und,,"Edinburgh : Menzies & Co., 1882.","Edinburgh : Menzies & Co., 1882.",Menzies & Co.,Named publisher or ambiguous,Edinburgh,Likely clean single place,Q23436,,1882,Exact,1882,lsidyv3083b4f4
+14826432,|||,eng,,"London, 1872.","London, 1872.",,Missing,London,Likely clean single place,Q84,,1872,Exact,1872,lsidyv353bf318
+14826438,|||,und,,"London, 1817.","London, 1817.",,Missing,London,Likely clean single place,Q84,,1817,Exact,1817,lsidyv34ec24d3
+14826442,|||,und,,"[Bath?], 1797.","[Bath?], 1797.",,Missing,Bath?],Likely clean single place,,,1797,Exact,1797,lsidyv341dc784
+14826509,|||,und,,"London : J. Ridgway, 1791.","London : J. Ridgway, 1791.",J. Ridgway,Named publisher or ambiguous,London,Likely clean single place,Q84,,1791,Exact,1791,lsidyv2ebcc67f
+14826513,|||,und,,"pp. 28. Printed for the Author: London, 1765.","pp. 28. Printed for the Author : London, 1765.",The Author,Author/self-publication statement,London,Review: imprint statement,,,1765,Exact,1765,lsidyv3a98ce26
+14826556,|||,und,,"pp. iv. 400. J. S. Toothill: Bradford, 1898.","pp. iv. 400. J. S. Toothill : Bradford, 1898.",Bradford,Named publisher or ambiguous,pp. iv. 400. J. S. Toothill,Likely clean single place,,,1898,Exact,1898,lsidyv307c1f97
+14826631,|||,und,,"London : C. Griffin and Co., 1869.","London : C. Griffin and Co., 1869.",C. Griffin and Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1869,Exact,1869,lsidyv307747eb
+14826674,|||,und,,"Newcastle, 1829.","Newcastle, 1829.",,Missing,Newcastle,Likely clean single place,,,1829,Exact,1829,lsidyv3388517c
+14826714,|||,und,,"Calcutta, 1791.","Calcutta, 1791.",,Missing,Calcutta,Likely clean single place,,,1791,Exact,1791,lsidyv341d9650
+14826801,|||,eng,,"New York, 1852.","New York, 1852.",,Missing,New York,Likely clean single place,,,1852,Exact,1852,lsidyv3cb7612c
+14826802,|||,eng,,"New York : Appleton & Co., 1880.","New York : Appleton & Co., 1880.",Appleton & Co.,Named publisher or ambiguous,New York,Likely clean single place,,,1880,Exact,1880,lsidyv3ce5ced0
+14826828,|||,und,,"London : E. Arnold, 1898.","London : E. Arnold, 1898.",E. Arnold,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Exact,1898,lsidyv39a6fb0a
+14826830,|||,und,,"London : Griffith, Farran & Co., [1889]","London : Griffith, Farran & Co., [1889]","Griffith, Farran & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Supplied,1889,lsidyv3472e671
+14826930,|||,und,,"New-York, Riverside, Cambridge printed, 1867.","New-York, Riverside, Cambridge printed, 1867.",,Missing,"New-York, Riverside, Cambridge",Review: comma-separated,,,1867,Exact,1867,lsidyv3474a981
+14827173,|||,und,,"London : Chiswick Press, 1899.","London : Chiswick Press, 1899.",Chiswick Press,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv3497298d
+14827213,|||,und,,"pp. 161. J. F. Shaw and Co.: London, [1886.]","pp. 161. J. F. Shaw and Co. : London, [1886.]",London,Named publisher or ambiguous,pp. 161. J. F. Shaw and Co.,Likely clean single place,,,1886,Supplied,1886,lsidyv347435bb
+14827258,|||,und,,"London, 1734.","London, 1734.",,Missing,London,Likely clean single place,Q84,,1734,Exact,1734,lsidyv3392590f
+14827302,|||,eng,,"London : R. Bentley, 1852.","London : R. Bentley, 1852.",R. Bentley,Named publisher or ambiguous,London,Likely clean single place,Q84,,1852,Exact,1852,lsidyv3bbfabb8
+14827385,|||,und,,"London : Griffith, Farran & Co., [1888]","London : Griffith, Farran & Co., [1888]","Griffith, Farran & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Supplied,1888,lsidyv3472be96
+14827409,|||,und,,"London : J. Almon, 1785.","London : J. Almon, 1785.",J. Almon,Named publisher or ambiguous,London,Likely clean single place,Q84,,1785,Exact,1785,lsidyv3a8b44df
+14827432,|||,und,,"London, 1794.","London, 1794.",,Missing,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv3384d2c1
+14827437,|||,und,,"London, [1798?]","London, [1798?]",,Missing,London,Likely clean single place,Q84,,1798,Uncertain,1798,lsidyv3a57d5ab
+14827439,|||,und,,"Leeds : T. Pinder, [1884.].","Leeds : T. Pinder, [1884.].",T. Pinder,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1884,Supplied,1884,lsidyv3459bc91
+14827480,|||,und,,"London : Chatto & Windus, 1881 [1880].","London : Chatto & Windus, 1881 [1880].",Chatto & Windus,Named publisher or ambiguous,London,Likely clean single place,Q84,,1881,Supplied,1880,lsidyv3a976c0d
+14827542,|||,und,,"London, 1846.","London, 1846.",,Missing,London,Likely clean single place,Q84,,1846,Exact,1846,lsidyv2eb432e9
+14827554,|||,und,,"London : J. Woodward, 1710.","London : J. Woodward, 1710.",J. Woodward,Named publisher or ambiguous,London,Likely clean single place,Q84,,1710,Exact,1710,lsidyv301320c4
+14827712,|||,und,,"London : J. Nisbet & Co., 1897.","London : J. Nisbet & Co., 1897.",J. Nisbet & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv3989025e
+14827740,|||,und,,"London, 1824.","London, 1824.",,Missing,London,Likely clean single place,Q84,,1824,Exact,1824,lsidyv3493f54e
+14827793,|||,und,,"London, 1718.","London, 1718.",,Missing,London,Likely clean single place,Q84,,1718,Exact,1718,lsidyv338d5e1a
+14827908,|||,und,,"Croydon, 1795.","Croydon, 1795.",,Missing,Croydon,Likely clean single place,,,1795,Exact,1795,lsidyv339289ad
+14827917,|||,und,,"London, 1854.","London, 1854.",,Missing,London,Likely clean single place,Q84,,1854,Exact,1854,lsidyv3d98c6ac
+14827928,|||,und,,"ff. 28. D. Nutt: London, 1893.","ff. 28. D. Nutt : London, 1893.",London,Named publisher or ambiguous,ff. 28. D. Nutt,Likely clean single place,,,1893,Exact,1893,lsidyv3494e942
+14827961,|||,und,,"London, 1730.","London, 1730.",,Missing,London,Likely clean single place,Q84,,1730,Exact,1730,lsidyv338eab33
+14828042,|||,eng,,"London : W. Heinemann, 1892.","London : W. Heinemann, 1892.",W. Heinemann,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Exact,1892,lsidyv3c6be359
+14828181,|||,und,,"London, 1812.","London, 1812.",,Missing,London,Likely clean single place,Q84,,1812,Exact,1812,lsidyv30649732
+14828235,|||,und,,"New York, Cambridge [printed], 1873.","New York, Cambridge [printed], 1873.",,Missing,"New York, Cambridge",Review: comma-separated,,,1873,Exact,1873,lsidyv33889ecb
+14828244,|||,und,,"pp. 80. Cassell & Co.: London, 1900.","pp. 80. Cassell & Co. : London, 1900.",London,Named publisher or ambiguous,pp. 80. Cassell & Co.,Multiple places,,,1900,Exact,1900,lsidyv3475920d
+14828467,|||,eng,,"New York, 1867.","New York, 1867.",,Missing,New York,Likely clean single place,,,1867,Exact,1867,lsidyv3016769f
+14828469,|||,eng,,"Devonport, 1832.","Devonport, 1832.",,Missing,Devonport,Likely clean single place,,,1832,Exact,1832,lsidyv39075e3a
+14828471,|||,und,,"pp. xxviii. 180. A. Gardner: Paisley, 1897.","pp. xxviii. 180. A. Gardner : Paisley, 1897.",Paisley,Named publisher or ambiguous,pp. xxviii. 180. A. Gardner,Likely clean single place,,,1897,Exact,1897,lsidyv34969d16
+14828484,|||,und,,"London, [1879.]","London, [1879.]",,Missing,London,Likely clean single place,Q84,,1879,Supplied,1879,lsidyv346a638f
+14828576,|||,und,,"Aberdeen, 1768.","Aberdeen, 1768.",,Missing,Aberdeen,Likely clean single place,,,1768,Exact,1768,lsidyv32b610c2
+14828607,|||,und,,"pp. xiv. 135. Macmillan & Co.: London, 1893.","pp. xiv. 135. Macmillan & Co. : London, 1893.",London,Named publisher or ambiguous,pp. xiv. 135. Macmillan & Co.,Multiple places,,,1893,Exact,1893,lsidyv3a99cf5d
+14828655,|||,und,,"Melbourne : [McCarron, Bird & Co., 1896.].","Melbourne : [McCarron, Bird & Co., 1896.].","McCarron, Bird & Co.",Named publisher or ambiguous,Melbourne,Likely clean single place,,,1896,Exact,1896,lsidyv350bb33b
+14828758,|||,und,,"pp. xvi. 151. E. Stock: London, 1887.","pp. xvi. 151. E. Stock : London, 1887.",London,Named publisher or ambiguous,pp. xvi. 151. E. Stock,Likely clean single place,,,1887,Exact,1887,lsidyv34965f32
+14828774,|||,und,,"London, 1777.","London, 1777.",,Missing,London,Likely clean single place,Q84,,1777,Exact,1777,lsidyv39eec126
+14828796,|||,und,,"London, [1874.]","London, [1874.]",,Missing,London,Likely clean single place,Q84,,1874,Supplied,1874,lsidyv3491dc84
+14828952,|||,und,,"London, 1838.","London, 1838.",,Missing,London,Likely clean single place,Q84,,1838,Exact,1838,lsidyv3084e00a
+14829042,|||,und,,"London, [1875.]","London, [1875.]",,Missing,London,Likely clean single place,Q84,,1875,Supplied,1875,lsidyv314d66af
+14829055,|||,und,,"London : A. Gardner, 1893.","London : A. Gardner, 1893.",A. Gardner,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Exact,1893,lsidyv3459ff76
+14829108,|||,und,,"London [printed] and New York : G. Routledge & Sons, 1868.","London [printed] and New York : G. Routledge & Sons, 1868.",G. Routledge & Sons,Named publisher or ambiguous,London  and New York,Likely clean single place,,,1868,Exact,1868,lsidyv338cc5de
+14829289,|||,und,,"London, 1818.","London, 1818.",,Missing,London,Likely clean single place,Q84,,1818,Exact,1818,lsidyv314bd820
+14829311,|||,und,,"London, 1688.","London, 1688.",,Missing,London,Likely clean single place,Q84,,1688,Exact,1688,lsidyv31b64fb5
+14829312,|||,und,,"London, 1688.","London, 1688.",,Missing,London,Likely clean single place,Q84,,1688,Exact,1688,lsidyv345eb6ba
+14829321,|||,und,,"London : S. Carr, 1680.","London : S. Carr, 1680.",S. Carr,Named publisher or ambiguous,London,Likely clean single place,Q84,,1680,Exact,1680,lsidyv346002aa
+14829339,|||,und,,"London : Printed for P. Chetwin, 1674.","London : Printed for P. Chetwin, 1674.",Printed for P. Chetwin,Printer statement,London,Likely clean single place,Q84,,1674,Exact,1674,lsidyv32c81141
+14829348,|||,und,,"London : Printed by J. M. for H. Herringman, 1690.","London : Printed by J. M. for H. Herringman, 1690.",Printed by J. M. for H. Herringman,Printer statement,London,Likely clean single place,Q84,,1690,Exact,1690,lsidyv345d6f76
+14829559,|||,eng,,"London, 1859.","London, 1859.",,Missing,London,Likely clean single place,Q84,,1859,Exact,1859,lsidyv3bbee69f
+14829648,|||,und,,"pp. xii. 254. iv. Walter Scott: London, 1886.","pp. xii. 254. iv. Walter Scott : London, 1886.",London,Named publisher or ambiguous,pp. xii. 254. iv. Walter Scott,Likely clean single place,,,1886,Exact,1886,lsidyv352bbcb1
+14829655,|||,und,,"pp. xi. 144. Constable & Co.: London, 1896.","pp. xi. 144. Constable & Co. : London, 1896.",London,Named publisher or ambiguous,pp. xi. 144. Constable & Co.,Multiple places,,,1896,Exact,1896,lsidyv3496d412
+14829866,|||,und,,"London; New York [printed] : Macmillan & Co., 1889.","London; New York [printed] : Macmillan & Co., 1889.",Macmillan & Co.,Named publisher or ambiguous,London & New York,Multiple places,,,1889,Exact,1889,lsidyv32b8c248
+14829867,|||,und,,"London, [1879.]","London, [1879.]",,Missing,London,Likely clean single place,Q84,,1879,Supplied,1879,lsidyv352b81e9
+14829868,|||,und,,"London : Ward, Lock & Tyler, [1868.].","London : Ward, Lock & Tyler, [1868.].","Ward, Lock & Tyler",Named publisher or ambiguous,London,Likely clean single place,Q84,,1868,Supplied,1868,lsidyv345df031
+14829869,|||,und,,"London, [1875.]","London, [1875.]",,Missing,London,Likely clean single place,Q84,,1875,Supplied,1875,lsidyv3944a4c5
+14829875,|||,eng,,"Alnwick : W. Davison, 1833.","Alnwick : W. Davison, 1833.",W. Davison,Named publisher or ambiguous,Alnwick,Likely clean single place,,,1833,Exact,1833,lsidyv32cc18cd
+14829927,|||,und,,"London : W. Scott, 1888.","London : W. Scott, 1888.",W. Scott,Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Exact,1888,lsidyv3459bd2a
+14829948,|||,und,,"pp. xii. 208. J. Young & Sons: Perth, 1898.","pp. xii. 208. J. Young & Sons : Perth, 1898.",Perth,Named publisher or ambiguous,pp. xii. 208. J. Young & Sons,Multiple places,,,1898,Exact,1898,lsidyv34758c4c
+14830089,|||,und,,"London : W. Heinemann, 1893.","London : W. Heinemann, 1893.",W. Heinemann,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Exact,1893,lsidyv3a679e94
+14830120,|||,und,,"Copenhagen [printed], London, [1857.]","Copenhagen [printed], London, [1857.]",,Missing,"Copenhagen , London",Review: comma-separated,,,1857,Supplied,1857,lsidyv39f30a4e
+14830183,|||,und,,"pp. ix. 85. Chatto & Windus: London, 1896.","pp. ix. 85. Chatto & Windus : London, 1896.",London,Named publisher or ambiguous,pp. ix. 85. Chatto & Windus,Multiple places,,,1896,Exact,1896,lsidyv347777d9
+14830195,|||,und,,"London, [1875.]","London, [1875.]",,Missing,London,Likely clean single place,Q84,,1875,Supplied,1875,lsidyv31752bcf
+14830222,|||,eng,,[1822],[1822],,Missing,,Missing,,,1822,Supplied,1822,lsidyv3cba2453
+14830252,|||,und,,"London, 1831.","London, 1831.",,Missing,London,Likely clean single place,Q84,,1831,Exact,1831,lsidyv342283d1
+14830291,|||,und,,"London, 1825.","London, 1825.",,Missing,London,Likely clean single place,Q84,,1825,Exact,1825,lsidyv339474dc
+14830333,|||,eng,,"Rangoon, 1876.","Rangoon, 1876.",,Missing,Rangoon,Likely clean single place,,,1876,Exact,1876,lsidyv392ab265
+14830342,|||,und,,"London : Robert Forder, 1899.","London : Robert Forder, 1899.",Robert Forder,Named publisher or ambiguous,London,Likely clean single place,Q84,,1899,Exact,1899,lsidyv3384f40e
+14830371,|||,und,,"pp. iv. 156. Sonnenschein & Co.: London, 1886.","pp. iv. 156. Sonnenschein & Co. : London, 1886.",London,Named publisher or ambiguous,pp. iv. 156. Sonnenschein & Co.,Multiple places,,,1886,Exact,1886,lsidyv34f4d896
+14830377,|||,und,,"London : G. Redway, 1897.","London : G. Redway, 1897.",G. Redway,Named publisher or ambiguous,London,Likely clean single place,Q84,,1897,Exact,1897,lsidyv34955f60
+14830378,|||,und,,"London : J. Miles & Co., [1898.].","London : J. Miles & Co., [1898.].",J. Miles & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Supplied,1898,lsidyv349b9147
+14830400,enk,eng,,"J. Raw : Ipswich, 1818.","J. Raw : Ipswich, 1818.",Ipswich,Named publisher or ambiguous,J. Raw,Likely clean single place,,,1818,Exact,1818,lsidyv306332f4
+14830416,|||,und,,"London : Longmans & Co., 1888.","London : Longmans & Co., 1888.",Longmans & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Exact,1888,lsidyv306f19e5
+14830499,|||,und,,"Kilmarnock, 1807.","Kilmarnock, 1807.",,Missing,Kilmarnock,Likely clean single place,,,1807,Exact,1807,lsidyv346b3832
+14830565,|||,und,,"pp. xiii. 369. Printed for private circulation: London, 1897.","pp. xiii. 369. Printed for private circulation : London, 1897.",,Missing,London,Review: imprint statement,,,1897,Exact,1897,lsidyv3478b700
+14830716,|||,und,,"London : Cassell & Co., 1896.","London : Cassell & Co., 1896.",Cassell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Exact,1896,lsidyv342455c9
+14830791,|||,und,,"pp. 138. H. Young & Sons: Liverpool, 1899.","pp. 138. H. Young & Sons : Liverpool, 1899.",Liverpool,Named publisher or ambiguous,pp. 138. H. Young & Sons,Multiple places,,,1899,Exact,1899,lsidyv352c2586
+14830803,|||,und,,"London, 1816.","London, 1816.",,Missing,London,Likely clean single place,Q84,,1816,Exact,1816,lsidyv309dad79
+14830813,|||,und,,"John Lane; Boston Copeland and Day : London, 1895.","John Lane; Boston Copeland and Day : London, 1895.",London,Named publisher or ambiguous,John Lane; Boston Copeland and Day,Multiple places,,,1895,Exact,1895,lsidyv3475f13f
+14830851,|||,eng,,"London, 1875, [1874].","London, 1875, [1874].",,Missing,"London, 1875",Review: comma-separated,,,1875,Supplied,1874,lsidyv391235bc
+14830959,|||,und,,"pp. 222. Oliver and Boyd: Edinburgh; Irvine [printed], 1823.","pp. 222. Oliver and Boyd : Edinburgh; Irvine [printed], 1823.",Edinburgh; Irvine [printed,Printer statement,pp. 222. Oliver and Boyd,Likely clean single place,,,1823,Exact,1823,lsidyv33848200
+14831378,|||,und,,"Edinburgh, 1871.","Edinburgh, 1871.",,Missing,Edinburgh,Likely clean single place,Q23436,,1871,Exact,1871,lsidyv347240fe
+14831446,|||,und,,"Karachi : Victoria Press, 1894.","Karachi : Victoria Press, 1894.",Victoria Press,Named publisher or ambiguous,Karachi,Likely clean single place,,,1894,Exact,1894,lsidyv3984b42b
+14831453,|||,und,,"London, 1701.","London, 1701.",,Missing,London,Likely clean single place,Q84,,1701,Exact,1701,lsidyv33531724
+14831472,|||,eng,,"London : E. & F. N. Spon, 1891.","London : E. & F. N. Spon, 1891.",E. & F. N. Spon,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Exact,1891,lsidyv3cca8241
+14831486,|||,und,,"London, 1658.","London, 1658.",,Missing,London,Likely clean single place,Q84,,1658,Exact,1658,lsidyv345b0135
+14831491,|||,und,,,,,Missing,,Missing,,,,Missing,,lsidyv345e303d
+14831504,|||,und,,"London : Cameron, Ferguson & Co., 1889.","London : Cameron, Ferguson & Co., 1889.","Cameron, Ferguson & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Exact,1889,lsidyv341da26b
+14831790,|||,eng,,"London : J. Sangster and Co., [1887]","London : J. Sangster and Co., [1887]",J. Sangster and Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1887,Supplied,1887,lsidyv2ade33af
+14831809,|||,und,,"London; Saxony printed : Raphael Tuck & Sons, [1893.].","London; Saxony printed : Raphael Tuck & Sons, [1893.].",Raphael Tuck & Sons,Named publisher or ambiguous,London; Saxony,Multiple places,,,1893,Supplied,1893,lsidyv39449be9
+14831853,|||,und,,"Greenock, 1825.","Greenock, 1825.",,Missing,Greenock,Likely clean single place,,,1825,Exact,1825,lsidyv338b5119
+14831945,|||,und,,"pp. 221. Drane's: London, [1925.]","pp. 221. Drane's : London, [1925.]",London,Named publisher or ambiguous,pp. 221. Drane's,Likely clean single place,,,1925,Supplied,1925,lsidyv395eee4e
+14831965,|||,und,,"London, 1791.","London, 1791.",,Missing,London,Likely clean single place,Q84,,1791,Exact,1791,lsidyv338a96d9
+14832074,|||,und,,"London : Grant Richards, [1898.].","London : Grant Richards, [1898.].",Grant Richards,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Supplied,1898,lsidyv32dc506c
+14832075,|||,und,,"Boston, Cambridge [Mass., printed], 1877.","Boston, Cambridge [Mass., printed], 1877.",,Missing,"Boston, Cambridge [Mass.,]",Review: comma-separated,,,1877,Exact,1877,lsidyv34612a1d
+14832260,|||,und,,"London, 1857.","London, 1857.",,Missing,London,Likely clean single place,Q84,,1857,Exact,1857,lsidyv3471f167
+14832268,|||,und,,"Newcastle-on-Tyne : T. & G. Allan, [1890?].","Newcastle-on-Tyne : T. & G. Allan, [1890?].",T. & G. Allan,Named publisher or ambiguous,Newcastle-on-Tyne,Likely clean single place,,,1890,Uncertain,1890,lsidyv31a1e111
+14832286,|||,und,,"London : J. Hindmarsh, R. Bently, A. Roper & R. Taylor, 1691.","London : J. Hindmarsh, R. Bently, A. Roper & R. Taylor, 1691.","J. Hindmarsh, R. Bently, A. Roper & R. Taylor",Named publisher or ambiguous,London,Likely clean single place,Q84,,1691,Exact,1691,lsidyv345ec0f4
+14832611,|||,und,,"Printed for the Proprietors; Nottingham, 1887.","Printed for the Proprietors; Nottingham, 1887.",The Proprietors,Publisher statement,Nottingham,Review: imprint statement,,,1887,Exact,1887,lsidyv3492edbf
+14832731,|||,und,,"pp. 96. H. R. Allenson: London, 1896.","pp. 96. H. R. Allenson : London, 1896.",London,Named publisher or ambiguous,pp. 96. H. R. Allenson,Likely clean single place,,,1896,Exact,1896,lsidyv39451b5c
+14832755,|||,und,,"London : J. Zebulun, 1831.","London : J. Zebulun, 1831.",J. Zebulun,Named publisher or ambiguous,London,Likely clean single place,Q84,,1831,Exact,1831,lsidyv3abeef1f
+14832781,|||,und,,"London: W. Oxberry; sold by Sherwood, Neely & Jones, 1812.","London : W. Oxberry; sold by Sherwood, Neely & Jones, 1812.","W. Oxberry; sold by Sherwood, Neely & Jones",Bookseller/distributor statement,London,Likely clean single place,Q84,,1812,Exact,1812,lsidyv30a595de
+14839243,|||,eng,,"Philadelphia : Carey, Lea & Carey, 1833.","Philadelphia : Carey, Lea & Carey, 1833.","Carey, Lea & Carey",Named publisher or ambiguous,Philadelphia,Likely clean single place,,,1833,Exact,1833,lsidyv35028b1b
+14839439,|||,ita,,"Roma, 1895.","Roma, 1895.",,Missing,Roma,Likely clean single place,,,1895,Exact,1895,lsidyv358efa38 -- lsidyv36601581
+14839548,|||,eng,,"Cambridge : Benjamin Bridges, 1831.","Cambridge : Benjamin Bridges, 1831.",Benjamin Bridges,Named publisher or ambiguous,Cambridge,Likely clean single place,,,1831,Exact,1831,lsidyv32d04301
+14839550,|||,eng,,"London : Hurst & Blackett, 1864, [1863].","London : Hurst & Blackett, 1864, [1863].",Hurst & Blackett,Named publisher or ambiguous,London,Likely clean single place,Q84,,1864,Supplied,1863,lsidyv32d6b436
+14839580,|||,ita,,"Milano, 1887.","Milano, 1887.",,Missing,Milano,Likely clean single place,,,1887,Exact,1887,lsidyv358f24ed
+14840004,|||,eng,,"Folkestone : Eiloart & Temple, [1889]","Folkestone : Eiloart & Temple, [1889]",Eiloart & Temple,Named publisher or ambiguous,Folkestone,Likely clean single place,,,1889,Supplied,1889,lsidyv35502c4d
+14840021,|||,eng,,"Boston, 1822.","Boston, 1822.",,Missing,Boston,Likely clean single place,,,1822,Exact,1822,lsidyv3599c42b
+14840114,|||,eng,,"London : Jarrold and Sons, [1872]","London : Jarrold and Sons, [1872]",Jarrold and Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1872,Supplied,1872,lsidyv317c3808
+14840117,|||,ita,,"Milano, [1885?]","Milano, [1885?]",,Missing,Milano,Likely clean single place,,,1885,Uncertain,1885,lsidyv35572610
+14840358,|||,fre,,"Paris, 1845.","Paris, 1845.",,Missing,Paris,Likely clean single place,,,1845,Exact,1845,lsidyv359c988a
+14840448,|||,eng,,"Philadelphia, 1870.","Philadelphia, 1870.",,Missing,Philadelphia,Likely clean single place,,,1870,Exact,1870,lsidyv357b546a
+14840595,|||,eng,,"Albany, 1862.","Albany, 1862.",,Missing,Albany,Likely clean single place,,,1862,Exact,1862,lsidyv34fec447
+14840682,|||,eng,,"Manchester : Co-operative Printing Society, 1878.","Manchester : Co-operative Printing Society, 1878.",Co-operative Printing Society,Named publisher or ambiguous,Manchester,Likely clean single place,,,1878,Exact,1878,lsidyv34f076b1
+14846761,|||,eng,,"London : Ward & Downey, 1885.","London : Ward & Downey, 1885.",Ward & Downey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv35c58ff2
+14846785,|||,eng,,"Bradford-on-Avon : Daniel Jones, 1864.","Bradford-on-Avon : Daniel Jones, 1864.",Daniel Jones,Named publisher or ambiguous,Bradford-on-Avon,Likely clean single place,,,1864,Exact,1864,lsidyv35e86934
+14846786,|||,eng,,"Dundee : Advertiser Office, 1873.","Dundee : Advertiser Office, 1873.",Advertiser Office,Named publisher or ambiguous,Dundee,Likely clean single place,,,1873,Exact,1873,lsidyv35c5eb7d
+14846818,|||,ita,,"Treviso, 1840.","Treviso, 1840.",,Missing,Treviso,Likely clean single place,,,1840,Exact,1840,lsidyv35e71ade
+14846828,|||,ita,,"Milano, 1885.","Milano, 1885.",,Missing,Milano,Likely clean single place,,,1885,Exact,1885,lsidyv35e4ebb8
+14846863,|||,eng,,"Edinburgh : Printed for private circulation, 1849.","Edinburgh : Printed for private circulation, 1849.",Printed for private circulation,Printer statement,Edinburgh,Likely clean single place,Q23436,,1849,Exact,1849,lsidyv35e17d0c
+14846875,|||,mul,$aeng$adut,"Brussels : H. Remy, 1835.","Brussels : H. Remy, 1835.",H. Remy,Named publisher or ambiguous,Brussels,Likely clean single place,,,1835,Exact,1835,lsidyv35bdd4b1
+14846896,|||,ita,,"Vigevano, 1810.","Vigevano, 1810.",,Missing,Vigevano,Likely clean single place,,,1810,Exact,1810,lsidyv35c1d5bd
+14846936,|||,ita,,"Napoli, 1853, 58.","Napoli, 1853, 58.",,Missing,"Napoli, 1853, 58.",Review: comma-separated,,,1853,Exact,1853,lsidyv36039b39 -- lsidyv35e4a604
+14846961,|||,mul,$ager$aspa$afre$aita,"Mondovì, 1881.","Mondovì, 1881.",,Missing,Mondovì,Likely clean single place,,,1881,Exact,1881,lsidyv35f40ad1
+14846962,|||,ita,,"Orvieto, 1824.","Orvieto, 1824.",,Missing,Orvieto,Likely clean single place,,,1824,Exact,1824,lsidyv35e191ce
+14846995,|||,ita,,"Modena, 1886.","Modena, 1886.",,Missing,Modena,Likely clean single place,,,1886,Exact,1886,lsidyv35c0bada
+14847001,|||,eng,,"Leeds : Edward Baines, 1826.","Leeds : Edward Baines, 1826.",Edward Baines,Named publisher or ambiguous,Leeds,Likely clean single place,Q39121,,1826,Exact,1826,lsidyv35ccfdd6
+14847069,|||,ita,,"Melegnano, 1886.","Melegnano, 1886.",,Missing,Melegnano,Likely clean single place,,,1886,Exact,1886,lsidyv35c008d2
+14847070,|||,eng,,"Melbourne : Cole's Book Arcade, [1892.].","Melbourne : Cole's Book Arcade, [1892.].",Cole's Book Arcade,Named publisher or ambiguous,Melbourne,Likely clean single place,,,1892,Supplied,1892,lsidyv35c49741
+14847071,|||,eng,,"London; Cole's Book Arcade Melbourne : Hutchinson & Co., [1892.].","London; Cole's Book Arcade Melbourne : Hutchinson & Co., [1892.].",Hutchinson & Co.,Named publisher or ambiguous,London; Cole's Book Arcade Melbourne,Multiple places,,,1892,Supplied,1892,lsidyv35c52c3d
+14847075,|||,eng,,"London : J. Cornish & Sons, 1885.","London : J. Cornish & Sons, 1885.",J. Cornish & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Exact,1885,lsidyv35c4e2f1
+14847078,|||,ita,,"Napoli, 1892.","Napoli, 1892.",,Missing,Napoli,Likely clean single place,,,1892,Exact,1892,lsidyv35c1e364
+14847190,|||,ita,,"Todi, 1845.","Todi, 1845.",,Missing,Todi,Likely clean single place,,,1845,Exact,1845,lsidyv35e3808a
+14847279,|||,ita,,"Monza, 1841.","Monza, 1841.",,Missing,Monza,Likely clean single place,,,1841,Exact,1841,lsidyv35e50d90 -- lsidyv35cb970c
+14847400,|||,eng,,London : Office of “The Commonweal�? 1887.,London : Office of “The Commonweal�? 1887.,"Office of “The Commonweal�?,Named publisher or ambiguous""",London,Likely clean single place,Q84,,1887,Exact,1887,lsidyv35f49385,
+14847426,|||,eng,,"Carnarvon : Welsh National Press, 1894.","Carnarvon : Welsh National Press, 1894.",Welsh National Press,Named publisher or ambiguous,Carnarvon,Likely clean single place,,,1894,Exact,1894,lsidyv35f48fb9
+14847479,|||,eng,,"London : William Pickering, 1842.","London : William Pickering, 1842.",William Pickering,Named publisher or ambiguous,London,Likely clean single place,Q84,,1842,Exact,1842,lsidyv35c5f0d1
+14847598,|||,eng,,"Edinburgh, 1869.","Edinburgh, 1869.",,Missing,Edinburgh,Likely clean single place,Q23436,,1869,Exact,1869,lsidyv35c4cffc
+14847611,|||,eng,,"Exeter : W. Pollard & Co., 1890.","Exeter : W. Pollard & Co., 1890.",W. Pollard & Co.,Named publisher or ambiguous,Exeter,Likely clean single place,,,1890,Exact,1890,lsidyv35f49a96
+14847624,|||,eng,,"London, [1857.]","London, [1857.]",,Missing,London,Likely clean single place,Q84,,1857,Supplied,1857,lsidyv35c4c718
+14847629,|||,eng,,"London : W. Scott, 1888.","London : W. Scott, 1888.",W. Scott,Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Exact,1888,lsidyv35c434e5
+14847650,|||,mul,$afre$arus,"Firenze, 1894.","Firenze, 1894.",,Missing,Firenze,Likely clean single place,,,1894,Exact,1894,lsidyv35f483ec
+14847663,|||,ita,,"Vicenza, 1806.","Vicenza, 1806.",,Missing,Vicenza,Likely clean single place,,,1806,Exact,1806,lsidyv35c02c75
+14847664,|||,ita,,"Bologna, 1823-26.","Bologna, 1823-26.",,Missing,"Bologna, 1823-26.",Review: comma-separated,,1826,1823,Exact,1823,lsidyv36035e23 -- lsidyv3da0adb9
+14847673,|||,lat,,"Etonæ, 1820.","Etonæ, 1820.",,Missing,Etonæ,Likely clean single place,,,1820,Exact,1820,lsidyv35d01fd6
+14847679,|||,ita,,"Roma, 1838.","Roma, 1838.",,Missing,Roma,Likely clean single place,,,1838,Exact,1838,lsidyv35e98e3a
+14847680,|||,eng,,"London : Archibald Constable & Co., 1898.","London : Archibald Constable & Co., 1898.",Archibald Constable & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1898,Exact,1898,lsidyv35c6d236
+14847726,|||,ita,,"Venezia, 1842.","Venezia, 1842.",,Missing,Venezia,Likely clean single place,,,1842,Exact,1842,lsidyv35e1a3fb
+14847735,|||,ita,,"Napoli, 1840.","Napoli, 1840.",,Missing,Napoli,Likely clean single place,,,1840,Exact,1840,lsidyv35e980f6
+14847789,|||,eng,,"London, [1862.]","London, [1862.]",,Missing,London,Likely clean single place,Q84,,1862,Supplied,1862,lsidyv35e869fd
+14847794,|||,ita,,"Napoli, 1892-1901.","Napoli, 1892-1901.",,Missing,"Napoli, 1892-",Review: comma-separated,,1901,1892,Exact,1901,lsidyv35e5dd48 -- lsidyv35e5d157
+14848032,|||,eng,,"London : W. Scott, 1888.","London : W. Scott, 1888.",W. Scott,Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Exact,1888,lsidyv35c3073f
+14848047,|||,ita,,"Camerino, 1872.","Camerino, 1872.",,Missing,Camerino,Likely clean single place,,,1872,Exact,1872,lsidyv35d1f105
+14848222,|||,eng,,"London : Diprose & Bateman, [1894.].","London : Diprose & Bateman, [1894.].",Diprose & Bateman,Named publisher or ambiguous,London,Likely clean single place,Q84,,1894,Supplied,1894,lsidyv35c5395b
+14848296,|||,eng,,"Dublin : M. H. Gill & Son, 1890.","Dublin : M. H. Gill & Son, 1890.",M. H. Gill & Son,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1890,Exact,1890,lsidyv35f49ebf
+14860047,|||,ita,,"Pescia, 1879.","Pescia, 1879.",,Missing,Pescia,Likely clean single place,,,1879,Exact,1879,lsidyv36378d0a
+14860069,|||,ita,,"Trieste, 1854-59.","Trieste, 1854-59.",,Missing,"Trieste, 1854-59.",Review: comma-separated,,1859,1854,Exact,1854,lsidyv3dc0e0f4
+14860071,|||,eng,,"London : Published & sold in the Theatre, [1860.].","London : Published & sold in the Theatre, [1860.].",Published & sold in the Theatre,Publisher statement,London,Likely clean single place,Q84,,1860,Supplied,1860,lsidyv3627844b
+14860128,|||,ita,,"Alcamo, 1880-82.","Alcamo, 1880-82.",,Missing,"Alcamo, 1880-82.",Review: comma-separated,,1882,1880,Exact,1880,lsidyv3627cea7
+14860138,|||,ita,,"Bologna, 1860.","Bologna, 1860.",,Missing,Bologna,Likely clean single place,,,1860,Exact,1860,lsidyv363a7e41
+14860143,|||,ita,,"Bologna, 1857.","Bologna, 1857.",,Missing,Bologna,Likely clean single place,,,1857,Exact,1857,lsidyv363b0d74
+14860246,|||,eng,,"Bradford : M. Field, [1868]","Bradford : M. Field, [1868]",M. Field,Named publisher or ambiguous,Bradford,Likely clean single place,,,1868,Supplied,1868,lsidyv35fea7fd
+14860373,|||,eng,,"Edinburgh, 1840.","Edinburgh, 1840.",,Missing,Edinburgh,Likely clean single place,Q23436,,1840,Exact,1840,lsidyv36010ef0
+14860494,|||,eng,,"Dublin, 1826.","Dublin, 1826.",,Missing,Dublin,Likely clean single place,Q1761,,1826,Exact,1826,lsidyv36157c2c
+14860657,|||,ita,,"Napoli, 1855.","Napoli, 1855.",,Missing,Napoli,Likely clean single place,,,1855,Exact,1855,lsidyv3dbc8067
+14860851,|||,eng,,"London : T. H. Lacy, [1866.].","London : T. H. Lacy, [1866.].",T. H. Lacy,Named publisher or ambiguous,London,Likely clean single place,Q84,,1866,Supplied,1866,lsidyv36034a1c
+14860872,|||,ita,,"Firenze, 1841.","Firenze, 1841.",,Missing,Firenze,Likely clean single place,,,1841,Exact,1841,lsidyv3606a2b7
+14860996,|||,ita,,"Palermo, 1888-96.","Palermo, 1888-96.",,Missing,"Palermo, 1888-96.",Review: comma-separated,,1896,1888,Exact,1888,lsidyv3607e29c -- lsidyv36404996 -- lsidyv3dc6ecaa
+14861079,|||,ita,,"Rimini, 1848-88.","Rimini, 1848-88.",,Missing,"Rimini, 1848-88.",Review: comma-separated,,1888,1848,Exact,1848,lsidyv3639d20a -- lsidyv363a5d26
+14861895,|||,ita,,"Firenze, 1843-47.","Firenze, 1843-47.",,Missing,"Firenze, 1843-47.",Review: comma-separated,,1847,1843,Exact,1843,lsidyv3dcaf089 -- lsidyv367be9f9
+14861901,|||,eng,,"London : Kingsbury, Parbury and Allen, 1825.","London : Kingsbury, Parbury and Allen, 1825.","Kingsbury, Parbury and Allen",Named publisher or ambiguous,London,Likely clean single place,Q84,,1825,Exact,1825,lsidyv3677b490
+14862032,|||,eng,,"London, 1830.","London, 1830.",,Missing,London,Likely clean single place,Q84,,1830,Exact,1830,lsidyv36783156
+14862178,|||,eng,,"Kingston-upon-Thames : R. Clarke, 1874.","Kingston-upon-Thames : R. Clarke, 1874.",R. Clarke,Named publisher or ambiguous,Kingston-upon-Thames,Likely clean single place,,,1874,Exact,1874,lsidyv363bec82
+14862391,|||,eng,,"London : E. Stratton, [1896.].","London : E. Stratton, [1896.].",E. Stratton,Named publisher or ambiguous,London,Likely clean single place,Q84,,1896,Supplied,1896,lsidyv363c1038
+14862482,|||,eng,,"New York : J. Lane, 1895.","New York : J. Lane, 1895.",J. Lane,Named publisher or ambiguous,New York,Likely clean single place,,,1895,Exact,1895,lsidyv363bf900
+14866361,|||,eng,,"London : J. Debrett, 1794.","London : J. Debrett, 1794.",J. Debrett,Named publisher or ambiguous,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv3679a30a
+14866416,|||,ger,,"Kaiserslautern, 1830.","Kaiserslautern, 1830.",,Missing,Kaiserslautern,Likely clean single place,,,1830,Exact,1830,lsidyv36878dc3
+14866635,|||,eng,,"London, 1775.","London, 1775.",,Missing,London,Likely clean single place,Q84,,1775,Exact,1775,lsidyv3679bec1
+14866790,|||,ita,,"Torino, 1850-51.","Torino, 1850-51.",,Missing,"Torino, 1850-51.",Review: comma-separated,,1851,1850,Exact,1850,lsidyv3dcf5eaa
+14867280,|||,eng,,"London, 1777.","London, 1777.",,Missing,London,Likely clean single place,Q84,,1777,Exact,1777,lsidyv367a27bb
+14867555,|||,eng,,"London : Castell Brothers, 1887.","London : Castell Brothers, 1887.",Castell Brothers,Named publisher or ambiguous,London,Likely clean single place,Q84,,1887,Exact,1887,lsidyv3689ce21
+14867564,|||,ger,,"Hannover, 1886.","Hannover, 1886.",,Missing,Hannover,Likely clean single place,,,1886,Exact,1886,lsidyv36abd9d3
+14871689,|||,eng,,"London : S. Tinsley & Co., 1879 (Guildford [printed])","London : S. Tinsley & Co., 1879 (Guildford [printed])",S. Tinsley & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1879,Exact,1879,lsidyv374a37dd
+14871823,|||,eng,,"London, 1829.","London, 1829.",,Missing,London,Likely clean single place,Q84,,1829,Exact,1829,lsidyv371c568b -- lsidyv371bcbc3 -- lsidyv371bb9d3 -- lsidyv2c3cf1e8 -- lsidyv371c7c3f
+14872018,|||,und,,"London, [1792.]","London, [1792.]",,Missing,London,Likely clean single place,Q84,,1792,Supplied,1792,lsidyv372ad7c3
+14872128,|||,pol,,"Kraków, 1890-91.","Kraków, 1890-91.",,Missing,"Kraków, 1890-91.",Review: comma-separated,,1891,1890,Exact,1890,lsidyv36fcd803 -- lsidyv36fd6770
+14872543,|||,eng,,"London, 1838.","London, 1838.",,Missing,London,Likely clean single place,Q84,,1838,Exact,1838,lsidyv370bd7b0
+14872593,|||,eng,,"London, [1815, 16]","London, [1815, 16]",,Missing,"London, [1815, 16]",Review: comma-separated,,,1815,Supplied,1815,lsidyv3dea8bda
+14872683,|||,eng,,"London, 1837.","London, 1837.",,Missing,London,Likely clean single place,Q84,,1837,Exact,1837,lsidyv3710de7e
+14873054,|||,ita,,"Milano, 1897.","Milano, 1897.",,Missing,Milano,Likely clean single place,,,1897,Exact,1897,lsidyv37416f87
+14879461,|||,eng,,"Omaha, Neb. : Union Pacific Railway Co., 1882.","Omaha, Neb. : Union Pacific Railway Co., 1882.",Union Pacific Railway Co.,Named publisher or ambiguous,"Omaha, Neb.",Review: comma-separated,,,1882,Exact,1882,lsidyv3034a281
+14879496,|||,eng,,"London : Rodwell & Martin, 1820.","London : Rodwell & Martin, 1820.",Rodwell & Martin,Named publisher or ambiguous,London,Likely clean single place,Q84,,1820,Exact,1820,lsidyv375571ba
+14879624,|||,eng,,"London : The Mortgage & Agency Co. of Australasia, 1882.","London : The Mortgage & Agency Co. of Australasia, 1882.",The Mortgage & Agency Co. of Australasia,Named publisher or ambiguous,London,Likely clean single place,Q84,,1882,Exact,1882,lsidyv3083a1f2
+14879778,|||,eng,,"London, 1875.","London, 1875.",,Missing,London,Likely clean single place,Q84,,1875,Exact,1875,lsidyv316872aa
+14879787,|||,eng,,"London, 1818.","London, 1818.",,Missing,London,Likely clean single place,Q84,,1818,Exact,1818,lsidyv37557aa8
+14879839,|||,eng,,"London, 1874.","London, 1874.",,Missing,London,Likely clean single place,Q84,,1874,Exact,1874,lsidyv32c647c6 -- lsidyv3167ca07
+14880023,|||,eng,,"London : Simpkin & Co., 1824.","London : Simpkin & Co., 1824.",Simpkin & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1824,Exact,1824,lsidyv32cbe1e6
+14880068,|||,eng,,"London, 1810.","London, 1810.",,Missing,London,Likely clean single place,Q84,,1810,Exact,1810,lsidyv37551178
+14880301,|||,eng,,"London, 1872.","London, 1872.",,Missing,London,Likely clean single place,Q84,,1872,Exact,1872,lsidyv32c5c9cf
+14880311,|||,eng,,"London : Cassell & Co., 1891.","London : Cassell & Co., 1891.",Cassell & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Exact,1891,lsidyv30b6053a
+14880386,|||,eng,,"London : White & Co., 1814.","London : White & Co., 1814.",White & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1814,Exact,1814,lsidyv307b8d42
+14880434,|||,eng,,"London, 1873.","London, 1873.",,Missing,London,Likely clean single place,Q84,,1873,Exact,1873,lsidyv31681931
+14880435,|||,eng,,"London, 1872.","London, 1872.",,Missing,London,Likely clean single place,Q84,,1872,Exact,1872,lsidyv30b1b53c
+14885083,|||,eng,,"London : Thomas Hatchard, 1852.","London : Thomas Hatchard, 1852.",Thomas Hatchard,Named publisher or ambiguous,London,Likely clean single place,Q84,,1852,Exact,1852,lsidyv2b18756d
+14885103,|||,eng,,"London : Henry Colburn, 1844.","London : Henry Colburn, 1844.",Henry Colburn,Named publisher or ambiguous,London,Likely clean single place,Q84,,1844,Exact,1844,lsidyv37c8b3a6 -- lsidyv37798963
+14885338,|||,eng,,"London, 1820.","London, 1820.",,Missing,London,Likely clean single place,Q84,,1820,Exact,1820,lsidyv2b16af00
+14885534,|||,eng,,"Calcutta, 1820.","Calcutta, 1820.",,Missing,Calcutta,Likely clean single place,,,1820,Exact,1820,lsidyv37667ec8
+14885561,|||,ita,,"Genova, 1892.","Genova, 1892.",,Missing,Genova,Likely clean single place,,,1892,Exact,1892,lsidyv2b169e93
+14885583,|||,eng,,"Boston [Mass.], 1846.","Boston [Mass.], 1846.",,Missing,Boston [Mass.],Likely clean single place,,,1846,Exact,1846,lsidyv2b19ee93
+14885636,|||,eng,,"London : T. Egerton, 1812.","London : T. Egerton, 1812.",T. Egerton,Named publisher or ambiguous,London,Likely clean single place,Q84,,1812,Exact,1812,lsidyv37679304
+14891127,|||,ger,,"Breslau, 1852.","Breslau, 1852.",,Missing,Breslau,Likely clean single place,,,1852,Exact,1852,lsidyv3798c922
+14891549,|||,eng,,"London, 1844.","London, 1844.",,Missing,London,Likely clean single place,Q84,,1844,Exact,1844,lsidyv37be098a
+14891695,|||,eng,,"New York, 1844.","New York, 1844.",,Missing,New York,Likely clean single place,,,1844,Exact,1844,lsidyv37bf5f8c
+14896093,|||,lat,,"Olomucci, 1836-1903.","Olomucci, 1836-1903.",,Missing,"Olomucci, 1836-",Review: comma-separated,,1903,1836,Exact,1903,lsidyv3811d2af -- lsidyv3811dc30 -- lsidyv37f7b72a -- lsidyv3812190e -- lsidyv38120ced -- lsidyv3e4afdaf -- lsidyv3811c944 -- lsidyv2cb8aab6
+14896306,|||,lat,,"Pragae, 1855-92.","Pragae, 1855-92.",,Missing,"Pragae, 1855-92.",Review: comma-separated,,1892,1855,Exact,1855,lsidyv37ee3da7
+14896691,|||,eng,,"London : James Maynard, 1843.","London : James Maynard, 1843.",James Maynard,Named publisher or ambiguous,London,Likely clean single place,Q84,,1843,Exact,1843,lsidyv37c80078
+14896704,|||,eng,,"London, 1848.","London, 1848.",,Missing,London,Likely clean single place,Q84,,1848,Exact,1848,lsidyv37c92163 -- lsidyv37c928ca
+14896824,|||,ger,,"Berlin, 1858.","Berlin, 1858.",,Missing,Berlin,Likely clean single place,,,1858,Exact,1858,lsidyv37f1d6ec
+14905281,|||,eng,,"Philadelphia, 1816.","Philadelphia, 1816.",,Missing,Philadelphia,Likely clean single place,,,1816,Exact,1816,lsidyv3821a4a5
+14905352,|||,lat,,"Coroniæ, 1847.","Coroniæ, 1847.",,Missing,Coroniæ,Likely clean single place,,,1847,Exact,1847,lsidyv382725d3
+14905376,|||,ger,,"Pesth, 1851.","Pesth, 1851.",,Missing,Pesth,Likely clean single place,,,1851,Exact,1851,lsidyv38264804
+14912183,|||,und,,"London : Leadenhall Press, 1891.","London : Leadenhall Press, 1891.",Leadenhall Press,Named publisher or ambiguous,London,Likely clean single place,Q84,,1891,Exact,1891,lsidyv3832db5a
+14912198,|||,und,,"London : T. Evans, 1780.","London : T. Evans, 1780.",T. Evans,Named publisher or ambiguous,London,Likely clean single place,Q84,,1780,Exact,1780,lsidyv3830b33f
+14912204,|||,und,,"London : John Miller, 1816.","London : John Miller, 1816.",John Miller,Named publisher or ambiguous,London,Likely clean single place,Q84,,1816,Exact,1816,lsidyv38307ea8
+14912218,enk,eng,,,,,Missing,,Missing,,,,Missing,,lsidyv383358bb
+14912230,|||,und,,"Londra : W. Griffin, 1773.","Londra : W. Griffin, 1773.",W. Griffin,Named publisher or ambiguous,Londra,Likely clean single place,,,1773,Exact,1773,lsidyv3830da00
+14912253,|||,und,,"London : W. Lowndes, 1788.","London : W. Lowndes, 1788.",W. Lowndes,Named publisher or ambiguous,London,Likely clean single place,Q84,,1788,Exact,1788,lsidyv3830e90d
+14912261,|||,und,,"London : E. Cox, 1794.","London : E. Cox, 1794.",E. Cox,Named publisher or ambiguous,London,Likely clean single place,Q84,,1794,Exact,1794,lsidyv3830ec73
+14912262,|||,und,,"London : Richard Phillips, 1807.","London : Richard Phillips, 1807.",Richard Phillips,Named publisher or ambiguous,London,Likely clean single place,Q84,,1807,Exact,1807,lsidyv3830e3bc
+14912264,|||,und,,"London : Barker & Son, 1806.","London : Barker & Son, 1806.",Barker & Son,Named publisher or ambiguous,London,Likely clean single place,Q84,,1806,Exact,1806,lsidyv3830dd4e
+14912265,|||,und,,"London : Richard Phillips, 1806.","London : Richard Phillips, 1806.",Richard Phillips,Named publisher or ambiguous,London,Likely clean single place,Q84,,1806,Exact,1806,lsidyv3830e0c2
+14912277,|||,und,,"London, 1800.","London, 1800.",,Missing,London,Likely clean single place,Q84,,1800,Exact,1800,lsidyv3830eded
+14912278,|||,und,,"London : Harrison & Co., 1786.","London : Harrison & Co., 1786.",Harrison & Co.,Named publisher or ambiguous,London,Likely clean single place,Q84,,1786,Exact,1786,lsidyv3830e5b1
+14912313,|||,und,,"Sittingbourne, 1864.","Sittingbourne, 1864.",,Missing,Sittingbourne,Likely clean single place,,,1864,Exact,1864,lsidyv38339662
+14912328,|||,und,,"London : W. Griffin, [1770?].","London : W. Griffin, [1770?].",W. Griffin,Named publisher or ambiguous,London,Likely clean single place,Q84,,1770,Uncertain,1770,lsidyv3830db71
+14912350,|||,ger,,"Leipzig, 1868 (Darmstadt [printed])","Leipzig, 1868 (Darmstadt [printed])",,Missing,"Leipzig, 1868 (Darmstadt )",Review: comma-separated,,,1868,Exact,1868,lsidyv383c8817 -- lsidyv383c8ced
+14912378,|||,und,,"London, 1719.","London, 1719.",,Missing,London,Likely clean single place,Q84,,1719,Exact,1719,lsidyv3830ac9e
+14912429,|||,und,,"London, Warwick [printed, 1853].","London, Warwick [printed, 1853].",,Missing,"London, Warwick",Review: comma-separated,,,1853,Exact,1853,lsidyv383432e5
+14912462,|||,und,,"London, 1798.","London, 1798.",,Missing,London,Likely clean single place,Q84,,1798,Exact,1798,lsidyv3830a26c
+14912492,|||,und,,"Edinburgh, 1854.","Edinburgh, 1854.",,Missing,Edinburgh,Likely clean single place,Q23436,,1854,Exact,1854,lsidyv383175c5
+14912610,|||,und,,"London, 1798.","London, 1798.",,Missing,London,Likely clean single place,Q84,,1798,Exact,1798,lsidyv38308870
+14912611,|||,und,,"London, 1798.","London, 1798.",,Missing,London,Likely clean single place,Q84,,1798,Exact,1798,lsidyv3830ed54
+14912638,|||,und,,"Calcutta, 1828.","Calcutta, 1828.",,Missing,Calcutta,Likely clean single place,,,1828,Exact,1828,lsidyv38340c34
+14912670,|||,und,,"London; Manchester [printed : H. Darbyshire & Co., 1886].","London; Manchester [printed : H. Darbyshire & Co., 1886].",H. Darbyshire & Co.,Named publisher or ambiguous,London; Manchester,Multiple places,,,1886,Exact,1886,lsidyv383147ae
+14912677,|||,und,,"London, 1854.","London, 1854.",,Missing,London,Likely clean single place,Q84,,1854,Exact,1854,lsidyv3833fc25
+14912679,|||,und,,"London, [1786.]","London, [1786.]",,Missing,London,Likely clean single place,Q84,,1786,Supplied,1786,lsidyv3830e2ff
+14912706,|||,und,,"London : Printed by Thomas Brettell; sold by Thomas Hatchard, [1851?]","London : Printed by Thomas Brettell; sold by Thomas Hatchard, [1851?]",Printed by Thomas Brettell; sold by Thomas Hatchard,Printer statement,London,Likely clean single place,Q84,,1851,Uncertain,1851,lsidyv38337540
+14919174,|||,swe,,"Stockholm, 1865.","Stockholm, 1865.",,Missing,Stockholm,Likely clean single place,,,1865,Exact,1865,lsidyv3851c624
+14919218,|||,ger,,"Kiel, 1852.","Kiel, 1852.",,Missing,Kiel,Likely clean single place,,,1852,Exact,1852,lsidyv384f1951
+14939300,ie,eng,,"Dublin : O'Donoghue & Co.; London : A.H. Bullen, 1904.","Dublin : O'Donoghue & Co.; London : A.H. Bullen, 1904.",O'Donoghue & Co.; London : A.H. Bullen,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1904,Exact,1904,lsidyv38647576
+14939301,enk,eng,,"J. Wiseheart : Dublin, [1827].","J. Wiseheart : Dublin, [1827].",Dublin,Named publisher or ambiguous,J. Wiseheart,Likely clean single place,,,1827,Supplied,1827,lsidyv3861763f
+14939342,|||,und,,"pp. 64. Elkin Mathews: London, 1919.","pp. 64. Elkin Mathews : London, 1919.",London,Named publisher or ambiguous,pp. 64. Elkin Mathews,Likely clean single place,,,1919,Exact,1919,lsidyv38651523
+14939426,|||,und,,"M. Cooper : London, 1756.","M. Cooper : London, 1756.",London,Named publisher or ambiguous,M. Cooper,Likely clean single place,,,1756,Exact,1756,lsidyv3861405e
+14939436,|||,und,,"London, 1845-47.","London, 1845-47.",,Missing,"London, 1845-47.",Review: comma-separated,,1847,1845,Exact,1845,lsidyv3862a63f
+14939455,|||,und,,"pp. xii. 249. Simpkin, Marshall & Co.: London, [1927.]","pp. xii. 249. Simpkin, Marshall & Co. : London, [1927.]",London,Named publisher or ambiguous,"pp. xii. 249. Simpkin, Marshall & Co.",Multiple places,,,1927,Supplied,1927,lsidyv3863a6cf
+14939470,|||,und,,"Dublin, [1865?]","Dublin, [1865?]",,Missing,Dublin,Likely clean single place,Q1761,,1865,Uncertain,1865,lsidyv38628d47
+14939484,|||,und,,"pp. v. 57. Elliot Stock: London, 1917.","pp. v. 57. Elliot Stock : London, 1917.",London,Named publisher or ambiguous,pp. v. 57. Elliot Stock,Likely clean single place,,,1917,Exact,1917,lsidyv38648c87
+14939568,|||,und,,"London : J. E. Hawkins, [1885.].","London : J. E. Hawkins, [1885.].",J. E. Hawkins,Named publisher or ambiguous,London,Likely clean single place,Q84,,1885,Supplied,1885,lsidyv386312e3
+14939712,|||,und,,"pp. 120. Herbert Jenkins: London, 1917 [1916].","pp. 120. Herbert Jenkins : London, 1917 [1916].",London,Named publisher or ambiguous,pp. 120. Herbert Jenkins,Likely clean single place,,,1917,Supplied,1916,lsidyv3864b768
+14939724,|||,und,,"Eastbourne : H. Holloway, 1882.","Eastbourne : H. Holloway, 1882.",H. Holloway,Named publisher or ambiguous,Eastbourne,Likely clean single place,,,1882,Exact,1882,lsidyv3865ad18
+14939742,|||,und,,"Dublin, [1865?]","Dublin, [1865?]",,Missing,Dublin,Likely clean single place,Q1761,,1865,Uncertain,1865,lsidyv38628cf6
+14939770,|||,und,,"London : Hodder and Stoughton, 1893.","London : Hodder and Stoughton, 1893.",Hodder and Stoughton,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Exact,1893,lsidyv38611978
+14939781,|||,und,,"pp. 34. Folk Press: London, [1925.]","pp. 34. Folk Press : London, [1925.]",London,Named publisher or ambiguous,pp. 34. Folk Press,Likely clean single place,,,1925,Supplied,1925,lsidyv38634c04
+14939794,|||,und,,"Dublin, [1866?]","Dublin, [1866?]",,Missing,Dublin,Likely clean single place,Q1761,,1866,Uncertain,1866,lsidyv3862a3e4
+14939866,|||,und,,"London : G. Routledge and Sons, 1884.","London : G. Routledge and Sons, 1884.",G. Routledge and Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1884,Exact,1884,lsidyv38626863
+14939879,|||,und,,"pp. 85. Maunsel & Co.: Dublin & London, 1918.","pp. 85. Maunsel & Co. : Dublin & London, 1918.",Dublin & London,Named publisher or ambiguous,pp. 85. Maunsel & Co.,Multiple places,,,1918,Exact,1918,lsidyv38648fa5
+14939889,|||,und,,"pp. 144. T. Fisher Unwin: London, 1920.","pp. 144. T. Fisher Unwin : London, 1920.",London,Named publisher or ambiguous,pp. 144. T. Fisher Unwin,Likely clean single place,,,1920,Exact,1920,lsidyv3865236a
+14939892,|||,und,,"Dublin, [1865?]","Dublin, [1865?]",,Missing,Dublin,Likely clean single place,Q1761,,1865,Uncertain,1865,lsidyv3862a486
+14939928,|||,und,,"Dublin, [1866?]","Dublin, [1866?]",,Missing,Dublin,Likely clean single place,Q1761,,1866,Uncertain,1866,lsidyv3862a4d7
+14939944,|||,und,,"pp. x. 104. William Blackwood & Sons: Edinburgh & London, 1905.","pp. x. 104. William Blackwood & Sons : Edinburgh & London, 1905.",Edinburgh & London,Named publisher or ambiguous,pp. x. 104. William Blackwood & Sons,Multiple places,,,1905,Exact,1905,lsidyv3865c7e4
+14939960,|||,und,,"pp. xvi. 270. Hodder & Stoughton: London, 1908.","pp. xvi. 270. Hodder & Stoughton : London, 1908.",London,Named publisher or ambiguous,pp. xvi. 270. Hodder & Stoughton,Multiple places,,,1908,Exact,1908,lsidyv38643aef
+14939961,|||,und,,"Dublin, [1866?]","Dublin, [1866?]",,Missing,Dublin,Likely clean single place,Q1761,,1866,Uncertain,1866,lsidyv3862a579
+14939962,|||,und,,"[Dublin?, 1866?]","[Dublin?, 1866?]",,Missing,Dublin?,Likely clean single place,,,1866,Uncertain,1866,lsidyv3862a5ca
+14939963,|||,und,,"Dublin, [1866?]","Dublin, [1866?]",,Missing,Dublin,Likely clean single place,Q1761,,1866,Uncertain,1866,lsidyv3862745f
+14939964,|||,und,,"Dublin, [1866?]","Dublin, [1866?]",,Missing,Dublin,Likely clean single place,Q1761,,1866,Uncertain,1866,lsidyv3862a435
+14939965,|||,und,,"Dublin : J. F. Nugent & Co., [1866?].","Dublin : J. F. Nugent & Co., [1866?].",J. F. Nugent & Co.,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1866,Uncertain,1866,lsidyv3862a528
+14940047,|||,und,,"pp. 125. Herbert Jenkins: London, 1917.","pp. 125. Herbert Jenkins : London, 1917.",London,Named publisher or ambiguous,pp. 125. Herbert Jenkins,Likely clean single place,,,1917,Exact,1917,lsidyv3864baa0
+15105910,|||,eng,,"London : Printed by William Bennett; sold by P. Elmsly, etc., 1796.","London : Printed by William Bennett; sold by P. Elmsly, etc., 1796.","Printed by William Bennett; sold by P. Elmsly, etc.",Printer statement,London,Likely clean single place,Q84,,1796,Exact,1796,lsidyv388251b1
+15105953,|||,eng,,"London : John Murray, 1843.","London : John Murray, 1843.",John Murray,Named publisher or ambiguous,London,Likely clean single place,Q84,,1843,Exact,1843,lsidyv38935d81
+15106106,|||,eng,,"London, 1748 [1768].","London, 1748 [1768].",,Missing,"London, 1748",Review: comma-separated,,,1748,Supplied,1768,lsidyv38825cdf
+15106117,|||,eng,,"London : W. S. Fortey, [1892.].","London : W. S. Fortey, [1892.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Supplied,1892,lsidyv388c6eba
+15106145,|||,eng,,"London : W. S. Fortey, [1892.].","London : W. S. Fortey, [1892.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1892,Supplied,1892,lsidyv388c6fe3
+15106162,|||,eng,,"London : W. S. Fortey, [1893.].","London : W. S. Fortey, [1893.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv388c7205
+15106171,|||,eng,,"Mount Vernon, O. ; Dallas, Texas : A. B. Norton & Co., 1888.","Mount Vernon, O.; Dallas, Texas : A. B. Norton & Co., 1888.",A. B. Norton & Co.,Named publisher or ambiguous,"Mount Vernon, O.; Dallas, Texas",Multiple places,,,1888,Exact,1888,lsidyv38939084
+15106174,|||,eng,,"London : W. S. Fortey, [1893.].","London : W. S. Fortey, [1893.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv388c5287
+15106176,|||,eng,,"London, 1768.","London, 1768.",,Missing,London,Likely clean single place,Q84,,1768,Exact,1768,lsidyv388243d8
+15106180,|||,eng,,"London : W. S. Fortey, [1893.].","London : W. S. Fortey, [1893.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv388c53a6
+15106212,|||,eng,,"London : J. Newbery, 1765.","London : J. Newbery, 1765.",J. Newbery,Named publisher or ambiguous,London,Likely clean single place,Q84,,1765,Exact,1765,lsidyv38823e80
+15106213,|||,eng,,"London : J. Newbery, 1766.","London : J. Newbery, 1766.",J. Newbery,Named publisher or ambiguous,London,Likely clean single place,Q84,,1766,Exact,1766,lsidyv38823f61
+15106214,|||,eng,,"New York : G. P. Putnam's Sons, 1896.","New York : G. P. Putnam's Sons, 1896.",G. P. Putnam's Sons,Named publisher or ambiguous,New York,Likely clean single place,,,1896,Exact,1896,lsidyv3e530ebb
+15106225,|||,eng,,"Philadelphia, 1878.","Philadelphia, 1878.",,Missing,Philadelphia,Likely clean single place,,,1878,Exact,1878,lsidyv38acf3dc
+15106236,|||,eng,,"[London, 1892.]","[London, 1892.]",,Missing,London,Likely clean single place,Q84,,1892,Exact,1892,lsidyv388c70e8
+15106276,|||,eng,,"New York : Charles B. Richardson, 1866.","New York : Charles B. Richardson, 1866.",Charles B. Richardson,Named publisher or ambiguous,New York,Likely clean single place,,,1866,Exact,1866,lsidyv38a7607f
+15106281,|||,eng,,"London : W. S. Fortey, [1893.].","London : W. S. Fortey, [1893.].",W. S. Fortey,Named publisher or ambiguous,London,Likely clean single place,Q84,,1893,Supplied,1893,lsidyv388c549f
+15106289,|||,eng,,"London : W. Griffin, 1765.","London : W. Griffin, 1765.",W. Griffin,Named publisher or ambiguous,London,Likely clean single place,Q84,,1765,Exact,1765,lsidyv38823cca
+15115534,|||,eng,,"Albany : Joel Munsell, 1867.","Albany : Joel Munsell, 1867.",Joel Munsell,Named publisher or ambiguous,Albany,Likely clean single place,,,1867,Exact,1867,lsidyv38ca2a0d
+15173167,|||,eng,,"New York : Harper & Brothers, 1884.","New York : Harper & Brothers, 1884.",Harper & Brothers,Named publisher or ambiguous,New York,Likely clean single place,,,1884,Exact,1884,lsidyv38d09054 -- lsidyv38d0a568
+15174042,|||,eng,,"New York : D. Appleton and Co., 1874.","New York : D. Appleton and Co., 1874.",D. Appleton and Co.,Named publisher or ambiguous,New York,Likely clean single place,,,1874,Exact,1874,lsidyv38d861cb
+15174120,|||,eng,,"New York : Dodd, Mead & Co., 1889.","New York : Dodd, Mead & Co., 1889.","Dodd, Mead & Co.",Named publisher or ambiguous,New York,Likely clean single place,,,1889,Exact,1889,lsidyv38d83be6
+15177984,|||,mul,$aeng$alat,"Dublin : James McGlashan, 1847.","Dublin : James McGlashan, 1847.",James McGlashan,Named publisher or ambiguous,Dublin,Likely clean single place,Q1761,,1847,Exact,1847,lsidyv2c52e9d7
+15177993,|||,eng,,"New York : D. Van Nostrand, 1863.","New York : D. Van Nostrand, 1863.",D. Van Nostrand,Named publisher or ambiguous,New York,Likely clean single place,,,1863,Exact,1863,lsidyv2aebb754
+15178026,|||,eng,,"New York : G. P. Putnam's Sons, 1891, 99.","New York : G. P. Putnam's Sons, 1891, 99.",G. P. Putnam's Sons,Named publisher or ambiguous,New York,Likely clean single place,,,1891,Exact,1891,lsidyv2aff3fd5 -- lsidyv2b0022ce
+15178054,|||,spa,,"El Ferrol, 1899.","El Ferrol, 1899.",,Missing,El Ferrol,Likely clean single place,,,1899,Exact,1899,lsidyv2b06d306
+15178084,|||,eng,,"London : Printed for the Author, 1808 [1807]","London : Printed for the Author, 1808 [1807]",Printed for the Author,Printer statement,London,Likely clean single place,Q84,,1808,Supplied,1807,lsidyv2b0d07af
+15178149,|||,spa,,"Mexico, 1836.","Mexico, 1836.",,Missing,Mexico,Likely clean single place,,,1836,Exact,1836,lsidyv2b0a18cc
+15178180,|||,eng,,"New York : Doubleday & McClure Co., 1899.","New York : Doubleday & McClure Co., 1899.",Doubleday & McClure Co.,Named publisher or ambiguous,New York,Likely clean single place,,,1899,Exact,1899,lsidyv2b06f284 -- lsidyv2c776e84
+15178213,|||,lat,,"Londini, 1839-45.","Londini, 1839-45.",,Missing,"Londini, 1839-45.",Review: comma-separated,,1845,1839,Exact,1839,lsidyv2c569e37 -- lsidyv2c56f9b5 -- lsidyv2c581340 -- lsidyv2c57465f -- lsidyv2c56511d
+15178293,|||,ita,,"Roma, 1840.","Roma, 1840.",,Missing,Roma,Likely clean single place,,,1840,Exact,1840,lsidyv2c4fb1d0
+15178349,|||,eng,,"London : J. C. Hotten, 1869.","London : J. C. Hotten, 1869.",J. C. Hotten,Named publisher or ambiguous,London,Likely clean single place,Q84,,1869,Exact,1869,lsidyv2b0f5c8e
+15178371,|||,spa,,"Mexico, 1861.","Mexico, 1861.",,Missing,Mexico,Likely clean single place,,,1861,Exact,1861,lsidyv2b0a212a
+15178381,|||,mul,$agre$alat,"Lipsiæ : Sumptibus ... B. G. Teubneri, 1830.","Lipsiæ : Sumptibus... B. G. Teubneri, 1830.",Sumptibus... B. G. Teubneri,Named publisher or ambiguous,Lipsiae,Likely clean single place,,,1830,Exact,1830,lsidyv2b287cf6 -- lsidyv2eaa32b7 -- lsidyv2ea9df33
+15178443,|||,lat,,"Lipsiae, 1830.","Lipsiae, 1830.",,Missing,Lipsiae,Likely clean single place,,,1830,Exact,1830,lsidyv2b10dc7b
+15178495,|||,eng,,"New York, 1863.","New York, 1863.",,Missing,New York,Likely clean single place,,,1863,Exact,1863,lsidyv2b09bdbf
+15178497,|||,eng,,"Washington, 1869.","Washington, 1869.",,Missing,Washington,Likely clean single place,,,1869,Exact,1869,lsidyv2b09c128
+15178503,|||,spa,,"Santiago de Chile, 1891.","Santiago de Chile, 1891.",,Missing,Santiago de Chile,Likely clean single place,,,1891,Exact,1891,lsidyv2b0c10ca
+15210822,|||,ita,,"Padova, 1833.","Padova, 1833.",,Missing,Padova,Likely clean single place,,,1833,Exact,1833,lsidyv2e9f137a
+15210836,|||,ita,,"Milano, 1886.","Milano, 1886.",,Missing,Milano,Likely clean single place,,,1886,Exact,1886,lsidyv2cc6b41b
+15210837,|||,ita,,1889,1889,,Missing,,Missing,,,1889,Exact,1889,lsidyv2cc6638b
+15210856,|||,spa,,"México, 1828.","México, 1828.",,Missing,Mexico,Likely clean single place,,,1828,Exact,1828,lsidyv2c92b39f
+15210885,|||,ita,,"Roma, 1881.","Roma, 1881.",,Missing,Roma,Likely clean single place,,,1881,Exact,1881,lsidyv2cd02c09
+15210909,|||,spa,,"Buenos Aires, 1882.","Buenos Aires, 1882.",,Missing,Buenos Aires,Likely clean single place,,,1882,Exact,1882,lsidyv3012af9c
+15211137,|||,spa,,"Victoria de Durango, 1838.","Victoria de Durango, 1838.",,Missing,Victoria de Durango,Likely clean single place,,,1838,Exact,1838,lsidyv2c8a6ad5
+15211163,|||,ger,,"Halle, 1849.","Halle, 1849.",,Missing,Halle,Likely clean single place,,,1849,Exact,1849,lsidyv2c914799
+15246304,|||,ita,,"Milano, 1816.","Milano, 1816.",,Missing,Milano,Likely clean single place,,,1816,Exact,1816,lsidyv2ea5f896
+15264364,|||,mul,$agre$alat,"Amstelodami, 1830-38.","Amstelodami, 1830-38.",,Missing,"Amstelodami, 1830-38.",Review: comma-separated,,1838,1830,Exact,1830,lsidyv2eaa13ec -- lsidyv2ea9f966
+15264385,|||,mul,$agre$alat,"Lipsiae : Sumtibus J. A. G. Weigelii, 1821-25.","Lipsiae : Sumtibus J. A. G. Weigelii, 1821-25.",Sumtibus J. A. G. Weigelii,Named publisher or ambiguous,Lipsiae,Likely clean single place,,1825,1821,Exact,1821,lsidyv2eaad3db -- lsidyv2eaaee0a -- lsidyv2eaab5e9 -- lsidyv2eab0950
+15264386,|||,mul,$agre$alat,"Lipsiae : In Libraria Weidmannia, 1819-32.","Lipsiae : In Libraria Weidmannia, 1819-32.",In Libraria Weidmannia,Named publisher or ambiguous,Lipsiae,Likely clean single place,,1832,1819,Exact,1819,lsidyv2eaa5c31 -- lsidyv2eaa4af3 -- lsidyv2eab4114
+15742572,|||,eng,,"New York : D. Van Nostrand, 1867.","New York : D. Van Nostrand, 1867.",D. Van Nostrand,Named publisher or ambiguous,New York,Likely clean single place,,,1867,Exact,1867,lsidyv38ad217f
+15742596,|||,und,,"pp. 112. Heath Cranton: London, [1922.]","pp. 112. Heath Cranton : London, [1922.]",London,Named publisher or ambiguous,pp. 112. Heath Cranton,Likely clean single place,,,1922,Supplied,1922,lsidyv38656e72
+15742598,|||,eng,,"London : Longmans, Green & Co. ; Dublin : Hodges, Figgis & Co., 1888.","London : Longmans, Green & Co.; Dublin : Hodges, Figgis & Co., 1888.","Longmans, Green & Co.; Dublin : Hodges, Figgis & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1888,Exact,1888,lsidyv38b4a469
+15742599,|||,eng,,"London : Longmans, Green & Co. ; Dublin : Hodges, Figgis & Co., 1889.","London : Longmans, Green & Co.; Dublin : Hodges, Figgis & Co., 1889.","Longmans, Green & Co.; Dublin : Hodges, Figgis & Co.",Named publisher or ambiguous,London,Likely clean single place,Q84,,1889,Exact,1889,lsidyv38b4cc9c
+15742650,|||,und,,"London : J. C. Hotten, 1865.","London : J. C. Hotten, 1865.",J. C. Hotten,Named publisher or ambiguous,London,Likely clean single place,Q84,,1865,Exact,1865,lsidyv3865a74a
+15742730,|||,und,,"London : George Routledge & Sons, 1880.","London : George Routledge & Sons, 1880.",George Routledge & Sons,Named publisher or ambiguous,London,Likely clean single place,Q84,,1880,Exact,1880,lsidyv3d86c578
+15742795,|||,und,,"London, [1800?]","London, [1800?]",,Missing,London,Likely clean single place,Q84,,1800,Uncertain,1800,lsidyv2eb0dfc5
+15742835,|||,und,,"[London,] , 1766.","[London, ], 1766.",,Missing,London,Likely clean single place,Q84,,1766,Exact,1766,lsidyv3150fa3f
