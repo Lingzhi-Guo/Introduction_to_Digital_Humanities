@@ -1,0 +1,573 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.unescape(\"html\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Imprint_clean",
+    "columnInsertIndex": 10,
+    "description": "Create column Imprint_clean at index 10 based on column Imprint using expression grel:if(\n  isBlank(value),\n  null,\n  value.unescape(\"html\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s*:\\s*/, \" : \")\n       .replace(/\\s*;\\s*/, \"; \")\n       .replace(/\\s+,/, \",\")\n       .replace(/,\\s*/, \", \")\n       .replace(/\\s+\\./, \".\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Imprint_clean using expression grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s*:\\s*/, \" : \")\n       .replace(/\\s*;\\s*/, \"; \")\n       .replace(/\\s+,/, \",\")\n       .replace(/,\\s*/, \", \")\n       .replace(/\\s+\\./, \".\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.find(/\\b(?:1[5-9]\\d{2}|20\\d{2})\\b/),\n    years,\n    if(\n      years.length() > 0,\n      years[-1],\n      null\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publication_year",
+    "columnInsertIndex": 11,
+    "description": "Create column Publication_year at index 11 based on column Imprint_clean using expression grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.find(/\\b(?:1[5-9]\\d{2}|20\\d{2})\\b/),\n    years,\n    if(\n      years.length() > 0,\n      years[-1],\n      null\n    )\n  )\n)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication_year using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  \"Missing\",\n  if(\n    value.find(/\\b(?:1[5-9]\\d{2}|20\\d{2})\\s*\\?/).length() > 0,\n    \"Uncertain\",\n    if(\n      value.find(/\\bc\\.?\\s*(?:1[5-9]\\d{2}|20\\d{2})/i).length() > 0,\n      \"Circa\",\n      if(\n        value.find(/\\[\\s*(?:1[5-9]\\d{2}|20\\d{2})/).length() > 0,\n        \"Supplied\",\n        \"Exact\"\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Year_status",
+    "columnInsertIndex": 11,
+    "description": "Create column Year_status at index 11 based on column Imprint_clean using expression grel:if(\n  isBlank(value),\n  \"Missing\",\n  if(\n    value.find(/\\b(?:1[5-9]\\d{2}|20\\d{2})\\s*\\?/).length() > 0,\n    \"Uncertain\",\n    if(\n      value.find(/\\bc\\.?\\s*(?:1[5-9]\\d{2}|20\\d{2})/i).length() > 0,\n      \"Circa\",\n      if(\n        value.find(/\\[\\s*(?:1[5-9]\\d{2}|20\\d{2})/).length() > 0,\n        \"Supplied\",\n        \"Exact\"\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.find(/\\b(?:1[5-9]\\d{2}|20\\d{2})\\b/),\n    years,\n    if(years.length() > 0, years[0], null)\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Year_start",
+    "columnInsertIndex": 11,
+    "description": "Create column Year_start at index 11 based on column Imprint_clean using expression grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.find(/\\b(?:1[5-9]\\d{2}|20\\d{2})\\b/),\n    years,\n    if(years.length() > 0, years[0], null)\n  )\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.match(\n      /^.*?\\b((?:1[5-9]\\d{2}|20\\d{2}))\\s*[-–]\\s*((?:1[5-9]\\d{2}|20\\d{2})|\\d{2})\\b.*$/\n    ),\n    years,\n    if(\n      years == null,\n      null,\n      if(\n        years[1].length() == 2,\n        years[0].substring(0,2) + years[1],\n        years[1]\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Year_end",
+    "columnInsertIndex": 11,
+    "description": "Create column Year_end at index 11 based on column Imprint_clean using expression grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.match(\n      /^.*?\\b((?:1[5-9]\\d{2}|20\\d{2}))\\s*[-–]\\s*((?:1[5-9]\\d{2}|20\\d{2})|\\d{2})\\b.*$/\n    ),\n    years,\n    if(\n      years == null,\n      null,\n      if(\n        years[1].length() == 2,\n        years[0].substring(0,2) + years[1],\n        years[1]\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Year_end",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Year_end using expression value.toNumber()"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.partition(\":\")[0]\n       .replace(/^\\s*\\[/, \"\")\n       .replace(\n         /,?\\s*\\[?\\s*(?:c\\.?\\s*)?(?:1[5-9]\\d{2}|20\\d{2})\\??\\.?\\s*\\]?\\s*\\.?\\s*$/,\n         \"\"\n       )\n       .trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Place_before_colon",
+    "columnInsertIndex": 11,
+    "description": "Create column Place_before_colon at index 11 based on column Imprint_clean using expression grel:if(\n  isBlank(value),\n  null,\n  value.partition(\":\")[0]\n       .replace(/^\\s*\\[/, \"\")\n       .replace(\n         /,?\\s*\\[?\\s*(?:c\\.?\\s*)?(?:1[5-9]\\d{2}|20\\d{2})\\??\\.?\\s*\\]?\\s*\\.?\\s*$/,\n         \"\"\n       )\n       .trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Imprint_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.partition(\":\"),\n    parts,\n    if(\n      parts[1] == \"\",\n      null,\n      parts[2]\n        .replace(\n          /,?\\s*\\[?\\s*(?:c\\.?\\s*)?(?:1[5-9]\\d{2}|20\\d{2})\\??\\.?\\s*\\]?\\s*\\.?\\s*$/,\n          \"\"\n        )\n        .replace(/^\\s*\\[/, \"\")\n        .replace(/\\]\\s*$/, \"\")\n        .trim()\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Place_after_colon",
+    "columnInsertIndex": 11,
+    "description": "Create column Place_after_colon at index 11 based on column Imprint_clean using expression grel:if(\n  isBlank(value),\n  null,\n  with(\n    value.partition(\":\"),\n    parts,\n    if(\n      parts[1] == \"\",\n      null,\n      parts[2]\n        .replace(\n          /,?\\s*\\[?\\s*(?:c\\.?\\s*)?(?:1[5-9]\\d{2}|20\\d{2})\\??\\.?\\s*\\]?\\s*\\.?\\s*$/,\n          \"\"\n        )\n        .replace(/^\\s*\\[/, \"\")\n        .replace(/\\]\\s*$/, \"\")\n        .trim()\n    )\n  )\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place_before_colon",
+    "expression": "grel:with(\n  cells[\"Place_before_colon\"].value,\n  before,\n  with(\n    cells[\"Place_after_colon\"].value,\n    after,\n    if(\n      isBlank(before),\n      after,\n      if(\n        and(\n          not(isBlank(after)),\n          or(\n            before.match(/.*\\b(pp\\.|printed|printer|press|publisher|published|privately|office|author|society|company|co\\.?|sons?|bros\\.?|etc\\.?)\\b.*/i) != null,\n            before.match(/^[A-Z]\\.\\s+.*$/) != null\n          )\n        ),\n        after,\n        before\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publication_place",
+    "columnInsertIndex": 13,
+    "description": "Create column Publication_place at index 13 based on column Place_before_colon using expression grel:with(\n  cells[\"Place_before_colon\"].value,\n  before,\n  with(\n    cells[\"Place_after_colon\"].value,\n    after,\n    if(\n      isBlank(before),\n      after,\n      if(\n        and(\n          not(isBlank(after)),\n          or(\n            before.match(/.*\\b(pp\\.|printed|printer|press|publisher|published|privately|office|author|society|company|co\\.?|sons?|bros\\.?|etc\\.?)\\b.*/i) != null,\n            before.match(/^[A-Z]\\.\\s+.*$/) != null\n          )\n        ),\n        after,\n        before\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_place",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.replace(/^\\s*\\[/, \"\")\n       .replace(/,\\s*\\]\\s*$/, \"\")\n       .replace(/\\]\\s*$/, \"\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication_place using expression grel:if(\n  isBlank(value),\n  null,\n  value.replace(/^\\s*\\[/, \"\")\n       .replace(/,\\s*\\]\\s*$/, \"\")\n       .replace(/\\]\\s*$/, \"\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_place",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s*\\[\\s*printed\\s*\\]/i, \"\")\n       .replace(/\\s+printed\\b/i, \"\")\n       .replace(/\\s+,/, \",\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Publication_place using expression grel:if(\n  isBlank(value),\n  null,\n  value.replace(/\\s*\\[\\s*printed\\s*\\]/i, \"\")\n       .replace(/\\s+printed\\b/i, \"\")\n       .replace(/\\s+,/, \",\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_place",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "London & New York",
+          "London; New York",
+          "New York & London",
+          "New York, London",
+          "New York; London"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "London; New York"
+      },
+      {
+        "from": [
+          "Lipsiae",
+          "Lipsiæ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Leipzig"
+      }
+    ],
+    "description": "Mass edit cells in column Publication_place"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publication_place",
+    "expression": "grel:if(isBlank(value), null, value.unescape(\"html\").replace(/\\s+/, \" \").trim())",
+    "onError": "set-to-blank",
+    "newColumnName": "Publication_place_standardised",
+    "columnInsertIndex": 14,
+    "description": "Create column Publication_place_standardised at index 14 based on column Publication_place using expression grel:if(isBlank(value), null, value.unescape(\"html\").replace(/\\s+/, \" \").trim())"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_place_standardised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mexico",
+          "México"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mexico"
+      }
+    ],
+    "description": "Mass edit cells in column Publication_place_standardised"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_place_standardised",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Edinburgh",
+          "] Edinburgh"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Edinburgh"
+      }
+    ],
+    "description": "Mass edit cells in column Publication_place_standardised"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place_after_colon",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value.unescape(\"html\")\n       .replace(/^\\s*\\[/, \"\")\n       .replace(/\\]\\s*$/, \"\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_candidate",
+    "columnInsertIndex": 12,
+    "description": "Create column Publisher_candidate at index 12 based on column Place_after_colon using expression grel:if(\n  isBlank(value),\n  null,\n  value.unescape(\"html\")\n       .replace(/^\\s*\\[/, \"\")\n       .replace(/\\]\\s*$/, \"\")\n       .replace(/\\s+/, \" \")\n       .trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Publication_place",
+          "expression": "value",
+          "columnName": "Publication_place",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Macmillan & Co.",
+                "l": "Macmillan & Co."
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place_before_colon",
+    "expression": "grel:with(\n  cells[\"Place_before_colon\"].value,\n  before,\n  with(\n    cells[\"Place_after_colon\"].value,\n    after,\n    with(\n      if(\n        isBlank(before),\n        null,\n        if(\n          isBlank(after),\n          before,\n          if(\n            or(\n              before.toLowercase().contains(\"company\"),\n              before.toLowercase().contains(\"publisher\"),\n              before.toLowercase().contains(\"printer\"),\n              before.toLowercase().contains(\"press\"),\n              before.toLowercase().contains(\"society\"),\n              before.toLowercase().contains(\"sons\"),\n              before.toLowercase().contains(\"bros\"),\n              before.toLowercase().contains(\"co.\")\n            ),\n            after,\n            before\n          )\n        )\n      ),\n      candidate,\n      if(\n        isBlank(candidate),\n        null,\n        candidate\n          .replace(\"[printed]\", \"\")\n          .replace(\"[printed\", \"\")\n          .replace(\" printed\", \"\")\n          .trim()\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publication_place_corrected",
+    "columnInsertIndex": 14,
+    "description": "Create column Publication_place_corrected at index 14 based on column Place_before_colon using expression grel:with(\n  cells[\"Place_before_colon\"].value,\n  before,\n  with(\n    cells[\"Place_after_colon\"].value,\n    after,\n    with(\n      if(\n        isBlank(before),\n        null,\n        if(\n          isBlank(after),\n          before,\n          if(\n            or(\n              before.toLowercase().contains(\"company\"),\n              before.toLowercase().contains(\"publisher\"),\n              before.toLowercase().contains(\"printer\"),\n              before.toLowercase().contains(\"press\"),\n              before.toLowercase().contains(\"society\"),\n              before.toLowercase().contains(\"sons\"),\n              before.toLowercase().contains(\"bros\"),\n              before.toLowercase().contains(\"co.\")\n            ),\n            after,\n            before\n          )\n        )\n      ),\n      candidate,\n      if(\n        isBlank(candidate),\n        null,\n        candidate\n          .replace(\"[printed]\", \"\")\n          .replace(\"[printed\", \"\")\n          .replace(\" printed\", \"\")\n          .trim()\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Publication_place_corrected",
+    "newColumnName": "Publication_place_final",
+    "description": "Rename column Publication_place_corrected to Publication_place_final"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place_after_colon",
+    "expression": "grel:with(\n  cells[\"Publication_place_final\"].value,\n  place,\n  with(\n    cells[\"Place_before_colon\"].value,\n    before,\n    with(\n      cells[\"Place_after_colon\"].value,\n      after,\n      with(\n        before.replace(\"[printed]\", \"\").replace(\"[printed\", \"\").replace(\" printed\", \"\").trim(),\n        before_clean,\n        if(\n          or(isBlank(place), isBlank(before), isBlank(after)),\n          null,\n          if(\n            before_clean.toLowercase() == place.trim().toLowercase(),\n            after.trim(),\n            if(\n              after.trim().toLowercase() == place.trim().toLowercase(),\n              before_clean,\n              null\n            )\n          )\n        )\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_candidate_corrected",
+    "columnInsertIndex": 12,
+    "description": "Create column Publisher_candidate_corrected at index 12 based on column Place_after_colon using expression grel:with(\n  cells[\"Publication_place_final\"].value,\n  place,\n  with(\n    cells[\"Place_before_colon\"].value,\n    before,\n    with(\n      cells[\"Place_after_colon\"].value,\n      after,\n      with(\n        before.replace(\"[printed]\", \"\").replace(\"[printed\", \"\").replace(\" printed\", \"\").trim(),\n        before_clean,\n        if(\n          or(isBlank(place), isBlank(before), isBlank(after)),\n          null,\n          if(\n            before_clean.toLowercase() == place.trim().toLowercase(),\n            after.trim(),\n            if(\n              after.trim().toLowercase() == place.trim().toLowercase(),\n              before_clean,\n              null\n            )\n          )\n        )\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Publication_place_final",
+    "description": "Remove column Publication_place_final"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place_before_colon",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value\n    .unescape(\"html\")\n    .replace(\"[printed]\", \"\")\n    .replace(\"[printed\", \"\")\n    .replace(\" printed\", \"\")\n    .trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publication_place_final",
+    "columnInsertIndex": 15,
+    "description": "Create column Publication_place_final at index 15 based on column Place_before_colon using expression grel:if(\n  isBlank(value),\n  null,\n  value\n    .unescape(\"html\")\n    .replace(\"[printed]\", \"\")\n    .replace(\"[printed\", \"\")\n    .replace(\" printed\", \"\")\n    .trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publisher_candidate_corrected",
+    "expression": "grel:if(isBlank(value), null, value.trim())",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_standardised",
+    "columnInsertIndex": 13,
+    "description": "Create column Publisher_standardised at index 13 based on column Publisher_candidate_corrected using expression grel:if(isBlank(value), null, value.trim())"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Publisher_standardised",
+    "description": "Remove column Publisher_standardised"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publisher_candidate",
+    "expression": "grel:if(isBlank(value), null, value.trim())",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_standardised",
+    "columnInsertIndex": 14,
+    "description": "Create column Publisher_standardised at index 14 based on column Publisher_candidate using expression grel:if(isBlank(value), null, value.trim())"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Publisher_standardised",
+    "description": "Remove column Publisher_standardised"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Publisher_candidate_corrected",
+    "description": "Remove column Publisher_candidate_corrected"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publisher_candidate",
+    "expression": "grel:if(isBlank(value), null, value.trim())",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_standardised",
+    "columnInsertIndex": 13,
+    "description": "Create column Publisher_standardised at index 13 based on column Publisher_candidate using expression grel:if(isBlank(value), null, value.trim())"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publisher_standardised",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  value\n    .replace(/,\\s*\\[?(?:1[5-9]\\d{2}|20\\d{2}).*$/, \"\")\n    .replace(/\\s+/, \" \")\n    .trim()\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_clean",
+    "columnInsertIndex": 14,
+    "description": "Create column Publisher_clean at index 14 based on column Publisher_standardised using expression grel:if(\n  isBlank(value),\n  null,\n  value\n    .replace(/,\\s*\\[?(?:1[5-9]\\d{2}|20\\d{2}).*$/, \"\")\n    .replace(/\\s+/, \" \")\n    .trim()\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publisher_clean",
+    "expression": "grel:if(\n  isBlank(value),\n  \"Missing\",\n  if(\n    value.toLowercase().contains(\"printed\"),\n    \"Printer statement\",\n    if(\n      value.toLowercase().contains(\"published\"),\n      \"Publisher statement\",\n      if(\n        value.toLowercase().contains(\"sold\"),\n        \"Bookseller/distributor statement\",\n        if(\n          value.toLowercase().contains(\"author\"),\n          \"Author/self-publication statement\",\n          \"Named publisher or ambiguous\"\n        )\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publisher_role",
+    "columnInsertIndex": 15,
+    "description": "Create column Publisher_role at index 15 based on column Publisher_clean using expression grel:if(\n  isBlank(value),\n  \"Missing\",\n  if(\n    value.toLowercase().contains(\"printed\"),\n    \"Printer statement\",\n    if(\n      value.toLowercase().contains(\"published\"),\n      \"Publisher statement\",\n      if(\n        value.toLowercase().contains(\"sold\"),\n        \"Bookseller/distributor statement\",\n        if(\n          value.toLowercase().contains(\"author\"),\n          \"Author/self-publication statement\",\n          \"Named publisher or ambiguous\"\n        )\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Publisher_role",
+          "expression": "value",
+          "columnName": "Publisher_role",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Named publisher or ambiguous",
+                "l": "Named publisher or ambiguous"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Publisher_clean",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Longman, Hurst, Rees & Orme",
+          "Longman, Hurst, Rees, & Orme"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Longman, Hurst, Rees & Orme"
+      }
+    ],
+    "description": "Mass edit cells in column Publisher_clean"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Publication_place_final",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "London & New York",
+          "London; New York",
+          "London; New York]",
+          "New York & London",
+          "New York, London",
+          "New York; London"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "London & New York"
+      },
+      {
+        "from": [
+          "London",
+          "London]",
+          "London, ]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "London"
+      },
+      {
+        "from": [
+          "Lipsiae",
+          "Lipsiæ"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Lipsiae"
+      },
+      {
+        "from": [
+          "Mexico",
+          "México"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Mexico"
+      }
+    ],
+    "description": "Mass edit cells in column Publication_place_final"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publication_place_final",
+    "expression": "grel:if(\n  isBlank(value),\n  null,\n  if(\n    value.match(/[?;&]/) != null,\n    null,\n    value.trim()\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Place_for_Wikidata",
+    "columnInsertIndex": 18,
+    "description": "Create column Place_for_Wikidata at index 18 based on column Publication_place_final using expression grel:if(\n  isBlank(value),\n  null,\n  if(\n    value.match(/[?;&]/) != null,\n    null,\n    value.trim()\n  )\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Place_for_Wikidata",
+    "expression": "grel:if(value == \"London\", \"Q84\",\nif(value == \"Leeds\", \"Q39121\",\nif(value == \"Birmingham\", \"Q2256\",\nif(value == \"Edinburgh\", \"Q23436\",\nif(value == \"Glasgow\", \"Q4093\",\nif(value == \"Dublin\", \"Q1761\", null))))))",
+    "onError": "set-to-blank",
+    "newColumnName": "Wikidata_QID_manual_sample",
+    "columnInsertIndex": 19,
+    "description": "Create column Wikidata_QID_manual_sample at index 19 based on column Place_for_Wikidata using expression grel:if(value == \"London\", \"Q84\",\nif(value == \"Leeds\", \"Q39121\",\nif(value == \"Birmingham\", \"Q2256\",\nif(value == \"Edinburgh\", \"Q23436\",\nif(value == \"Glasgow\", \"Q4093\",\nif(value == \"Dublin\", \"Q1761\", null))))))"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publication_place_final",
+    "expression": "grel:if(\n  isBlank(value),\n  \"Missing\",\n  if(\n    value.match(/\\d/) != null,\n    \"Review: contains date/number\",\n    if(\n      value.toLowercase().contains(\"printed\"),\n      \"Review: imprint statement\",\n      if(\n        value.toLowercase().contains(\"publisher\"),\n        \"Review: imprint statement\",\n        if(\n          value.toLowercase().contains(\"printer\"),\n          \"Review: imprint statement\",\n          if(\n            value.contains(\";\"),\n            \"Multiple places\",\n            if(\n              value.contains(\"&\"),\n              \"Multiple places\",\n              if(\n                value.contains(\",\"),\n                \"Review: comma-separated\",\n                \"Likely clean single place\"\n              )\n            )\n          )\n        )\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Place_QA_status",
+    "columnInsertIndex": 18,
+    "description": "Create column Place_QA_status at index 18 based on column Publication_place_final using expression grel:if(\n  isBlank(value),\n  \"Missing\",\n  if(\n    value.match(/\\d/) != null,\n    \"Review: contains date/number\",\n    if(\n      value.toLowercase().contains(\"printed\"),\n      \"Review: imprint statement\",\n      if(\n        value.toLowercase().contains(\"publisher\"),\n        \"Review: imprint statement\",\n        if(\n          value.toLowercase().contains(\"printer\"),\n          \"Review: imprint statement\",\n          if(\n            value.contains(\";\"),\n            \"Multiple places\",\n            if(\n              value.contains(\"&\"),\n              \"Multiple places\",\n              if(\n                value.contains(\",\"),\n                \"Review: comma-separated\",\n                \"Likely clean single place\"\n              )\n            )\n          )\n        )\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Publication_place_final",
+    "expression": "grel:with(\n  cells[\"Place_before_colon\"].value,\n  before,\n  with(\n    cells[\"Place_after_colon\"].value,\n    after,\n    with(\n      cells[\"Publisher_clean\"].value,\n      publisher,\n      if(\n        or(isBlank(before), isBlank(after), isBlank(publisher)),\n        value,\n        if(\n          publisher.trim().toLowercase() == after.trim().toLowercase(),\n          if(\n            or(\n              before.toLowercase().contains(\"co.\"),\n              before.toLowercase().contains(\"company\"),\n              before.toLowercase().contains(\"sons\"),\n              before.toLowercase().contains(\"& son\"),\n              before.toLowercase().contains(\"printer\"),\n              before.toLowercase().contains(\"author\"),\n              before.toLowercase().contains(\"publisher\"),\n              before.toLowercase().contains(\"society\"),\n              before.toLowercase().contains(\"proprietor\")\n            ),\n            after.replace(\"[\", \"\").replace(\"]\", \"\").trim(),\n            value\n          ),\n          value\n        )\n      )\n    )\n  )\n)",
+    "onError": "set-to-blank",
+    "newColumnName": "Publication_place_verified",
+    "columnInsertIndex": 18,
+    "description": "Create column Publication_place_verified at index 18 based on column Publication_place_final using expression grel:with(\n  cells[\"Place_before_colon\"].value,\n  before,\n  with(\n    cells[\"Place_after_colon\"].value,\n    after,\n    with(\n      cells[\"Publisher_clean\"].value,\n      publisher,\n      if(\n        or(isBlank(before), isBlank(after), isBlank(publisher)),\n        value,\n        if(\n          publisher.trim().toLowercase() == after.trim().toLowercase(),\n          if(\n            or(\n              before.toLowercase().contains(\"co.\"),\n              before.toLowercase().contains(\"company\"),\n              before.toLowercase().contains(\"sons\"),\n              before.toLowercase().contains(\"& son\"),\n              before.toLowercase().contains(\"printer\"),\n              before.toLowercase().contains(\"author\"),\n              before.toLowercase().contains(\"publisher\"),\n              before.toLowercase().contains(\"society\"),\n              before.toLowercase().contains(\"proprietor\")\n            ),\n            after.replace(\"[\", \"\").replace(\"]\", \"\").trim(),\n            value\n          ),\n          value\n        )\n      )\n    )\n  )\n)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Publication_place_verified",
+    "description": "Remove column Publication_place_verified"
+  }
+]
